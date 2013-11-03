@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="hin-morph">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="hin.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hin-gener">
+    <pipeline>
+      <program name="lt-proc -g">
+        <file name="hin.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hin-tagger">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="hin.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="hin.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="hin-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="hin.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a -l" />
+      <program name="vislcg3 --trace -g">
+        <file name="apertium-hin.hin.rlx"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+</modes>

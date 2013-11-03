@@ -1,0 +1,7 @@
+prefix=/home/fran/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: apertium-fao
+Description: Finite-state morphological transducer and constraint grammar for Faroese 
+Version: 0.1.0

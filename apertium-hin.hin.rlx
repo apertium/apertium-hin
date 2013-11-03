@@ -1,0 +1,96 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+SETS
+
+LIST N = n ; 
+LIST Obl = obl ; 
+LIST Post = post ; 
+LIST Adj = adj;
+LIST Adv = adv;
+LIST Verb = vblex;
+LIST Stem = stem ; 
+LIST Vaux = vaux ; 
+LIST Vblex = vblex ; 
+LIST Vbser = vbser ;
+LIST Det = det ;
+LIST Conj = cnjcoo;
+LIST ConjAdv = cnjadv;
+LIST Prn = prn;
+SECTION
+
+SELECT Prn IF
+	(0 Prn or Det)
+
+SELECT Post IF
+	(-1 N)
+	(0 Post or Conj)
+
+SELECT Adv IF
+	(0 Adj)
+	(0 Adv)
+	(1 Adj);
+SELECT Adj IF
+	(0 Adj)
+	(0 Adv)
+	(1 N);
+
+SELECT Adv IF
+	(0 ConjAdv)
+	(0 Adv)
+	(1 Vblex);
+
+SELECT ConjAdv IF
+	(0 ConjAdv)
+	(0 Adv)
+
+
+
+SELECT Det IF
+	(0 Adj)
+	(0 N)
+	(0 Det)	
+	(1 N);
+
+SELECT Adj IF
+	(0 Adj)
+	(0 N)
+	(1 N);
+
+
+SELECT Adj IF
+	(0 Adj)
+	(0 Adv)
+	(0 N)
+	(1 N);
+
+SELECT Adv IF
+	(0 Adj)
+	(0 Adv)
+	(1 Verb);
+
+
+
+SELECT Stem IF
+	(0 Stem)
+	(1 Vaux)
+	(2 Vbser) ;
+
+SELECT Vaux IF
+	(-1 Stem)
+	(0 Vaux OR Verb)
+	(1 Vbser);
+
+SELECT Vaux IF
+	(-1 Verb)
+	(0 Vaux OR Verb)
+
+SELECT Vbser IF
+	(-1 Verb)
+	(0 Verb OR Vbser)
+
+SELECT Det IF
+	(0 Adv OR N OR Det)
+	(1 Post)
+SELECT Obl IF (1C Post) ;
+  ## 
