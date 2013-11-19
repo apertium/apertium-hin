@@ -1,4 +1,4 @@
 p = pronoun, n = noun, v = verb, j = adjective,
-r = preposition, a = adverb, c = coordinator, s = subordinator
+r = postposition, a = adverb, c = coordinator, s = subordinator
 d = determiner, m = numeral, x = clitic/other, t = placename
 k = male name, ž = female name, g = family name
