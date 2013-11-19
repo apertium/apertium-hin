@@ -10,4 +10,6 @@
 /apertium-hin.pc.in -text
 /autogen.sh -text
 /configure.ac -text
+dev/codes.txt -text
+dev/hin.freq.categorised.txt -text
 /modes.xml -text
