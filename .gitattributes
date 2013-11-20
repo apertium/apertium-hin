@@ -12,4 +12,5 @@
 /configure.ac -text
 dev/codes.txt -text
 dev/hin.freq.categorised.txt -text
+dev/hin.freq.lemmatised.txt -text
 /modes.xml -text
