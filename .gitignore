@@ -1,0 +1,14 @@
+/*.att.gz
+/*.bin
+/INSTALL
+/Makefile
+/Makefile.in
+/aclocal.m4
+/apertium-hin.pc
+/autom4te.cache
+/config.log
+/config.status
+/configure
+/install-sh
+/missing
+/modes
