@@ -5,6 +5,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-hin.hin.acx -text
 /apertium-hin.hin.dix -text
 /apertium-hin.hin.rlx -text
 /apertium-hin.pc.in -text

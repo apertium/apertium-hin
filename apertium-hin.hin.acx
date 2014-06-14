@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<analysis-chars>
+  <!-- Make apostrophe variants equal ' -->
+  <char value="'">
+    <equiv-char value="’"/>
+    <equiv-char value="ʼ"/>
+  </char>
+
+  <char value="ो">
+    <equiv-char value="ॊ"/>
+  </char>
+
+</analysis-chars>
