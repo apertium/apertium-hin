@@ -1,7 +1,7 @@
-prefix=/home/fran/local
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
 
-Name: apertium-fao
-Description: Finite-state morphological transducer and constraint grammar for Faroese 
+Name: apertium-hin
+Description: Finite-state morphological transducer and constraint grammar for Hindi 
 Version: 0.1.0
