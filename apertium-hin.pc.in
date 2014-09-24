@@ -1,6 +1,8 @@
 prefix=@prefix@
 exec_prefix=@exec_prefix@
 libdir=@libdir@
+dir=@libdir@/apertium/apertium-hin
+srcdir=@datarootdir@/apertium/apertium-hin
 
 Name: apertium-hin
 Description: Finite-state morphological transducer and constraint grammar for Hindi 
