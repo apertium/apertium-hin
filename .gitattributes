@@ -14,4 +14,5 @@
 dev/codes.txt -text
 dev/hin.freq.categorised.txt -text
 dev/hin.freq.lemmatised.txt -text
+/hin.prob -text svneol=unset#unset
 /modes.xml -text
