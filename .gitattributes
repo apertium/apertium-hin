@@ -17,3 +17,7 @@ dev/hin.freq.lemmatised.txt -text
 /hin.prob -text svneol=unset#unset
 /modes.xml -text
 texts/maharastra1.raw.txt -text
+texts/maharastra2.raw.txt -text
+texts/maharastra3.raw.txt -text
+texts/maharastra4.raw.txt -text
+texts/maharastra5.raw.txt -text
