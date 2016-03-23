@@ -28,7 +28,7 @@
      <sdef n="rel"     c="Relative"/>    
      <sdef n="dem"     c="Demonstrative"/>
      <sdef n="prx"     c="Proximate"/>
-     <sdef n="dst"     c="Distal"/>          
+     <sdef n="dst"     c="Distant"/>          
      <sdef n="aa"      c="Animate"/>
      <sdef n="nn"      c="Inanimate"/>       
      <sdef n="itg"     c="Interrogative"/>     
@@ -552,6 +552,7 @@
       <e>       <p><l>नेवाले</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>नेवाली</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>नेवाली</l><r><s n="vblex"/><s n="tv"/><s n="agnt"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ना</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/></r></p></e>
       <e>       <p><l>ना</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="m"/></r></p></e>
       <e>       <p><l>नी</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
       <e>       <p><l>ने</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="obl"/></r></p></e>
@@ -1325,9 +1326,9 @@
      </pardef>
  
      <pardef n="/यह__prn">       
- 	 <e r="LR"><p><l>यह</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="nom"/></r></p></e>
-          <e><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="nom"/></r></p></e>
-          <e><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="nom"/></r></p></e>
+ 	 <e><p><l>यह</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="nom"/></r></p></e>
+     <e r="LR"><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="nom"/></r></p></e>
+     <e><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="nom"/></r></p></e>
  	 <e><p><l>इस</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="obl"/></r></p></e>
  	 <e><p><l>इन</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="obl"/></r></p></e>
  	 <e><p><l>इससे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="ins"/></r></p></e>
@@ -1352,10 +1353,9 @@
      </pardef>
  
      <pardef n="/वह__prn">       
- 	 <e r="LR"><p><l>वह</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
-          <e><p><l>वो</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
-          <e r="LR"><p><l>वे</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="nom"/></r></p></e>
-          <e><p><l>वो</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="nom"/></r></p></e>
+ 	 <e><p><l>वह</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
+          <e r="LR"><p><l>वो</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
+     <e><p><l>वे</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="nom"/></r></p></e>
  	 <e><p><l>उस</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="obl"/></r></p></e>
  	 <e><p><l>उन</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="obl"/></r></p></e>
  	 <e><p><l>उससे</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="ins"/></r></p></e>
@@ -1545,6 +1545,9 @@
     <e lm="सहित"><i>सहित</i><par n="ने__post"/></e>
     <e lm="दौरान"><i>दौरान</i><par n="ने__post"/></e>
     <e lm="बारे"><i>बारे</i><par n="ने__post"/></e>
+    <e lm="पीछे"><i>पीछे</i><par n="ने__post"/></e>
+    <e lm="सामने"><i>सामने</i><par n="ने__post"/></e>
+    <e lm="अंदर"><i>अंदर</i><par n="ने__post"/></e>
     <e lm="के लिये"><i>के<b/>लिये</i><par n="ने__post"/></e>
     <e lm="के लिए"><i>के<b/>लिए</i><par n="ने__post"/></e>
     <e lm="के द्वारा"><i>के<b/>द्वारा</i><par n="ने__post"/></e>
@@ -26312,6 +26315,7 @@
 	<e lm="बलुआ"><i>बलुआ</i><par n="गलत__adj"/></e>
     <e lm="राष्ट्रपति"><i>राष्ट्रपति</i><par n="गलत__adj"/></e>
     <e lm="क़ाबू"><i>क़ाबू</i><par n="गलत__adj"/></e>
+    <e lm="दोनों"><i>दोनों</i><par n="गलत__adj"/></e>
     <e lm="आफ़नदीसी"><i>आफ़नदीसी</i><par n="गलत__adj"/></e>
     <e lm="आगासी"><i>आगासी</i><par n="गलत__adj"/></e>
     <e lm="अधिपति"><i>अधिपति</i><par n="गलत__adj"/></e>
