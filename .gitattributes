@@ -12,10 +12,15 @@
 /autogen.sh -text
 /configure.ac -text
 dev/codes.txt -text
+dev/editdist.py -text
 dev/hin.freq.categorised.txt -text
 dev/hin.freq.lemmatised.txt -text
 /hin.prob -text svneol=unset#unset
 /modes.xml -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
 texts/maharastra1.raw.txt -text
 texts/maharastra2.raw.txt -text
 texts/maharastra3.raw.txt -text
