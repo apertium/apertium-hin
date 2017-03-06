@@ -1,4 +1,5 @@
-﻿<dictionary>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
 <alphabet>ॊऀँंःऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏॐ॒॑॓॔ॕॖॗक़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣॱॲॳॴॵॶॷॸॹॺॻॼॽॾ</alphabet> 
   <sdefs>     
     <sdef n="n"       c="Noun"/>     
