@@ -126,11 +126,11 @@
     <!-- SECTION: Paradigm Nouns -->     
     
     <pardef n="जेम्स__np">
-      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
     </pardef>  
             
     <pardef n="मैरी__np">
-      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
     </pardef>    
     
     <pardef n="मोटलानी__np">
@@ -1112,15 +1112,16 @@
       <e>       <p><l>होनी</l><r>हो<s n="vbser"/><s n="inf"/><s n="nom"/><s n="f"/></r></p></e>
       <e>       <p><l>होने</l><r>हो<s n="vbser"/><s n="inf"/><s n="obl"/></r></p></e>
 
-      <e>       <p><l>हूँ</l><r>हो<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>हूं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>हूँ</l><r>हो<s n="vbser"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>हूं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <!-- <e>       <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e> -->
 
-      <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>हो</l><r>हो<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>हो</l><r>हो<s n="vbser"/><s n="pres"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e r="LR">       <p><l>हुये</l><r>हो<s n="vbser"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l>हुए</l><r>हो<s n="vbser"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
@@ -1270,29 +1271,30 @@
        <e><p><l>मने</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="erg"/></r></p></e>
        <e><p><l>ममें</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
- 	
+ 	<!-- all  त/ुम__prn pardef entries had s n="fam" tag after pl/sg/sp-->
      <pardef n="त/ुम__prn">
-       <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="nom"/></r></p></e>
-       <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="obl"/></r></p></e>
-       <e><p><l>ुमसे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="ins"/></r></p></e>	
-       <e><p><l>ुम्हें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="dat"/></r></p></e>
-       <e r="LR"><p><l>ुमको</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="dat"/></r></p></e>
-       <e><p><l>ुम्हारा</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="pl"/><s n="fam"/><s n="gen"/></r></p></e>
-       <e><p><l>ुम्हारी</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="pl"/><s n="fam"/><s n="gen"/></r></p></e>
-       <e><p><l>ुम्हारे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="fam"/><s n="gen"/></r></p></e> 
-       <e><p><l>ुमने</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="erg"/></r></p></e>
-       <e><p><l>ुममें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="fam"/><s n="loc"/></r></p></e>  
+       <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ुमसे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>	
+       <e><p><l>ुम्हें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+       <e r="LR"><p><l>ुमको</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+       <e><p><l>ुम्हारा</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+       <e><p><l>ुम्हारी</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+       <e><p><l>ुम्हारे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e> 
+       <e><p><l>ुमने</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+       <e><p><l>ुममें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>  
 
-       <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="nom"/></r></p></e>
-       <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="obl"/></r></p></e>
-       <e><p><l>ुमसे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="ins"/></r></p></e>	
-       <e><p><l>ुम्हें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="dat"/></r></p></e>
-       <e r="LR"><p><l>ुमको</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="dat"/></r></p></e>
-       <e><p><l>ुम्हारा</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e>
-       <e><p><l>ुम्हारी</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e>
-       <e><p><l>ुम्हारे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e> 
-       <e><p><l>ुमने</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="erg"/></r></p></e>
-       <e><p><l>ुममें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="loc"/></r></p></e>  
+       <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ुम</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ुमसे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>	
+       <e><p><l>ुम्हें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+       <e><p><l>ुम्हें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+       <e r="LR"><p><l>ुमको</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+       <e><p><l>ुम्हारा</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>ुम्हारी</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
+       <e><p><l>ुम्हारे</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e> 
+       <e><p><l>ुमने</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>
+       <e><p><l>ुममें</l><r>ुम<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>  
      </pardef> 
 
      <pardef n="त/ू__prn">
@@ -5441,7 +5443,8 @@
 	<e lm="टोपी पहन"><i>टोपी<b/>पहन</i><par n="बोल__vblex_tv"/></e>
 	<e lm="द्वेष कर"><i>द्वेष<b/>क</i><par n="क/र__vblex_tv"/></e>
 	<e lm="बलपूर्वक खींच"><i>बलपूर्वक<b/>खींच</i><par n="बोल__vblex_tv"/></e>
-	<e lm="याद आ"><i>याद<b/>आ</i><par n="बोल__vblex_tv"/></e>
+  <e lm="याद आ"><i>याद<b/>आ</i><par n="बोल__vblex_tv"/></e>
+  <e lm="नहीं है"><i>नहीं<b/>है</i><par n="गलत__adv"/></e>
 	<e lm="बाध्य हो"><i>बाध्य<b/></i><par n="/होना__vblex_iv"/></e>
 	<e lm="पास हो"><i>पास<b/></i><par n="/होना__vblex_iv"/></e>
 	<e lm="फेरी लगा"><i>फेरी<b/>लगा</i><par n="बता__vblex_tv"/></e>
@@ -20296,7 +20299,7 @@
     <e lm="ढर्रा"><i>ढर्र</i><par n="ध/ा__n_m"/></e>
     <e lm="घडा"><i>घड</i><par n="ध/ा__n_m"/></e>
     <e lm="कालोनी"><i>कालोन</i><par n="ध/ी__n_f"/></e>
-    <e lm="बिल्ली"><i>बिल्ल</i><par n="ध/ी__n_f"/></e>
+    <!-- <e lm="बिल्ली"><i>बिल्ल</i><par n="ध/ी__n_f"/></e> -->
     <e lm="रोलर"><i>रोलर</i><par n="थ__n_m"/></e>
     <e lm="आर्द्र"><i>आर्द्र</i><par n="थ__n_m"/></e>
     <e lm="अनुशासक"><i>अनुशासक</i><par n="थ__n_m"/></e>
@@ -32141,6 +32144,7 @@
     <e lm="हताहत"><i>हताहत</i><par n="गलत__adj"/></e>
     <e lm="नॉर्थ"><i>नॉर्थ</i><par n="गलत__adj"/></e>
        <!-- Adverbs -->
+
     <e lm="पश्चात्"><i>पश्चात्</i><par n="गलत__adv"/></e>
     <e lm="निस्संदेह"><i>निस्संदेह</i><par n="गलत__adv"/></e>
     <e lm="सामने"><i>सामने</i><par n="गलत__adv"/></e>
