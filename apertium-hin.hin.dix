@@ -3,13 +3,13 @@
 <alphabet>ॊऀँंःऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏॐ॒॑॓॔ॕॖॗक़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣॱॲॳॴॵॶॷॸॹॺॻॼॽॾ</alphabet> 
   <sdefs>     
     <sdef n="n"       c="Noun"/>     
-	<sdef n="np"      c="Proper noun"/>
-	<sdef n="ant"     c="Anthroponym"/>
-	<sdef n="al"     c="Altres"/>
-	<sdef n="cog"     c="Cognomen"/>	
-	<sdef n="top"     c="Topological"/>
-	<sdef n="subj"    c="subject"/>
-	<sdef n="org"     c="Organisation"/>
+  	<sdef n="np"      c="Proper noun"/>
+  	<sdef n="ant"     c="Anthroponym"/>
+  	<sdef n="al"     c="Altres"/>
+  	<sdef n="cog"     c="Cognomen"/>	
+  	<sdef n="top"     c="Topological"/>
+  	<sdef n="subj"    c="subject"/>
+  	<sdef n="org"     c="Organisation"/>
     <sdef n="num"     c="Numeral"/>     
     <sdef n="adj"     c="Adjective"/>    
     <sdef n="pers"     c="Personal"/>    
@@ -20,19 +20,24 @@
     <sdef n="det"     c="Determiner"/>     
     <sdef n="post"    c="Postposition"/>     
     <sdef n="vblex"   c="Verb"/>     
-	<sdef n="frm"	  c="formal"/>
-	<sdef n="fam"	  c="familiar"/>
+  	<sdef n="frm"	  c="formal"/>
+  	<sdef n="fam"	  c="familiar"/>
 
-     <sdef n="acc"      c="accusative"/>
-     <sdef n="ins"      c="instrumental"/>
-     <sdef n="loc"      c="Locative"/> 
-     <sdef n="rel"     c="Relative"/>    
-     <sdef n="dem"     c="Demonstrative"/>
-     <sdef n="prx"     c="Proximate"/>
-     <sdef n="dst"     c="Distant"/>          
-     <sdef n="aa"      c="Animate"/>
-     <sdef n="nn"      c="Inanimate"/>       
-     <sdef n="itg"     c="Interrogative"/>     
+    <sdef n="indef"   c="Indefinite" />
+
+
+
+
+    <sdef n="acc"      c="accusative"/>
+    <sdef n="ins"      c="instrumental"/>
+    <sdef n="loc"      c="Locative"/> 
+    <sdef n="rel"     c="Relative"/>    
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="prx"     c="Proximate"/>
+    <sdef n="dst"     c="Distant"/>          
+    <sdef n="aa"      c="Animate"/>
+    <sdef n="nn"      c="Inanimate"/>       
+    <sdef n="itg"     c="Interrogative"/>     
 
     <sdef n="vbser"   c="Verb 'to be'"/>     
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>     
@@ -71,6 +76,8 @@
 	<sdef n="stem"  c="stem"/>
 	<sdef n="ord"  c="ordinal"/>
 	<sdef n="percent"  c="Percent"/>
+  <sdef n="mfn"/>
+
 
     <sdef n="cm"         c="Comma"/>
     <sdef n="sent"       c="Sentence marker"/>
@@ -1220,7 +1227,7 @@
     </pardef>
 
     <pardef n="एक__det">
-      <e><p><l></l><r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="indef"/><s n="obl"/><s n="mfn"/><s n="sg"/></r></p></e>
     </pardef>
          
     <pardef n="मेरी__det">	
@@ -9353,7 +9360,7 @@
 	<e lm="गुमना"><i>गुमना</i><par n="ऐ__n_m"/></e>
 	<e lm="ं"><i>ं</i><par n="ऐ__n_m"/></e>
 	<e lm="ें"><i>ें</i><par n="ऐ__n_m"/></e>
-	<e lm="बाहर"><i>बाहर</i><par n="ऐ__n_m"/></e>
+	<e lm="बाहर"><i>बाहर</i><par n="गलत__adv"/></e>
 	<e lm="चित्राली"><i>चित्राल</i><par n="हठ/ी__n_m"/></e>
 	<e lm="ें"><i>ें</i><par n="ऐ__n_f"/></e>
 	<e lm="दारुल उलूम"><i>दारुल<b/>उलूम</i><par n="ऐ__n_m"/></e>
@@ -32276,6 +32283,7 @@
     <e lm="अकेला"><i>अकेला</i><par n="गलत__adv"/></e>
     <e lm="भी"><i>भी</i><par n="गलत__adv"/></e>
     <e lm="विकल्पत"><i>विकल्पत</i><par n="गलत__adv"/></e>
+    <e lm="हमेशा"><i>हमेशा</i><par n="दग/ा__n_m"/></e>
     <e lm="हमेशा"><i>हमेशा</i><par n="गलत__adv"/></e>
     <e lm="गलत"><i>गलत</i><par n="गलत__adv"/></e>
     <e lm="जल्दी"><i>जल्दी</i><par n="गलत__adv"/></e>
