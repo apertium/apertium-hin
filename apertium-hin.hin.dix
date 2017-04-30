@@ -450,6 +450,7 @@
       <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
       <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
 
     </pardef>  
    
@@ -477,6 +478,9 @@
      
     <pardef n="स/ा__adj">
       <e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ा</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ा</l><r>ा<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ा</l><r>ा<s n="adj"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
        <e><p><l>े</l><r>ा<s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
        <e><p><l>े</l><r>ा<s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l>े</l><r>ा<s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
@@ -1128,6 +1132,7 @@
       <e>       <p><l>हो</l><r>हो<s n="vbser"/><s n="pres"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e r="LR">       <p><l>हुये</l><r>हो<s n="vbser"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
@@ -1420,6 +1425,7 @@
      <pardef n="/क्या__prn">       
           <e><p><l>क्या</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="aa"/><s n="nom"/></r></p></e>
           <e><p><l>क्या</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="aa"/><s n="nom"/></r></p></e>
+          <e><p><l>क्या</l><r>क्या<s n="prn"/><s n="itg"/><s n="sp"/><s n="aa"/><s n="nom"/></r></p></e>
           <e><p><l>कौन</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="nn"/><s n="nom"/></r></p></e>
           <e><p><l>कौन</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="nn"/><s n="nom"/></r></p></e>
  	 <e><p><l>किस</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -2669,7 +2675,8 @@
 	<e lm="रिस"><i>रिस</i><par n="बोल__vblex_tv"/></e>
 	<e lm="उजेड़"><i>उजेड़</i><par n="चल__vblex_iv"/></e>
 	<e lm="कौध"><i>कौध</i><par n="चल__vblex_iv"/></e>
-	<e lm="पसंद"><i>पसंद</i><par n="बोल__vblex_tv"/></e>
+  <e lm="पसंद"><i>पसंद</i><par n="बोल__vblex_tv"/></e>
+  <e lm="पसंद हो"><i>पसंद<b/>हो</i><par n="/हो__vbser"/></e>
 	<e lm="बत्"><i>बत्</i><par n="बोल__vblex_tv"/></e>
 	<e lm="बतल्"><i>बतल्</i><par n="बोल__vblex_tv"/></e>
 	<e lm="कह्"><i>कह्</i><par n="बोल__vblex_tv"/></e>
