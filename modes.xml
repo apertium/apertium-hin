@@ -40,5 +40,20 @@
     </pipeline>
   </mode>
 
+	<mode name="hin-tokenise" install="yes">
+		<pipeline>
+			<program name="hfst-proc">
+				<file name=".deps/acceptor.default.hfst"/>
+			</program>
+		</pipeline>
+	</mode>
+
+  <mode name="hin-spell" install="yes">
+    <pipeline>
+      <program name="hfst-ospell -S -n 10">
+        <file name="hin.zhfst"/>
+      </program>
+    </pipeline>
+  </mode>
 
 </modes>
