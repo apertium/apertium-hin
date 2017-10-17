@@ -71,12 +71,14 @@
     <sdef n="fut"    c="Future"/>
 	<sdef n="imp"    c="Imperative"/>
 	<sdef n="gna"    c="verbal adverb"/>
+  <sdef n="inj"     c="Interjection"/>
 	<sdef n="agnt"    c="agentive"/>
 	<sdef n="pri"    c="present indicative"/>	 	 
 	<sdef n="stem"  c="stem"/>
 	<sdef n="ord"  c="ordinal"/>
 	<sdef n="percent"  c="Percent"/>
   <sdef n="mfn"/>
+    <sdef n="abbr"/>
 
 
     <sdef n="cm"         c="Comma"/>
@@ -99,9 +101,10 @@
     
     <!-- SECTION: Punctuation -->      
     <pardef n="numeros">
-      <e><re>[०१२३४५६७८९]+([.,][०१२३४५६७८९]+)?</re><p><l/><r><s n="num"/></r></p></e>
-  <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
-  <e>       <re>[0-9]+([.,][0-9]+)?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
+      <e>       <re>[0-9]+</re><p><l></l><r><s n="num"/></r></p></e>
+      <e>       <re>[०१२३४५६७८९]+([.,][०१२३४५६७८९]+)?</re><p><l/><r><s n="num"/></r></p></e>
+      <e>       <re>([५६७८९]|[१२३४५६७८९][०१२३४५६७८९]+)</re><p><l><b/>वाँ</l><r><s n="num"/></r></p></e>
+      <e>       <re>[०१२३४५६७८९]+([.,][०१२३४५६७८९]+)?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
     </pardef>
 
     <pardef n="separa">
@@ -127,6 +130,67 @@
 
     <pardef n="pardret">
       <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="__abbr">
+      <!-- etc -->
+      <e>     <p><l>इ</l><r>इ.<s n="abbr"/></r></p></e>
+      <e>     <p><l>इ.</l><r>इ.<s n="abbr"/></r></p></e>
+      <e>     <p><l>आदी</l><r>इ.<s n="abbr"/></r></p></e>
+      
+      <!-- doctor -->
+      <e>     <p><l>डॉ</l><r>डॉ.<s n="abbr"/></r></p></e>
+      <e>     <p><l>डॉ.</l><r>डॉ.<s n="abbr"/></r></p></e>
+
+      <!-- km -->
+      <e>     <p><l>किमी</l><r>किमी.<s n="abbr"/></r></p></e>
+      <e>     <p><l>किमी.</l><r>किमी.<s n="abbr"/></r></p></e>
+
+      <!-- father -->
+      <e>     <p><l>फ्र</l><r>फ्र.<s n="abbr"/></r></p></e>
+      <e>     <p><l>फ्र.</l><r>फ्र.<s n="abbr"/></r></p></e>
+
+      <!-- rupee -->
+      <e>     <p><l>रु</l><r>रु.<s n="abbr"/></r></p></e>
+      <e>     <p><l>रु.</l><r>रु.<s n="abbr"/></r></p></e>
+
+      <!-- pH (wot) -->
+      <e>     <p><l>पीएच</l><r>पीएच.<s n="abbr"/></r></p></e>
+      <e>     <p><l>पीएच.</l><r>पीएच.<s n="abbr"/></r></p></e>
+
+      <!-- EESVI -->
+      <e>     <p><l>ई</l><r>ई.<s n="abbr"/></r></p></e>
+      <e>     <p><l>ई.</l><r>ई.<s n="abbr"/></r></p></e>
+
+      <!-- SHREEMAN -->
+      <e>     <p><l>श्री</l><r>श्री.<s n="abbr"/></r></p></e>
+      <e>     <p><l>श्री.</l><r>श्री.<s n="abbr"/></r></p></e>
+
+      <!-- EESAA PURVI -->
+      <e>     <p><l>ई पू</l><r>ई. पू.<s n="abbr"/></r></p></e>
+      <e>     <p><l>ई. पू</l><r>ई. पू.<s n="abbr"/></r></p></e>
+
+    </pardef>
+
+    <pardef n="__inj">
+      <e>     <p><l>ए</l><r>ए<s n="inj"/></r></p></e>
+      <e>     <p><l>ई</l><r>ई<s n="inj"/></r></p></e>
+      <e>     <p><l>अहा</l><r>अहा<s n="inj"/></r></p></e>
+      <e>     <p><l>शाबाश</l><r>शाबाश<s n="inj"/></r></p></e>
+      <e>     <p><l>धन्य</l><r>धन्य<s n="inj"/></r></p></e>
+      <e>     <p><l>हाँ</l><r>हाँ<s n="inj"/></r></p></e>
+      <e>     <p><l>जी हाँ</l><r>जी हाँ<s n="inj"/></r></p></e>
+      <e>     <p><l>वाह</l><r>वाह<s n="inj"/></r></p></e>
+      <e>     <p><l>ओ हो</l><r>ओ हो<s n="inj"/></r></p></e>
+      <e>     <p><l>अरे</l><r>अरे<s n="inj"/></r></p></e>
+      <e>     <p><l>हाय</l><r>हाय<s n="inj"/></r></p></e>
+      <e>     <p><l>हे राम</l><r>हे राम<s n="inj"/></r></p></e>
+      <e>     <p><l>िछ:</l><r>िछ:<s n="inj"/></r></p></e>
+      <e>     <p><l>हट</l><r>हट<s n="inj"/></r></p></e>
+      <e>     <p><l>धत</l><r>धत<s n="inj"/></r></p></e>
+      <e>     <p><l>बाप रे</l><r>बाप रे<s n="inj"/></r></p></e>
+      <e>     <p><l>रे</l><r>रे<s n="inj"/></r></p></e>
+      <e>     <p><l>ओ</l><r>ओ<s n="inj"/></r></p></e>     
     </pardef>
 
 
