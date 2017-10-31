@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
 <alphabet>ॊऀँंःऄअआइईउऊऋऌऍऎएऐऑऒओऔकखगघङचछजझञटठडढणतथदधनऩपफबभमयरऱलळऴवशषसहऺऻ़ऽािीुूृॄॅॆेैॉॊोौ्ॎॏॐ॒॑॓॔ॕॖॗक़ख़ग़ज़ड़ढ़फ़य़ॠॡॢॣॱॲॳॴॵॶॷॸॹॺॻॼॽॾ</alphabet> 
   <sdefs>     
@@ -16,7 +16,8 @@
     <sdef n="dat"     c="Dative"/>
     <sdef n="erg"     c="Ergative"/>        
     <sdef n="gen"     c="Genitive"/>        
-    <sdef n="adv"     c="Adverb"/>     
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="abl"     c="Ablative"/>     
     <sdef n="det"     c="Determiner"/>     
     <sdef n="post"    c="Postposition"/>     
     <sdef n="vblex"   c="Verb"/>     
@@ -185,7 +186,7 @@
       <e>     <p><l>अरे</l><r>अरे<s n="inj"/></r></p></e>
       <e>     <p><l>हाय</l><r>हाय<s n="inj"/></r></p></e>
       <e>     <p><l>हे राम</l><r>हे राम<s n="inj"/></r></p></e>
-      <e>     <p><l>िछ:</l><r>िछ:<s n="inj"/></r></p></e>
+      <e>     <p><l>छ:ि</l><r>छ:ि<s n="inj"/></r></p></e>
       <e>     <p><l>हट</l><r>हट<s n="inj"/></r></p></e>
       <e>     <p><l>धत</l><r>धत<s n="inj"/></r></p></e>
       <e>     <p><l>बाप रे</l><r>बाप रे<s n="inj"/></r></p></e>
@@ -193,6 +194,51 @@
       <e>     <p><l>ओ</l><r>ओ<s n="inj"/></r></p></e>     
     </pardef>
 
+
+    <!-- SECTION: Postpositions -->  
+
+    <!-- genitives -->
+    <pardef n="__gen_endings">
+        <e><p><l>का</l><r>का<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>के</l><r>का<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>की</l><r>का<s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
+        <e><p><l>की</l><r>का<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- basic postpositions -->
+    <pardef n="case">
+      <e><p><l>को</l><r>को<s n="dat"/></r></p></e>
+      <e><p><l>ने</l><r>ने<s n="erg"/></r></p></e>
+      <e><p><l>से</l><r>से<s n="abl"/></r></p></e>
+      <e><p><l>में</l><r>में<s n="post"/></r></p></e>
+      <e><p><l>पर</l><r>पर<s n="post"/></r></p></e>
+      <e><p><l>तक</l><r>तक<s n="post"/></r></p></e>
+      <e><p><l></l><r></r></p><par n="__gen_endings"/></e>
+    </pardef>    
+
+    <pardef n="__prn_gen">
+      <!-- genitives (CHECK) -->
+      <e>     <p><l>ा</l><r>ा<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>     <p><l>ी</l><r>ी<s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>     <p><l>े</l><r>े<s n="gen"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="LR">  <p><l>ं</l><r>ं<s n="gen"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>     <p><l>े</l><r>े<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>     <p><l>याँ</l><r>याँ<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>     <p><l>ी</l><r>ी<s n="gen"/><s n="nt"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- verbal stuff -->
+    
+
+    <pardef n="__inf_endings">
+      <e><p><l>ना</l><r><s n="inf"/></r></p></e>
+    </pardef>
+    
+
+    <pardef n="ने__post">
+      <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
+      
 
     <!-- SECTION: Paradigm Nouns -->     
     
@@ -1304,20 +1350,6 @@
     </pardef>
 
  
-            
-
-    <!-- SECTION: Postpositions -->      
-
-    <pardef n="ने__post">
-      <e><p><l></l><r><s n="post"/></r></p></e>
-    </pardef>
-      
-    <pardef n="/का__post">
-       	<e><p><l>का</l><r>का<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>के</l><r>का<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
-        <e><p><l>की</l><r>का<s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
-        <e><p><l>की</l><r>का<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
 
     <!-- SECTION: Pronouns -->
 
@@ -1600,7 +1632,7 @@
 	<e lm="बिना"><i>बिना</i><par n="ने__post"/></e>
 	<e lm="अलावा"><i>अलावा</i><par n="ने__post"/></e>
 	<e lm="बतौर"><i>बतौर</i><par n="ने__post"/></e>
-    <e lm="का"><i></i><par n="/का__post"/></e>
+    <e lm="का"><i></i><par n="__gen_endings"/></e>
     <e lm="ने" ><i>ने</i><par n="ने__post"/></e>
     <e lm="को"><i>को</i><par n="ने__post"/></e>
     <e lm="में" ><i>में</i><par n="ने__post"/></e>
