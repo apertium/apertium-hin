@@ -220,11 +220,11 @@
       <!-- genitives (CHECK) -->
       <e>     <p><l>ा</l><r>ा<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
       <e>     <p><l>ी</l><r>ी<s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>     <p><l>े</l><r>े<s n="gen"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e r="LR">  <p><l>ं</l><r>ं<s n="gen"/><s n="nt"/><s n="sg"/></r></p></e>
       <e>     <p><l>े</l><r>े<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
       <e>     <p><l>याँ</l><r>याँ<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
-      <e>     <p><l>ी</l><r>ी<s n="gen"/><s n="nt"/><s n="pl"/></r></p></e>
+      <e>     <p><l>ये</l><r>ये<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>     <p><l>या</l><r>या<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>     <p><l>यी</l><r>यी<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <!-- verbal stuff -->
