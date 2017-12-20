@@ -227,6 +227,21 @@
       <e>     <p><l>यी</l><r>यी<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="__big_suff">
+      <e>     <p><l>ो</l><r><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>     <p><l>ी</l><r><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>     <p><l>ो</l><r><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+
+      <e>     <p><l>ा</l><r><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>     <p><l>ी</l><r><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>     <p><l>े</l><r><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>     <p><l>ा</l><r><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+
+      <e>     <p><l>ा</l><r><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>     <p><l>ी</l><r><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>     <p><l>े</l><r><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <!-- verbal stuff -->
     
 
