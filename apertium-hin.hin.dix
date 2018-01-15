@@ -34,8 +34,8 @@
     <sdef n="loc"      c="Locative"/> 
     <sdef n="rel"     c="Relative"/>    
     <sdef n="dem"     c="Demonstrative"/>
-    <sdef n="prx"     c="Proximate"/>
-    <sdef n="dst"     c="Distant"/>          
+    <sdef n="prox"     c="Proximate"/>
+    <sdef n="dist"     c="Distant"/>          
     <sdef n="aa"      c="Animate"/>
     <sdef n="nn"      c="Inanimate"/>       
     <sdef n="itg"     c="Interrogative"/>     
@@ -1452,58 +1452,56 @@
      </pardef>
  
      <pardef n="/यह__prn">       
- 	 <e><p><l>यह</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="nom"/></r></p></e>
-     <e r="LR"><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="nom"/></r></p></e>
-     <e><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="nom"/></r></p></e>
- 	 <e><p><l>इस</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="obl"/></r></p></e>
- 	 <e><p><l>इन</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="obl"/></r></p></e>
- 	 <e><p><l>इससे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="ins"/></r></p></e>
- 	 <e><p><l>इनसे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="ins"/></r></p></e>
- 	 <e><p><l>इसे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>इसको</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>इने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
- 	 <e><p><l>इन्हें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
-	 <e r="LR"><p><l>इन्हीं</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
-	 <e r="LR"><p><l>इनको</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="dat"/></r></p></e>
- 	 <e><p><l>इसकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
- 	 <e><p><l>इसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
- 	 <e><p><l>इसका</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="prx"/><s n="gen"/></r></p></e>
- 	 <e><p><l>इनकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
- 	 <e><p><l>इनके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
- 	 <e><p><l>इनका</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="prx"/><s n="gen"/></r></p></e>
- 	 <e><p><l>इसने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="erg"/></r></p></e>
- 	 <e><p><l>इन्होंने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="erg"/></r></p></e>
- 	 <e><p><l>इसमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="loc"/></r></p></e>
-	 <e><p><l>इनमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="loc"/></r></p></e>	
-	 <e><p><l>इसमे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prx"/><s n="loc"/></r></p></e>	
-     </pardef>
- 
-     <pardef n="/वह__prn">       
- 	 <e><p><l>वह</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
-          <e r="LR"><p><l>वो</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
-     <e><p><l>वे</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="nom"/></r></p></e>
- 	 <e><p><l>उस</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="obl"/></r></p></e>
- 	 <e><p><l>उन</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="obl"/></r></p></e>
- 	 <e><p><l>उससे</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="ins"/></r></p></e>
- 	 <e><p><l>उनसे</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="ins"/></r></p></e>
- 	 <e><p><l>उसे</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>उसको</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>उने</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
- 	 <e><p><l>उन्हें</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
- 	 <e><p><l>उन्हे</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>उन्हीं</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>उनको</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="dat"/></r></p></e>
- 	 <e><p><l>उसकी</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
- 	 <e><p><l>उसके</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
- 	 <e><p><l>उसका</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
- 	 <e><p><l>उनकी</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
- 	 <e><p><l>उनके</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
- 	 <e><p><l>उनका</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dst"/><s n="gen"/></r></p></e>
- 	 <e><p><l>उसने</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="erg"/></r></p></e>
-	 <e><p><l>उन्होंने</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="erg"/></r></p></e>
-	<e r="LR"><p><l>उन्होने</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="erg"/></r></p></e>
- 	 <e><p><l>उसमें</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="loc"/></r></p></e>
-	 <e><p><l>उनमें</l><r>वह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="loc"/></r></p></e>	
+ 	 <e><p><l>यह</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="nom"/></r></p></e>
+     <e r="LR"><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="nom"/></r></p></e>
+     <e><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="nom"/></r></p></e>
+ 	 <e><p><l>इस</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="obl"/></r></p></e>
+ 	 <e><p><l>इन</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="obl"/></r></p></e>
+ 	 <e><p><l>इससे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="ins"/></r></p></e>
+ 	 <e><p><l>इनसे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="ins"/></r></p></e>
+ 	 <e><p><l>इसे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>इसको</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>इने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="dat"/></r></p></e>
+ 	 <e><p><l>इन्हें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>इन्हीं</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="dat"/></r></p></e>
+	 <e r="LR"><p><l>इनको</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="dat"/></r></p></e>
+ 	 <e><p><l>इसकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="prox"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>इसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>इसका</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="prox"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>इनकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="prox"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>इनके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>इनका</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="prox"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>इसने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="erg"/></r></p></e>
+ 	 <e><p><l>इन्होंने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="erg"/></r></p></e>
+ 	 <e><p><l>इसमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="loc"/></r></p></e>
+	 <e><p><l>इनमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="loc"/></r></p></e>	
+	 <e><p><l>इसमे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="loc"/></r></p></e>	
+<!-- adding वह into the same paradigm -->
+ 	 <e><p><l>वह</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
+          <e r="LR"><p><l>वो</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="nom"/></r></p></e>
+     <e><p><l>वे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="nom"/></r></p></e>
+ 	 <e><p><l>उस</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="obl"/></r></p></e>
+ 	 <e><p><l>उन</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="obl"/></r></p></e>
+ 	 <e><p><l>उससे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="ins"/></r></p></e>
+ 	 <e><p><l>उनसे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="ins"/></r></p></e>
+ 	 <e><p><l>उसे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>उसको</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>उने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
+ 	 <e><p><l>उन्हें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
+ 	 <e><p><l>उन्हे</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>उन्हीं</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>उनको</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
+ 	 <e><p><l>उसकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>उसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>उसका</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>उनकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>उनके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>उनका</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
+ 	 <e><p><l>उसने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="erg"/></r></p></e>
+	 <e><p><l>उन्होंने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="erg"/></r></p></e>
+	<e r="LR"><p><l>उन्होने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="erg"/></r></p></e>
+ 	 <e><p><l>उसमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="loc"/></r></p></e>
+	 <e><p><l>उनमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="loc"/></r></p></e>	
      </pardef>
  
      <pardef n="/जो__prn">       
@@ -1906,7 +1904,6 @@
      <e lm="आप"><i>आप</i><par n="आप__prn"/></e>
      <e lm="अप"><i>अ</i><par n="अ/प__prn"/></e>	
      <e lm="यह"><i></i><par n="/यह__prn"/></e>
-     <e lm="वह"><i></i><par n="/वह__prn"/></e>
      <e lm="जो"><i></i><par n="/जो__prn"/></e>
      <e lm="क्या"><i></i><par n="/क्या__prn"/></e>
      <e lm="सब"><i>सब</i><par n="सब__prn"/></e>
@@ -32748,4 +32745,5 @@
     <e><par n="pardret"/></e>
     <e><par n="quotes"/></e>
    </section>
+
 </dictionary>  
