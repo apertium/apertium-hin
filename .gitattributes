@@ -26,3 +26,8 @@ texts/maharastra2.raw.txt -text
 texts/maharastra3.raw.txt -text
 texts/maharastra4.raw.txt -text
 texts/maharastra5.raw.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
