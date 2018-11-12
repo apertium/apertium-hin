@@ -224,11 +224,13 @@
 ;	"साल" n m pl nom
 "<का>"
 	"का" gen m sg
-"<काम दो>"
-	"काम दे" vblex tv prs p2 sg
-	"काम दे" vblex tv prs p2 pl
-	"काम दे" vblex tv imp p2 sg
-	"काम दे" vblex tv imp p2 pl
+"<काम>"
+	"काम" n m sg nom;
+"<दो>"
+;	"दे" vblex tv prs p2 sg
+;	"दे" vblex tv prs p2 pl
+	"दे" vblex tv imp p2 sg
+;	"दे" vblex tv imp p2 pl
 "<साल>"
 	"साल" n m sg nom
 ;	"साल" n m sg obl
