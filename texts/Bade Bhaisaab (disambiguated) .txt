@@ -1,12 +1,12 @@
 "<मेरे>"
 	"मैं" prn pers p1 mf sg gen
 "<भाई>"
-;	"भाई" n m sg nom
-	"भाई" n m sg obl
+	"भाई" n m sg nom
+;	"भाई" n m sg obl
 ;	"भाई" n m pl nom
 "<साहब>"
-;	"साहब" n m sg nom
-	"साहब" n m sg obl
+	"साहब" n m sg nom
+;	"साहब" n m sg obl
 ;	"साहब" n m pl nom
 "<मुझसे>"
 	"मैं" prn pers p1 sg ins
@@ -16,11 +16,11 @@
 ;	"पाँच" n m sg obl
 ;	"पाँच" n m pl nom
 "<साल>"
-;	"साल" n m sg nom
-	"साल" n m sg obl
+	"साल" n m sg nom
+;	"साल" n m sg obl
 ;	"साल" n m pl nom
 "<बड़े>"
-	"*बड़े"
+	"बड़े"
 "<थे>"
 	"हो" vbser impf p3 m pl
 "<,>"
@@ -32,7 +32,8 @@
 "<तीन>"
 	"तीन" num
 "<दरजे>"
-	"*दरजे"
+	"दरजे" n m pl nom
+;	"दरजे" n m pl obj
 "<आगे>"
 	"आगे" post
 ;	"आगे" adv
@@ -56,8 +57,8 @@
 ;	"उसी" adj f pl nom
 ;	"उसी" adj f pl obl
 "<उम्र>"
-	"उम्र" n f sg nom
-;	"उम्र" n f sg obl
+;	"उम्र" n f sg nom
+	"उम्र" n f sg obl
 ;	"उम्र" n f pl nom
 ;	"उम्र" n f pl obl
 "<में>"
@@ -72,7 +73,7 @@
 "<जब>"
 	"जब" adv
 "<मैने>"
-	"*मैने"
+	"मै" prn dem p1 mf sg 
 "<शुरू किया>"
 	"शुरू कर" vblex tv perf m sg
 "<था>"
@@ -92,8 +93,8 @@
 	"जैसा" adj m pl nom
 ;	"जैसा" adj m pl obl
 "<महत्व>"
-	"महत्व" n m sg nom
-;	"महत्व" n m sg obl
+;	"महत्व" n m sg nom
+	"महत्व" n m sg obl
 ;	"महत्व" n m pl nom
 ;	"महत्व" n m pl obl
 "<के>"
@@ -106,8 +107,8 @@
 "<वह>"
 	"यह" prn dem p3 mf sg dist nom
 "<जल्दबाजी>"
-	"जल्दबाजी" n f sg nom
-;	"जल्दबाजी" n f sg obl
+;	"जल्दबाजी" n f sg nom
+	"जल्दबाजी" n f sg obl
 ;	"जल्दबाजी" n f pl nom
 ;	"जल्दबाजी" n f pl obl
 "<से>"
@@ -155,8 +156,8 @@
 ;	"कर" vblex tv perf f sg
 ;	"कर" vblex tv perf f pl
 "<बुनियाद>"
-;	"बुनियाद" n f sg nom
-	"बुनियाद" n f sg obl
+	"बुनियाद" n f sg nom
+;	"बुनियाद" n f sg obl
 "<खूब>"
 	"खूब" adj mfn sp
 ;	"खूब" adj m sg nom
@@ -219,8 +220,8 @@
 	"एक" num
 ;	"एक" det indef obl mfn sg
 "<साल>"
-	"साल" n m sg nom
-;	"साल" n m sg obl
+;	"साल" n m sg nom
+	"साल" n m sg obl
 ;	"साल" n m pl nom
 "<का>"
 	"का" gen m sg
@@ -232,8 +233,8 @@
 	"दे" vblex tv imp p2 sg
 ;	"दे" vblex tv imp p2 pl
 "<साल>"
-	"साल" n m sg nom
-;	"साल" n m sg obl
+;	"साल" n m sg nom
+	"साल" n m sg obl
 ;	"साल" n m pl nom
 "<में>"
 	"में" post
@@ -264,8 +265,8 @@
 "<।>"
 	"।" sent
 "<बुनियाद>"
-	"बुनियाद" n f sg nom
-;	"बुनियाद" n f sg obl
+;	"बुनियाद" n f sg nom
+	"बुनियाद" n f sg obl
 "<ही>"
 ;	"ही" adj mfn sp
 ;	"ही" adj m sg nom
@@ -277,7 +278,8 @@
 ;	"ही" adj f pl nom
 ;	"ही" adj f pl obl
 "<पुख्ता>"
-	"*पुख्ता" n m sg obj
+;	"पुख्ता" n m sg obj
+	"पुख्ता" n m sg nom
 "<न>"
 	"न" adv
 ;	"न" adj mfn sp
@@ -309,13 +311,17 @@
 	"मकान" n m sg nom
 ;	"मकान" n m sg obl
 ;	"मकान" n m pl nom
-"<कैसे>"
+"<कैसे>"f
 	"कैस" det ind pl m
 ;	"कैसा" adj m sg obl
 ;	"कैसा" adj m pl nom
 ;	"कैसा" adj m pl obl
 "<पायेदार>"
-	"*पायेदार"
+	"पायेदार" adj m sg nom
+;	"पायेदार" adj f sg nom
+;	"पायेदार" adj m sg obj
+;	"पायेदार" adj f sg obj
+
 "<बने>"
 ;	"बन" vblex tv prs p2 sg
 	"बन" vblex tv prs p3 sg
@@ -341,7 +347,8 @@
 "<वह>"
 	"यह" prn dem p3 mf sg dist nom
 "<बड़े>"
-	"*बड़े"
+	"बड़े" adj m pl nom
+;	"बड़े" adj f pl nom
 "<थे>"
 	"हो" vbser impf p3 m pl
 "<।>"
@@ -350,15 +357,15 @@
 ;	"मेरी" np ant f sg nom
 	"मैं" prn pers p1 f sg gen
 "<उम्र>"
-;	"उम्र" n f sg nom
-	"उम्र" n f sg obl
+	"उम्र" n f sg nom
+;	"उम्र" n f sg obl
 ;	"उम्र" n f pl nom
 ;	"उम्र" n f pl obl
 "<नौ>"
 	"नौ" num
 "<साल>"
-	"साल" n m sg nom
-;	"साल" n m sg obl
+;	"साल" n m sg nom
+	"साल" n m sg obl
 ;	"साल" n m pl nom
 "<की>"
 	"का" gen f sg
@@ -383,8 +390,8 @@
 ;	"चौदह" adj f pl nom
 ;	"चौदह" adj f pl obl
 "<साल>"
-	"साल" n m sg nom
-;	"साल" n m sg obl
+;	"साल" n m sg nom
+	"साल" n m sg obl
 ;	"साल" n m pl nom
 
 "<के>"
@@ -399,7 +406,10 @@
 ;	"मेरी" np ant f sg nom
 	"मैं" prn pers p1 f sg gen
 "<तंबीह>"
-	"*तंबीह"
+;	"तंबीह" n f pl nom
+;	"तंबीह" n f sg nom
+;	"तंबीह" n f pl obj
+	"तंबीह" n f sg obj
 "<और>"
 	"और" cnjcoo
 "<निगरानी>"
@@ -437,8 +447,8 @@
 ;	"मेरी" np ant f sg nom
 	"मैं" prn pers p1 f sg gen
 "<शालीनता>"
-;	"शालीनता" n f sg nom
-	"शालीनता" n f sg obl
+	"शालीनता" n f sg nom
+;	"शालीनता" n f sg obl
 ;	"शालीनता" n f pl nom
 ;	"शालीनता" n f pl obl
 "<इसी>"
@@ -490,15 +500,20 @@
 ;	"सा" adj m pl nom
 ;	"सा" adj m pl obl
 "<बड़े>"
-	"*बड़े"
+	"बड़े" adj m pl nom
+;	"बड़े" adj m pl obl
+	
 "<अघ्ययनशील>"
-	"*अघ्ययनशील"
+	"अघ्ययनशील" adj m sg nom
+	"अघ्ययनशील" adj m sg obl
+	"अघ्ययनशील" adj m pl obl
+	"अघ्ययनशील" adj m pl nom
 "<थे>"
 	"हो" vbser impf p3 m pl
 "<।>"
 	"।" sent
 "<हरदम>"
-	"*हरदम"
+	"हरदम" adv 
 "<किताब>"
 	"किताब" n f sg nom
 ;	"किताब" n f sg obl
@@ -508,8 +523,8 @@
 ;	"खोल" vblex tv perf m pl
 "<बैठे>"
 ;	"बैठ" vblex iv prs p2 sg
-	"बैठ" vblex iv prs p3 sg
-;	"बैठ" vblex iv perf m pl
+;	"बैठ" vblex iv prs p3 sg
+	"बैठ" vblex iv perf m pl
 "<रहते>"
 	"रह" vaux impf m pl
 "<और>"
@@ -555,7 +570,7 @@
 ;	"पर" n m sg obl
 ;	"पर" n m pl nom
 "<चिड़ियों>"
-	"*चिड़ियों"
+	"चिड़ियों" n f pl obl
 "<,>"
 	"," cm
 "<कुत्तों>"
@@ -648,8 +663,8 @@
 	"एक" num
 ;	"एक" det indef obl mfn sg
 "<शेर>"
-	"शेर" n m sg nom
-;	"शेर" n m sg obl
+;	"शेर" n m sg nom
+	"शेर" n m sg obl
 ;	"शेर" n m pl nom
 "<को>"
 	"को" post
@@ -666,8 +681,8 @@
 ;	"सुंदर" adj f pl nom
 ;	"सुंदर" adj f pl obl
 "<अक्षर>"
-	"अक्षर" n m sg nom
-;	"अक्षर" n m sg obl
+;	"अक्षर" n m sg nom
+	"अक्षर" n m sg obl
 ;	"अक्षर" n m pl nom
 "<में>"
 	"में" post
@@ -741,7 +756,7 @@
 "<!>"
 	"!" sent
 "<मसलन>"
-	"*मसलन"
+	"मसलन" adv 
 "<एक>"
 	"एक" num
 ;	"एक" det indef obl mfn sg
@@ -762,30 +777,31 @@
 ;	"पर" n m sg obl
 ;	"पर" n m pl nom
 "<मैने>"
-	"*मैने"
+	"मैं" prn pers p1 sg erg
 "<यह>"
 	"यह" prn dem p3 mf sg prox nom
 "<इबारत>"
-	"*इबारत"
+;	"इबारत" n f sg nom
+	"इबारत" n f sg obl
 "<देखी>"
 	"देख" vblex tv perf f sg
 ;	"देख" vblex tv perf f pl
 "<->"
 	"-" guio
 "<स्पेशल>"
-;	"स्पेशल" n m sg nom
-	"स्पेशल" n m sg obl
+	"स्पेशल" n m sg nom
+;	"स्पेशल" n m sg obl
 ;	"स्पेशल" n m pl nom
 "<,>"
 	"," cm
 "<अमीना>"
-	"*अमीना"
+	"अमीना" n m ant
 "<,>"
 	"," cm
 "<भाइयों>"
 ;	"भाई" n m pl obl
-;	"भाइयों" n m sg nom
-	"भाइयों" n m sg obl
+	"भाइयों" n m sg nom
+;	"भाइयों" n m sg obl
 ;	"भाइयों" n m pl nom
 ;	"भाइयों" n m pl obl
 "<->"
@@ -793,14 +809,14 @@
 "<भाइयों>"
 ;	"भाई" n m pl obl
 ;	"भाइयों" n m sg nom
-;	"भाइयों" n m sg obl
-	"भाइयों" n m pl nom
+	"भाइयों" n m sg obl
+;	"भाइयों" n m pl nom
 ;	"भाइयों" n m pl obl
 "<,>"
 	"," cm
 "<दर>"
-;	"दर" n f sg nom
-	"दर" n f sg obl
+	"दर" n f sg nom
+;	"दर" n f sg obl
 "<->"
 	"-" guio
 "<असल>"
@@ -817,8 +833,8 @@
 "<,>"
 	"," cm
 "<भाई>"
-;	"भाई" n m sg nom
-	"भाई" n m sg obl
+	"भाई" n m sg nom
+;	"भाई" n m sg obl
 ;	"भाई" n m pl nom
 "<->"
 	"-" guio
@@ -829,21 +845,29 @@
 "<,>"
 	"," cm
 "<राधेश्याम>"
-	"*राधेश्याम" n ant m
+	"राधेश्याम" n ant m
 "<,>"
 	"," cm
 "<श्रीयुत>"
-	"*श्रीयुत"
+	"श्रीयुत" adj m sg nom
+;	"श्रीयुत" adj f sg obl
+;	"श्रीयुत" adj m sg nom
+;	"श्रीयुत" adj  f sg obl
+;	"श्रीयुत" adj m pl nom
+;	"श्रीयुत" adj f pl obl
+;	"श्रीयुत" adj m pl nom
+;	"श्रीयुत" adj f pl obl
+
 "<राधेश्याम>"
-	"*राधेश्याम"
+	"राधेश्याम" n m ant
 "<,>"
 	"," cm
 "<एक>"
 	"एक" num
 ;	"एक" det indef obl mfn sg
 "<घंटे>"
-	"घंटा" n m sg obl
-;	"घंटा" n m pl nom
+;	"घंटा" n m sg obl
+	"घंटा" n m pl nom
 "<तक>"
 	"तक" cnjadv
 "<->"
@@ -854,8 +878,8 @@
 	"एक" num
 ;	"एक" det indef obl mfn sg
 "<आदमी>"
-	"आदमी" n m sg nom
-;	"आदमी" n m sg obl
+;	"आदमी" n m sg nom
+	"आदमी" n m sg obl
 ;	"आदमी" n m pl nom
 "<का>"
 	"का" gen m sg
@@ -870,8 +894,8 @@
 "<मैंने>"
 	"मैं" prn pers p1 sg erg
 "<चेष्टा>"
-;	"चेष्टा" n f sg nom
-	"चेष्टा" n f sg obl
+	"चेष्टा" n f sg nom
+;	"चेष्टा" n f sg obl
 "<की>"
 ;	"का" gen f sg
 ;	"का" gen f pl
@@ -897,8 +921,8 @@
 	"लेकिन" cnjcoo
 "<असफल>"
 ;	"असफल" adj mfn sp
-;	"असफल" adj m sg nom
-	"असफल" adj m sg obl
+	"असफल" adj m sg nom
+;	"असफल" adj m sg obl
 ;	"असफल" adj m pl nom
 ;	"असफल" adj m pl obl
 ;	"असफल" adj f sg nom
@@ -916,8 +940,8 @@
 "<का>"
 	"का" gen m sg
 "<साहस>"
-;	"साहस" n m sg nom
-	"साहस" n m sg obl
+	"साहस" n m sg nom
+;	"साहस" n m sg obl
 ;	"साहस" n m pl nom
 ;	"साहस" n m pl obl
 "<न>"
@@ -942,10 +966,13 @@
 "<वह>"
 	"यह" prn dem p3 mf sg dist nom
 "<नवीं>"
-	"*नवीं"
+;	"नौवां" adj f sg nom
+	"नौवां" adj f sg obl
+;	"नौवां" adj f pl nom
+;	"नौवां" adj f pl obl
 "<जमात>"
-	"जमात" n f sg nom
-;	"जमात" n f sg obl
+;	"जमात" n f sg nom
+	"जमात" n f sg obl
 "<में>"
 	"में" post
 "<थे>"
@@ -989,7 +1016,11 @@
 ;	"मुँह" n m sg obl
 ;	"मुँह" n m pl nom
 "<बड़ी>"
-	"*बड़ी"
+;	"बड़ी" adv
+;	"बड़ी" adj mfn sp
+;	"बड़ी" n m sg nom
+	"बड़ी" adj m sg nom
+;	"बड़ी" adj mfn sp obl
 "<बात>"
 	"बात" n f sg nom
 ;	"बात" n f sg obl
@@ -1006,7 +1037,9 @@
 "<मेरा>"
 	"मैं" prn pers p1 m sg gen
 "<जी>"
-	"जी" vblex tv stem
+;	"जी" n m sg obl
+	"जी" n m sg nom
+;	"जी" vblex tv stem
 ;	"जी" vblex tv perf f sg
 ;	"जी" vblex tv perf f pl
 "<पढ़ने>"
@@ -1073,8 +1106,8 @@
 ;	"ही" adj f pl nom
 ;	"ही" adj f pl obl
 "<होस्टल>"
-	"होस्टल" n m sg nom
-;	"होस्टल" n m sg obl
+;	"होस्टल" n m sg nom
+	"होस्टल" n m sg obl
 ;	"होस्टल" n m pl nom
 "<से>"
 	"से" post
@@ -1098,7 +1131,9 @@
 "<कभी>"
 	"कभी" adv
 "<कंकरियाँ>"
-	"*कंकरियाँ"
+	"कंकरियाँ" n f pl nom
+;	"कंकरियाँ" n f pl obl
+
 "<उछालता>"
 	"उछाल" vblex tv impf m sg
 "<,>"
@@ -1108,7 +1143,8 @@
 "<कागज>"
 ;	"कागज" n m sg nom
 ;	"कागज" n m sg obl
-	"कागज" n m pl nom
+;	"कागज" n m pl nom
+	"कागज" n m pl obl
 "<की>"
 ;	"का" gen f sg
 	"का" gen f pl
@@ -1117,7 +1153,7 @@
 "<तितलियाँ>"
 	"तितली" n f pl nom
 "<उड़ाता>"
-	"*उड़ाता"
+	"उड़" vblex tv impf m sg
 "<,>"
 	"," cm
 "<और>"
@@ -1213,15 +1249,15 @@
 "<आगे-पीछे चलाते>"
 	"आगे-पीछे चला" vblex tv impf m pl
 "<हुए>"
-	"हो" vbser imp p2 frm pl
-	"होना" vblex iv prs p3 sg
-	"होना" vblex iv prs p3 pl
+;	"हो" vbser imp p2 frm pl
+;	"होना" vblex iv prs p3 sg
+;	"होना" vblex iv prs p3 pl
 	"होना" vblex iv prs p1 pl
-	"होना" vblex iv perf m pl
-	"होना" vblex iv imp p2 frm pl
+;	"होना" vblex iv perf m pl
+;	"होना" vblex iv imp p2 frm pl
 "<मोटरकार>"
-	"मोटरकार" n f sg nom
-;	"मोटरकार" n f sg obl
+;	"मोटरकार" n f sg nom
+	"मोटरकार" n f sg obl
 "<का>"
 	"का" gen m sg
 "<आनंद उठा>"
@@ -1299,7 +1335,7 @@
 ;	"सवाल" n m sg obl
 ;	"सवाल" n m pl nom
 "<होता>"
-	"हो" vbser impf m sg
+;	"हो" vbser impf m sg
 	"होना" vblex iv impf m sg
 "<->"
 	"-" guio
@@ -1340,8 +1376,8 @@
 ;	"इसी" adj f pl nom
 ;	"इसी" adj f pl obl
 "<ध्वनि>"
-	"ध्वनि" n f sg nom
-;	"ध्वनि" n f sg obl
+;	"ध्वनि" n f sg nom
+	"ध्वनि" n f sg obl
 "<में>"
 	"में" post
 "<पूछा>"
@@ -1355,8 +1391,8 @@
 "<इसका>"
 	"यह" prn dem p3 m sg prox gen
 "<जवाब>"
-;	"जवाब" n m sg nom
-	"जवाब" n m sg obl
+	"जवाब" n m sg nom
+;	"जवाब" n m sg obl
 ;	"जवाब" n m pl nom
 "<मेरे>"
 	"मैं" prn pers p1 mf sg gen
@@ -1439,7 +1475,7 @@
 "<कि>"
 	"कि" cnjsub
 "<जरा>"
-	"*जरा"
+	"जरा" adv
 "<बाहर>"
 	"बाहर" adv
 "<खेल>"
@@ -1457,8 +1493,8 @@
 	"मैं" prn pers p1 m sg gen
 "<मौन>"
 ;	"मौन" adj mfn sp
-;	"मौन" n m sg nom
-	"मौन" n m sg obl
+	"मौन" n m sg nom
+;	"मौन" n m sg obl
 ;	"मौन" n m pl nom
 ;	"मौन" n m pl obl
 ;	"मौन" adj m sg nom
@@ -1545,8 +1581,8 @@
 "<और>"
 	"और" cnjcoo
 "<रोष>"
-	"रोष" n m sg nom
-;	"रोष" n m sg obl
+;	"रोष" n m sg nom
+	"रोष" n m sg obl
 ;	"रोष" n m pl nom
 ;	"रोष" n m pl obl
 "<से>"
