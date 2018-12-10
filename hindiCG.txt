@@ -67,3 +67,6 @@ SELECT (adj pl) IF
 	(-1 NOUN)
 	(1 VBSER);
 
+#12 
+SELECT (adj sg) IF
+	(-1 (n sg));
