@@ -2,18 +2,17 @@
  SUBREADINGS = LTR ;
 
 LIST POST = post;
-LIST MADJ = (adj m ) ;
+LIST MADJ = (adj m);
 LIST NOUN = n;
-LIST FADJ = (adj f ) ;
-LIST NOM = (n nom ) ;
-LIST FN = (n f ) ;
-LIST MN = (n m ) ;
+LIST FADJ = (adj f);
+LIST NOM = (n nom);
+LIST FN = (n f );
+LIST MN = (n m );
 LIST VBSER = vbser;
 LIST CNJ = cnjcoo;
 LIST ADJ = adj;
-LIST OBL = (n obl ) ;
+LIST OBL = (n obl);
 LIST ADV = adv;
-
 
 SECTION
 
