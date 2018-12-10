@@ -21,15 +21,17 @@ SELECT ADV IF
 	(0 ADJ )
 	(1 ADJ );
 #2
-SELECT MADJ  IF
-	(1 MN );
+SELECT ADJ IF 
+	(0 ADJ ) 
+	(0 NOUN ) 
+	(1 NOUN );
 #3
 SELECT FADJ 
 	(1 FN );
 
 #4
-SELECT OBL IF 
-	(1 POST );
+SELECT MADJ  IF
+	(1 MN );
 
 #5
 SELECT NOM IF
@@ -43,10 +45,8 @@ SELECT OBL IF
 	(3 POST );
 
 #7
-SELECT ADJ IF 
-	(0 ADJ ) 
-	(0 NOUN ) 
-	(1 NOUN );
+SELECT OBL IF 
+	(1 POST );
 
 #8
 SELECT FADJ IF
