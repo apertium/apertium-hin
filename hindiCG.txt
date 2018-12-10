@@ -69,7 +69,7 @@ SELECT (adj pl) IF
 
 #12 
 SELECT (MN) IF 
-	(1 (POST m);
+	(1 (POST m));
 
 #13 
 SELECT (FN) IF 
