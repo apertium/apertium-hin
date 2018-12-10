@@ -67,10 +67,3 @@ SELECT (adj pl) IF
 	(-1 NOUN)
 	(1 VBSER);
 
-#12 
-SELECT (MN) IF 
-	(1 (POST m));
-
-#13 
-SELECT (FN) IF 
-	(1 (POST f);
