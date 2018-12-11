@@ -4,7 +4,7 @@
 LIST Noun = n;
 LIST Adjective = adj;
 LIST Adverb = adv;
-LIST Conjunction = Conjunctioncoo;
+LIST Conjunction = cnjcoo;
 LIST Postposition = post;
 LIST MaleAdjective = (adj m);
 LIST FemaleAdjective = (adj f);
