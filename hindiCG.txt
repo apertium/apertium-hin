@@ -2,12 +2,12 @@
  SUBREADINGS = LTR ;
 
 LIST POST = post;
-LIST MADJ = (adj m);
+LIST MaleAdjective = (adj m);
 LIST NOUN = n;
-LIST FADJ = (adj f);
+LIST FemaleAdjective	 = (adj f);
 LIST NOM = (n nom);
-LIST FN = (n f );
-LIST MN = (n m );
+LIST FemaleNoun = (n f );
+LIST MaleNoun = (n m );
 LIST VBSER = vbser;
 LIST CNJ = cnjcoo;
 LIST ADJ = adj;
@@ -17,56 +17,138 @@ LIST ADV = adv;
 SECTION
 
 #1 
-SELECT ADV IF 
+
+#Select adverb if the following word is an adjective
+
+select ADV IF 
 	(0 ADJ )
 	(1 ADJ );
+
+
 #2
-SELECT ADJ IF 
+
+#Select adjective out of adjective/noun choice if followed by a noun
+
+select ADJ IF 
 	(0 ADJ ) 
 	(0 NOUN ) 
 	(1 NOUN );
+
+
 #3
-SELECT FADJ 
-	(1 FN );
+
+#Select female adjective if followed by female noun
+
+select FemaleAdjective	 IF
+	(1 FemaleNoun);
+
 
 #4
-SELECT MADJ  IF
-	(1 MN );
+
+#Select male adjective if followed by male noun
+
+select MaleAdjective  IF
+	(1 MaleNoun);
+
 
 #5
-SELECT NOM IF
+
+#Select nominative case if followed by an adjective and a “to be” verb
+
+
+select NOM IF
 	(1 ADJ ) 
 	(2 VBSER );
 
+
 #6
-SELECT OBL IF 
+
+#Select oblique case if followed by conjunction, another noun and a postposition”
+
+select OBL IF 
 	(1 CNJ )
  	(2 NOUN ) 
 	(3 POST );
 
+
 #7
-SELECT OBL IF 
+
+#Select oblique case if followed by a postposition
+
+select OBL IF 
 	(1 POST );
 
 #8
-SELECT FADJ IF
-	(-1 FN );
+
+#Select female adjective if the noun preceding it is female
+
+
+select FemaleAdjective IF
+	(-1 FemaleNoun);
 
 #9
-SELECT MADJ IF 
-	(-1 MN );
+
+#Select male adjective if the noun preceding it is male
+
+select MaleAdjective IF 
+	(-1 MaleNoun);
 
 #10
-SELECT NOM IF
+
+#Select nominative case if followed by a “to be” verb
+
+select NOM IF
 	(1 VBSER);
 
 #11
-SELECT (adj pl) IF 
+
+#Select plural adjective if it is describing two nouns joined by a conjunction
+
+select (adj pl) IF 
 	(-3 NOUN)
 	(-2 CNJ)
 	(-1 NOUN)
 	(1 VBSER);
 
+
 #12 
-SELECT (adj sg) IF
+
+#Select singular adjective if the preceding noun is singular
+
+select (adj sg) IF
 	(-1 (n sg));
+
+
+
+# Rules 13-16 decide the plurality of verbs/auxillary verbs by checking whether the "to be" form or है is plural or not
+
+#13 
+select (vaux pl) IF
+	(1 (vbser pl));
+
+
+#14 
+select (vaux sg) IF
+	(1 (vbser sg));
+
+
+#15 
+select (vblex pl) IF
+	(1 (vbser pl));
+
+
+#16
+select (vblex sg) IF
+	(1 (vbser sg));
+
+
+
+#Rules 17-18 decide plurality of adjectives by checking whether the "to be" form or है is plural or not
+
+#17 
+select (adj pl) IF
+	(1 (vbser pl));
+
+#18
+select (adj sg) IF
+	(1 (vbser sg));
