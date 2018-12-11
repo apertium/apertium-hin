@@ -28,11 +28,11 @@ LIST ObliqueNoun = (n obl);
 SECTION
 
 SELECT Prn IF
-	(0 Prn or Det)
+	(0 Prn or Det);
 
 SELECT Post IF
 	(-1 N)
-	(0 Post or Conj)
+	(0 Post or Conj);
 
 #Select adverb from an adverb/adjective choice if the following word is an adjective
 
@@ -41,6 +41,7 @@ SELECT Adv IF
 	(0 Adj)
 	(0 Adv)
 	(1 Adj);
+
 SELECT Adj IF
 	(0 Adj)
 	(0 Adv)
@@ -53,7 +54,7 @@ SELECT Adv IF
 
 SELECT ConjAdv IF
 	(0 ConjAdv)
-	(0 Adv)
+	(0 Adv);
 
 
 
@@ -88,7 +89,7 @@ SELECT Adv IF
 SELECT Stem IF
 	(0 Stem)
 	(1 Vaux)
-	(2 Vbser) ;
+	(2 Vbser);
 
 SELECT Vaux IF
 	(-1 Stem)
@@ -97,15 +98,15 @@ SELECT Vaux IF
 
 SELECT Vaux IF
 	(-1 Verb)
-	(0 Vaux OR Verb)
+	(0 Vaux OR Verb);
 
 SELECT Vbser IF
 	(-1 Verb)
-	(0 Verb OR Vbser)
+	(0 Verb OR Vbser);
 
 SELECT Det IF
 	(0 Adv OR N OR Det)
-	(1 Post)
+	(1 Post);
 
 
 #Select oblique case if followed by a postposition
