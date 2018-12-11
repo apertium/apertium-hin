@@ -62,7 +62,7 @@ select NominativeNoun if
 
 #6
 
-#Select ObliqueNounique case if followed by conjunction, another noun and a postposition”
+#Select oblique case if followed by conjunction, another noun and a postposition”
 
 select ObliqueNoun if 
 	(1 Conjunction)
@@ -72,7 +72,7 @@ select ObliqueNoun if
 
 #7
 
-#Select ObliqueNounique case if followed by a postposition
+#Select oblique case if followed by a postposition
 
 select ObliqueNoun if 
 	(1 Postposition);
