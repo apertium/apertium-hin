@@ -202,12 +202,12 @@ select (Vblex sg) if
 #The next two rules decide plurality of adjectives by checking whether the "to be" form or है is plural or not
 
 #17 
-select (Adjective pl) if
-	(1 (vbser pl));
+select (Adj pl) if
+	(1 (Vbser pl));
 
 #18
-select (Adjective sg) if
-	(1 (vbser sg));
+select (Adj sg) if
+	(1 (Vbser sg));
 
 
 
