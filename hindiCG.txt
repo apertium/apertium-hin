@@ -1,18 +1,17 @@
  DELIMITERS = "<$।>" ;
  SUBREADINGS = LTR ;
 
-LIST POST = post;
+LIST Noun = n;
+LIST Adjective = adj;
+LIST Adverb = adv;
+LIST Conjunction = Conjunctioncoo;
+LIST Postposition = post;
 LIST MaleAdjective = (adj m);
-LIST NOUN = n;
-LIST FemaleAdjective	 = (adj f);
-LIST NOM = (n nom);
-LIST FemaleNoun = (n f );
-LIST MaleNoun = (n m );
-LIST VBSER = vbser;
-LIST CNJ = cnjcoo;
-LIST ADJ = adj;
-LIST OBL = (n obl);
-LIST ADV = adv;
+LIST FemaleAdjective = (adj f);
+LIST MaleNoun = (n m);
+LIST FemaleNoun = (n f);
+LIST NominativeNoun = (n nom);
+LIST ObliqueNoun = (n obl);
 
 SECTION
 
@@ -20,26 +19,26 @@ SECTION
 
 #Select adverb if the following word is an adjective
 
-select ADV IF 
-	(0 ADJ )
-	(1 ADJ );
+select Adverb if 
+	(0 Adjective)
+	(1 Adjective);
 
 
 #2
 
 #Select adjective out of adjective/noun choice if followed by a noun
 
-select ADJ IF 
-	(0 ADJ ) 
-	(0 NOUN ) 
-	(1 NOUN );
+select Adjective if 
+	(0 Adjective) 
+	(0 Noun) 
+	(1 Noun);
 
 
 #3
 
 #Select female adjective if followed by female noun
 
-select FemaleAdjective	 IF
+select FemaleAdjective	 if
 	(1 FemaleNoun);
 
 
@@ -47,7 +46,7 @@ select FemaleAdjective	 IF
 
 #Select male adjective if followed by male noun
 
-select MaleAdjective  IF
+select MaleAdjective  if
 	(1 MaleNoun);
 
 
@@ -56,89 +55,89 @@ select MaleAdjective  IF
 #Select nominative case if followed by an adjective and a “to be” verb
 
 
-select NOM IF
-	(1 ADJ ) 
-	(2 VBSER );
+select NominativeNoun if
+	(1 Adjective) 
+	(2 vbser);
 
 
 #6
 
-#Select oblique case if followed by conjunction, another noun and a postposition”
+#Select ObliqueNounique case if followed by conjunction, another noun and a postposition”
 
-select OBL IF 
-	(1 CNJ )
- 	(2 NOUN ) 
-	(3 POST );
+select ObliqueNoun if 
+	(1 Conjunction)
+ 	(2 Noun) 
+	(3 Postposition);
 
 
 #7
 
-#Select oblique case if followed by a postposition
+#Select ObliqueNounique case if followed by a postposition
 
-select OBL IF 
-	(1 POST );
+select ObliqueNoun if 
+	(1 Postposition);
 
 #8
 
 #Select female adjective if the noun preceding it is female
 
 
-select FemaleAdjective IF
+select FemaleAdjective if
 	(-1 FemaleNoun);
 
 #9
 
 #Select male adjective if the noun preceding it is male
 
-select MaleAdjective IF 
+select MaleAdjective if 
 	(-1 MaleNoun);
 
 #10
 
 #Select nominative case if followed by a “to be” verb
 
-select NOM IF
-	(1 VBSER);
+select NominativeNoun if
+	(1 vbser);
 
 #11
 
 #Select plural adjective if it is describing two nouns joined by a conjunction
 
-select (adj pl) IF 
-	(-3 NOUN)
-	(-2 CNJ)
-	(-1 NOUN)
-	(1 VBSER);
+select (adj pl) if 
+	(-3 Noun)
+	(-2 Conjunction)
+	(-1 Noun)
+	(1 vbser);
 
 
 #12 
 
 #Select singular adjective if the preceding noun is singular
 
-select (adj sg) IF
-	(-1 (n sg));
+select (Adjective sg) if
+	(-1 (Noun sg));
 
 
 
 # Rules 13-16 decide the plurality of verbs/auxillary verbs by checking whether the "to be" form or है is plural or not
 
 #13 
-select (vaux pl) IF
+select (vaux pl) if
 	(1 (vbser pl));
 
 
 #14 
-select (vaux sg) IF
+select (vaux sg) if
 	(1 (vbser sg));
 
 
 #15 
-select (vblex pl) IF
+select (vblex pl) if
 	(1 (vbser pl));
 
 
 #16
-select (vblex sg) IF
+select (vblex sg) if
 	(1 (vbser sg));
 
 
@@ -146,9 +145,9 @@ select (vblex sg) IF
 #Rules 17-18 decide plurality of adjectives by checking whether the "to be" form or है is plural or not
 
 #17 
-select (adj pl) IF
+select (adj pl) if
 	(1 (vbser pl));
 
 #18
-select (adj sg) IF
+select (adj sg) if
 	(1 (vbser sg));
