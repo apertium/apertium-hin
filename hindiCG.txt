@@ -13,6 +13,7 @@ LIST FemaleNoun = (n f);
 LIST NominativeNoun = (n nom);
 LIST ObliqueNoun = (n obl);
 
+
 SECTION
 
 #1 
@@ -57,7 +58,7 @@ select MaleAdjective  if
 
 select NominativeNoun if
 	(1 Adjective) 
-	(2 vbser);
+	(2  (vbser));
 
 
 #6
@@ -97,7 +98,7 @@ select MaleAdjective if
 #Select nominative case if followed by a “to be” verb
 
 select NominativeNoun if
-	(1 vbser);
+	(1 (vbser));
 
 #11
 
@@ -107,7 +108,7 @@ select (adj pl) if
 	(-3 Noun)
 	(-2 Conjunction)
 	(-1 Noun)
-	(1 vbser);
+	(1 (vbser));
 
 
 #12 
@@ -145,9 +146,9 @@ select (vblex sg) if
 #Rules 17-18 decide plurality of adjectives by checking whether the "to be" form or है is plural or not
 
 #17 
-select (adj pl) if
+select (Adjective pl) if
 	(1 (vbser pl));
 
 #18
-select (adj sg) if
+select (Adjective sg) if
 	(1 (vbser sg));
