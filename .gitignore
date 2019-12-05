@@ -12,3 +12,10 @@
 /install-sh
 /missing
 /modes
+/ap_include.am
+/hin-disam.mode
+/hin-gener.mode
+/hin-morph.mode
+/hin-spell.mode
+/hin-tagger.mode
+/hin-tokenise.mode
