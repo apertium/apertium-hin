@@ -52,12 +52,16 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
+...
 echo “This is a test sentence” | aperium hin-tagger
 echo “This is a test sentence” | aperium hin-morph
+...
 
 If this does not work, try running
 
+...
 echo “This is a test sentence” | aperium -d path/to/apertium-hin hin-tagger
+...
 
 Files and data
 ===============================================================================
