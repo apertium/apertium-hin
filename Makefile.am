@@ -7,7 +7,7 @@ BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-        $(LANG1).rlx.bin
+        $(LANG1).rlx.bin $(LANG1).prob
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
 @ap_include@
@@ -36,6 +36,8 @@ $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 	$(CGCOMP) $< $@
 
+$(LANG1).prob: $(BASENAME).$(LANG1).tagged
+	apertium-tagger -s 0 -u 2 $@ $<
 
 ###############################################################################
 ## Spell checker
