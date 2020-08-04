@@ -25,6 +25,9 @@
       <program name="cg-proc -w">
         <file name="hin.rlx.bin"/>
       </program>
+      <program name="apertium-tagger -u 2 -g">
+        <file name="hin.prob"/>
+      </program>
     </pipeline>
   </mode>
 
