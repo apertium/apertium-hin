@@ -1507,7 +1507,8 @@
  	 <e r="LR"><p><l>उन्हीं</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
  	 <e r="LR"><p><l>उनको</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
  	 <e><p><l>उसकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
- 	 <e><p><l>उसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
+ 	 <!-- <e><p><l>उसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e> -->
+	<e><p><l>उसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="obl"/><j/>का<s n="post"/><s n="gen"/><s n="mf"/><s n="sg"/></r></p></e>
  	 <e><p><l>उसका</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
  	 <e><p><l>उनकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
  	 <e><p><l>उनके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
