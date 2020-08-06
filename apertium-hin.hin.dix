@@ -200,7 +200,7 @@
     <!-- genitives -->
     <pardef n="__gen_endings">
         <e><p><l>का</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
-        <e><p><l>के</l><r>का<s n="post"/><s n="gen"/><s n="mf"/><s n="pl"/></r></p></e>
+        <e><p><l>के</l><r>का<s n="post"/><s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
         <e><p><l>की</l><r>का<s n="post"/><s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
         <e><p><l>की</l><r>का<s n="post"/><s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
