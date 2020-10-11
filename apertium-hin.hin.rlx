@@ -17,6 +17,9 @@ LIST Det = det ;
 LIST Conj = cnjcoo;
 LIST ConjAdv = cnjadv;
 LIST Prn = prn;
+LIST SingularNoun = (n sg);
+LIST PluralNoun = (n pl);
+LIST SingularPronoun = (prn sg);
 LIST MaleAdjective = (adj m);
 LIST FemaleAdjective = (adj f);
 LIST MaleNoun = (n m);
@@ -26,6 +29,12 @@ LIST ObliqueNoun = (n obl);
 
 
 SECTION
+
+SELECT N IF
+	(-1 Prn)
+	(0 Adj)
+	(0 N)
+	(1 Vblex);
 
 SELECT Prn IF
 	(0 Prn or Det);
@@ -109,11 +118,18 @@ SELECT Det IF
 	(1 Post);
 
 
+#Select singular noun if the pronoun preceding it is singular
+
+SELECT SingularNoun IF
+	(-1 SingularPronoun)
+	(0 SingularNoun)
+	(0 PluralNoun);
+
+
 #Select oblique case if followed by a postposition
 
 select ObliqueNoun if 
 	(1 Post);
-
 
 
 #Select oblique case if followed by conjunction, another noun and a postposition”
@@ -122,7 +138,6 @@ select ObliqueNoun if
 	(1 Conj)
  	(2 N) 
 	(3 Post);
-
 
 
 #Select female adjective if followed by female noun
@@ -214,5 +229,4 @@ select (Adj sg) if
 
 
   ## 
-
 
