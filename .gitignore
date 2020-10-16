@@ -4,6 +4,7 @@
 /Makefile
 /Makefile.in
 /aclocal.m4
+/ap_include.am
 /apertium-hin.pc
 /autom4te.cache
 /config.log
