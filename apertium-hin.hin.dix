@@ -26,9 +26,6 @@
 
     <sdef n="indef"   c="Indefinite" />
 
-
-
-
     <sdef n="acc"      c="accusative"/>
     <sdef n="ins"      c="instrumental"/>
     <sdef n="loc"      c="Locative"/> 
@@ -23576,7 +23573,9 @@
     <e lm="बीजक"><i>बीजक</i><par n="थ__n_m"/></e>
     <e lm="बीमारी"><i>बीमार</i><par n="ध/ी__n_f"/></e>
     <e lm="आवेदन"><i>आवेदन</i><par n="ऐ__n_m"/></e>
-    <e lm="बृहस्पतिवार"><i>बृहस्पतिवार</i><par n="थ__n_m"/></e>
+    <e lm="बुधवार"><i>बुधवार</i><par n="थ__n_m"/></e>
+	<e lm="बृहस्पतिवार"><i>बृहस्पतिवार</i><par n="थ__n_m"/></e>
+	<e lm="शनिवार"><i>शनिवार</i><par n="थ__n_m"/></e>
     <e lm="प्रज्ञान"><i>प्रज्ञान</i><par n="ऐ__n_m"/></e>
     <e lm="निलंबन"><i>निलंबन</i><par n="ऐ__n_m"/></e>
     <e lm="रेलिंग"><i>रेलिंग</i><par n="जड__n_f"/></e>
