@@ -8,7 +8,6 @@ LIST Obl = obl ;
 LIST Post = post ; 
 LIST Adj = adj;
 LIST Adv = adv;
-LIST Verb = vblex;
 LIST Stem = stem ; 
 LIST Vaux = vaux ; 
 LIST Vblex = vblex ; 
@@ -23,6 +22,20 @@ LIST MaleNoun = (n m);
 LIST FemaleNoun = (n f);
 LIST NominativeNoun = (n nom);
 LIST ObliqueNoun = (n obl);
+LIST Perf = perf ; 
+
+LIST P1 = p1 ;
+LIST P2 = p2 ;
+LIST P3 = p3 ;
+LIST Pers = p1 p2 p3 ;
+
+SET MascSg = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
+SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
+SET FemSg = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
+SET FemPl = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
+
+SET GenNumAgree = MascSg OR MascPl OR FemSg OR FemPl ;
+
 
 
 SECTION
@@ -87,7 +100,7 @@ SELECT Adj IF
 SELECT Adv IF
 	(0 Adj)
 	(0 Adv)
-	(1 Verb);
+	(1 Vblex);
 
 
 
@@ -98,16 +111,16 @@ SELECT Stem IF
 
 SELECT Vaux IF
 	(-1 Stem)
-	(0 Vaux OR Verb)
+	(0 Vaux OR Vblex)
 	(1 Vbser);
 
 SELECT Vaux IF
-	(-1 Verb)
-	(0 Vaux OR Verb);
+	(-1 Vblex)
+	(0 Vaux OR Vblex);
 
 SELECT Vbser IF
-	(-1 Verb)
-	(0 Verb OR Vbser);
+	(-1 Vblex)
+	(0 Vblex OR Vbser);
 
 SELECT Det IF
 	(0 Adv OR N OR Det)
@@ -216,6 +229,9 @@ select (Adj sg) if
 	(1 (Vbser sg));
 
 
+#
+
+remove Vblex + Pers if (0 Perf + &&GenNumAgree) (1 Vbser + &&GenNumAgree) ;	# अनीता और रवि कल आए थे
 
 
   ## 
