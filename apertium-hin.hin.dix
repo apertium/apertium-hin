@@ -1370,6 +1370,10 @@
       <e>       <p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     </pardef>
 
+	<pardef n="कोई__det">
+      <e>       <p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <pardef n="कई__det">
       <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
     </pardef>
@@ -1383,8 +1387,8 @@
     </pardef>
 
 	<pardef n="यह__det">
-      <e><p><l></l><r><s n="det"/><n="m"/><n="sg"/><n="nom"/><n="dem"/></r></p></e>
-      <e><p><l></l><r><s n="det"/><n="m"/><n="sg"/><n="obl"/><n="itg"/><n="dat"/><n="dem"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dem"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="m"/><s n="sg"/><s n="obl"/><s n="itg"/><s n="dat"/><s n="dem"/></r></p></e>
     </pardef>
 
 
@@ -32943,7 +32947,6 @@
 	<e lm="हर"><i>हर</i><par n="कोई__det"/></e>
 	<e lm="उसका"><i>उसका</i><par n="कोई__det"/></e>
 	<e lm="अधिक"><i>अधिक</i><par n="कोई__det"/></e>
-	
 	<e lm="यह"><i>यह</i><par n="कोई__det"/></e>
 	<e lm="ऐसा"><i>ऐसा</i><par n="कोई__det"/></e>
 	<e lm="जो"><i>जो</i><par n="कोई__det"/></e>
