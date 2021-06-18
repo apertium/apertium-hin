@@ -1357,7 +1357,7 @@
 
 
     <!-- SECTION: Determiners -->       
-    <pardef n="ऐस__det">
+    <pardef n="ऐस__det">   
       <e>       <p><l>ा</l><r><s n="det"/><s n="ind"/><s n="sg"/><s n="m"/></r></p></e>
       <e>       <p><l>ी</l><r><s n="det"/><s n="ind"/><s n="sg"/><s n="f"/></r></p></e>
       <e>       <p><l>ी</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="f"/></r></p></e>
@@ -1369,7 +1369,6 @@
     <pardef n="दूसरी__det">
       <e>       <p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     </pardef>
-
 	<pardef n="कोई__det">
       <e>       <p><l></l><r><s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
     </pardef>
@@ -1384,6 +1383,10 @@
 
 	<pardef n="सब__det">
       <e><p><l></l><r><s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
+    </pardef>
+
+	<pardef n="हमारा__det">
+      <e><p><l></l><r><s n="det"/><s n="gen"/><s n="pl" /><s n="mf" /></r></p></e>
     </pardef>
 
 	<pardef n="यह__det">
@@ -1751,6 +1754,7 @@
     <e lm="द"><i>द</i><par n="कई__det"/></e>
     <e lm="दि"><i>दि</i><par n="कई__det"/></e>
     <e lm="कई"><i>कई</i><par n="कई__det"/></e>
+	<e lm="हमारा"><i>हमारा</i><par n="हमारा__det"/></e>
       
    <!-- Conjunctions -->
     <e lm="एवम्"><i>एवम्</i><par n="और__cnjcoo"/></e>
