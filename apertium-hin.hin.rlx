@@ -1,7 +1,13 @@
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
-SOFT-DELIMITERS = "<,>" ;
+DELIMITERS = "<|>" "<॥>" "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+SOFT-DELIMITERS = "<,>" "<;>";
+SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
 SETS
+
+LIST >>> = >>> ;
+LIST <<< = <<< ;
+SET BOS = >>> OR (sent) ;
+SET EOS = <<< OR (sent) ;
 
 LIST N = n ; 
 LIST Obl = obl ; 
