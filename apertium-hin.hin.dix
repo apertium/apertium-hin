@@ -35,7 +35,8 @@
     <sdef n="dist"     c="Distant"/>          
     <sdef n="aa"      c="Animate"/>
     <sdef n="nn"      c="Inanimate"/>       
-    <sdef n="itg"     c="Interrogative"/>     
+    <sdef n="itg"     c="Interrogative"/>
+	<sdef n="obj"     c="Objective"/>     
 
     <sdef n="vbser"   c="Verb 'to be'"/>     
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>     
@@ -1483,6 +1484,7 @@
  
      <pardef n="/यह__prn">       
  	 <e><p><l>यह</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="nom"/></r></p></e>
+	 <e><p><l>वे</l><r>वे<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="nom"/></r></p></e>
      <e r="LR"><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="nom"/></r></p></e>
      <e><p><l>ये</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="prox"/><s n="nom"/></r></p></e>
  	 <e><p><l>इस</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prox"/><s n="obl"/></r></p></e>
@@ -1522,8 +1524,8 @@
  	 <e r="LR"><p><l>उन्हीं</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
  	 <e r="LR"><p><l>उनको</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="dat"/></r></p></e>
  	 <e><p><l>उसकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
- 	 <!-- <e><p><l>उसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e> -->
-	<e><p><l>उसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="obl"/><j/>का<s n="post"/><s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
+ 	<e><p><l>उसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e> 
+	<e><p><l>उसके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="obl"/><j/>का<s n="post"/><s n="gen"/><s n="m"/><s n="pl"/></r></p></e> 
  	 <e><p><l>उसका</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dist"/><s n="gen"/></r></p></e>
  	 <e><p><l>उनकी</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e>
  	 <!-- <e><p><l>उनके</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="gen"/></r></p></e> -->
@@ -1533,7 +1535,8 @@
 	 <e><p><l>उन्होंने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="erg"/></r></p></e>
 	<e r="LR"><p><l>उन्होने</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="erg"/></r></p></e>
  	 <e><p><l>उसमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dist"/><s n="loc"/></r></p></e>
-	 <e><p><l>उनमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="loc"/></r></p></e>	
+	 <e><p><l>उनमें</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dist"/><s n="loc"/></r></p></e>
+	 <e><p><l>उसके</l><r>यह<s n="prn"/><s n="p3"/><s n ="sg"/><s n ="obj"/><s n ="pers"/></r></p></e>	
      </pardef>
  
      <pardef n="/जो__prn">       
@@ -1606,6 +1609,16 @@
     <pardef n="der__prn">
       <e><p><l></l><r><s n="prn"/></r></p></e>
     </pardef>
+
+	<pardef n="तुम_लोग__prn">
+      <e><p><l>तुम लोग</l><r>तुम लोग<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+    </pardef>
+
+	<pardef n="उसके__prn">
+      <e><p><l>उसके</l><r>उसके<s n="prn"/><s n="p3"/><s n ="sg"/><s n ="obj"/><s n ="pers"/></r></p></e>
+    </pardef>
+
+
     <!-- SECTION: Adverbs -->      
     <pardef n="गलत__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
@@ -1945,7 +1958,8 @@
 	<e lm="अरब"><i>अरब</i><par n="आठ__num"/></e>
 
     <!-- SECTION: Pronouns -->
-
+	
+	 <e lm="तुम लोग"><i>तुम लोग</i><par n="तुम_लोग__prn"/></e>
      <e lm="मैं"><i>म</i><par n="म/ैं__prn"/></e>
      <e lm="हम"><i>ह</i><par n="ह/म__prn"/></e>
      <e lm="तुम"><i>त</i><par n="त/ुम__prn"/></e>
@@ -1958,7 +1972,9 @@
      <e lm="सब"><i>सब</i><par n="सब__prn"/></e>
      <e lm="ख़ुद"><i>ख़ुद</i><par n="सब__prn"/></e>
      <e lm="खुद"><i>खुद</i><par n="सब__prn"/></e>	
-     <e lm="अपने आप"><i>अपने<b/>आप</i><par n="सब__prn"/></e>	
+     <e lm="अपने आप"><i>अपने<b/>आप</i><par n="सब__prn"/></e>
+	 <e lm="उसके"><i>उसके</i><par n="उसके__prn"/></e>
+
    <!-- Verbs -->
 	<e lm="ख़त्म हो"><i>ख़त्म<b/></i><par n="/होना__vblex_iv"/></e>
 	<e lm="ख़त्म कर"><i>ख़त्म<b/>क</i><par n="क/र__vblex_tv"/></e>
