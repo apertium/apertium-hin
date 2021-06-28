@@ -29,7 +29,7 @@
     <sdef n="acc"      c="accusative"/>
     <sdef n="ins"      c="instrumental"/>
     <sdef n="loc"      c="Locative"/> 
-    <sdef n="rel"     c="Relative"/>    
+    "<sdef n="rel"     c="Relative"/>"    
     <sdef n="dem"     c="Demonstrative"/>
     <sdef n="prox"     c="Proximate"/>
     <sdef n="dist"     c="Distant"/>          
@@ -1635,6 +1635,11 @@
 	  <e><p><l>तुमलोगों का</l><r>तुमलोगों का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     </pardef>
 
+	<pardef n="हमलोगो_का__prn">
+      <e><p><l>हमलोगो<b/>का</l><r>हमलोगो<b/>का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
+      <e><p><l>हमलोगो का</l><r>हमलोगो का<s n="prn"/><s n="p1"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
+    </pardef>
+
 	<pardef n="उन_लोगों_का__prn">
 	  <e><p><l>उन लोगों का</l><r>उन लोगों का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     </pardef>
@@ -2038,12 +2043,12 @@
 	 <e lm="खुद को"><i>खुद<b/>को</i><par n="खुद_को__prn"/></e>
 	 <e lm="उन लोगों का"><i>उन<b/>लोगों<b/>का</i><par n="उन_लोगों_का__prn"/></e>
 	 <e lm="तुमलोगों का"><i>तुमलोगों<b/>का</i><par n="तुमलोगों_का__prn"/></e>
-	 <e lm="तुमलोगों का"><i>तुमलोगों<b/>का</i><par n="तुमलोगों_का__prn"/></e>
 	 <e lm="हमलोगो का"><i>हमलोगो<b/>का</i><par n="हमलोगो_का__prn"/></e>
-	 <e lm="हमलोग"><i>हमलोग<b/>का</i><par n="हमलोग__prn"/></e>
+	 <e lm="हमलोग"><i>हमलोग</i><par n="हमलोग__prn"/></e>
 	 <e lm="हम लोगो को"><i>हम<b/>लोगो<b/>को</i><par n="हम_लोगो_को__prn"/></e>
 	 <e lm="मेरे को"><i>मेरे<b/>को</i><par n="मेरे_को__prn"/></e>
 	 <e lm="तुम लोग"><i>तुम<b/>लोग</i><par n="तुम_लोग__prn"/></e>
+	 
 	 <e lm="आप"><i>आप</i><par n="आप__prn"/></e>
      <e lm="मैं"><i>म</i><par n="म/ैं__prn"/></e>
      <e lm="हम"><i>ह</i><par n="ह/म__prn"/></e>
