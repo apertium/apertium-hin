@@ -1728,7 +1728,7 @@
       <e><p><l>वां</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
 	  <e><p><l>वीं</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
 	  <e><p><l>वें</l><r><s n="num"/><s n="ord"/><s n ="mf"/></r></p></e>
-       	  <e><p><l>ों</l><r><s n="num"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+<!--       	  <e><p><l>ों</l><r><s n="num"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e> -->
     </pardef>
     <pardef n="पहल/ा__ord">
       <e><p><l>ा</l><r>ा<s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
