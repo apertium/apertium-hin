@@ -42,7 +42,16 @@ SET FemPl = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
 
 SET GenNumAgree = MascSg OR MascPl OR FemSg OR FemPl ;
 
+SET MascSgNom = (m sg nom) OR (m sp nom) OR (mf sg nom) OR (mf sp nom) ;
+SET MascPlNom = (m pl nom) OR (m sp nom) OR (mf pl nom) OR (mf sp nom) ;
+SET FemSgNom = (f sg nom) OR (f sp nom) OR (mf sg nom) OR (mf sp nom) ;
+SET FemPlNom = (f pl nom) OR (f sp nom) OR (mf pl nom) OR (mf sp nom) ;
+SET MascSgObl = (m sg obl) OR (m sp obl) OR (mf sg obl) OR (mf sp obl) ;
+SET MascPlObl = (m pl obl) OR (m sp obl) OR (mf pl obl) OR (mf sp obl) ;
+SET FemSgObl = (f sg obl) OR (f sp obl) OR (mf sg obl) OR (mf sp obl) ;
+SET FemPlObl = (f pl obl) OR (f sp obl) OR (mf pl obl) OR (mf sp obl) ;
 
+SET GenNumCaseAgree = MascSgNom OR MascPlNom OR FemSgNom OR FemPlNom OR MascSgObl OR MascPlObl OR FemSgObl OR FemPlObl ;
 
 SECTION
 
@@ -148,7 +157,6 @@ select ObliqueNoun if
 	(3 Post);
 
 
-
 #Select female adjective if followed by female noun
 
 select FemaleAdjective	 if
@@ -179,6 +187,11 @@ select FemaleAdjective if
 
 select MaleAdjective if 
 	(-1 MaleNoun);
+
+
+# gender, number and case agreement between nouns and adjectives
+SELECT &&GenNumCaseAgree IF (0C Adj) (1C N) (0 Adj + &&GenNumCaseAgree) (1 N + &&GenNumCaseAgree) ; 
+SELECT &&GenNumCaseAgree IF (-1C Adj) (0C N) (-1 Adj + &&GenNumCaseAgree) (0 N + &&GenNumCaseAgree) ; 
 
 
 #Select nominative case if followed by a “to be” verb
