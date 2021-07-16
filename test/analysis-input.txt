@@ -1,0 +1,7 @@
+# from https://wiki.apertium.org/wiki/Hindi_and_English/Pending_tests
+आमिल की बेटी
+दो हमलों में
+घर में
+मैं पानी पीता हुं.
+तुम पानी पीते हो.
+मैं पानी पी रहा हुं.

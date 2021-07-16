@@ -1,0 +1,12 @@
+[1csPWKruWMg7#0] ^घर/घर<adv><W:0.000000>/घर<n><m><sg><nom><W:0.000000>/घर<n><m><sg><obl><W:0.000000>/घर<n><m><pl><nom><W:0.000000>$ ^में/में<post><W:0.000000>$
+[/1csPWKruWMg7]
+[S5KKUR_4A9Dx#0] ^मैं/मैं<prn><pers><p1><sg><nom><W:0.000000>$ ^पानी/पा<vblex><tv><inf><nom><f><W:0.000000>/पानी<n><m><sg><nom><W:0.000000>/पानी<n><m><sg><obl><W:0.000000>/पानी<n><m><pl><nom><W:0.000000>/पानी<n><m><pl><obl><W:0.000000>$ ^पीता/पी<vblex><tv><impf><m><sg><W:0.000000>$ ^हुं/*हुं$^./.<sent><W:0.000000>$
+[/S5KKUR_4A9Dx]
+[hXD24o0fKuPF#0] ^आमिल/आमिल<np><ant><m><sg><nom><W:0.000000>$ ^की/का<post><gen><f><sg><W:0.000000>/का<post><gen><f><pl><W:0.000000>/कर<vblex><tv><perf><f><sg><W:0.000000>/कर<vblex><tv><perf><f><pl><W:0.000000>$ ^बेटी/बेटी<n><f><sg><nom><W:0.000000>/बेटी<n><f><sg><obl><W:0.000000>$
+[/hXD24o0fKuPF]
+[id_fUXWpMEPY#0] ^मैं/मैं<prn><pers><p1><sg><nom><W:0.000000>$ ^पानी/पा<vblex><tv><inf><nom><f><W:0.000000>/पानी<n><m><sg><nom><W:0.000000>/पानी<n><m><sg><obl><W:0.000000>/पानी<n><m><pl><nom><W:0.000000>/पानी<n><m><pl><obl><W:0.000000>$ ^पी/पी<vblex><tv><stem><W:0.000000>/पी<vblex><tv><perf><f><sg><W:0.000000>/पी<vblex><tv><perf><f><pl><W:0.000000>$ ^रहा/रह<vaux><perf><m><sg><W:0.000000>$ ^हुं/*हुं$^./.<sent><W:0.000000>$
+[/id_fUXWpMEPY]
+[jT6SlvwmhD-y#0] ^दो/दो<num><W:0.000000>/दे<vblex><tv><prs><p2><sg><W:0.000000>/दे<vblex><tv><prs><p2><pl><W:0.000000>/दे<vblex><tv><imp><p2><sg><W:0.000000>/दे<vblex><tv><imp><p2><pl><W:0.000000>$ ^हमलों/हमला<n><m><pl><obl><W:0.000000>$ ^में/में<post><W:0.000000>$
+[/jT6SlvwmhD-y]
+[mTU96tIdeLDz#0] ^तुम/तुम<prn><pers><p2><mf><sg><nom><W:0.000000>/तुम<prn><pers><p2><mf><sg><obl><W:0.000000>/तुम<prn><pers><p2><mf><pl><nom><W:0.000000>/तुम<prn><pers><p2><mf><pl><obl><W:0.000000>$ ^पानी/पा<vblex><tv><inf><nom><f><W:0.000000>/पानी<n><m><sg><nom><W:0.000000>/पानी<n><m><sg><obl><W:0.000000>/पानी<n><m><pl><nom><W:0.000000>/पानी<n><m><pl><obl><W:0.000000>$ ^पीते/पी<vblex><tv><impf><m><pl><W:0.000000>$ ^हो/हो<adv><W:0.000000>/हो<vbser><imp><p2><sg><W:0.000000>/हो<vbser><imp><p2><pl><W:0.000000>/हो<vbser><pres><p2><mf><pl><W:0.000000>/होना<vblex><iv><prs><p2><pl><W:0.000000>/होना<vblex><iv><imp><p2><sg><W:0.000000>/होना<vblex><iv><imp><p2><pl><W:0.000000>$^./.<sent><W:0.000000>$
+[/mTU96tIdeLDz]
