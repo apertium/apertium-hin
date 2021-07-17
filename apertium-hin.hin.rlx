@@ -60,12 +60,16 @@ SELECT N IF
 	(0 N)
 	(1 Vblex);
 	
-SELECT Prn IF
-	(0 Prn or Det);
+REMOVE Prn IF
+	(0 Det)
+	(1 N);
 
-SELECT Post IF
+REMOVE Det IF
+	(0 Prn);
+
+REMOVE Conj IF
 	(-1 N)
-	(0 Post or Conj);
+	(0 Post);
 
 #Select adverb from an adverb/adjective choice if the following word is an adjective
 
