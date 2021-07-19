@@ -1729,21 +1729,23 @@
 
     <pardef n="आठ__num">
       <e><p><l></l><r><s n="num"/></r></p></e>
+<!--
       <e><p><l>वां</l><r><s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
 	  <e><p><l>वीं</l><r><s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
 	  <e><p><l>वें</l><r><s n="num"/><s n="ord"/><s n ="mf"/></r></p></e>
+-->
 <!--       	  <e><p><l>ों</l><r><s n="num"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e> -->
     </pardef>
 
 	<!--old ordinals-->
-
-    <!-- <pardef n="पहल/ा__adj">
+    <!--
+    <pardef n="पहल/ा__ord">
       <e><p><l>ा</l><r>ा<s n="num"/><s n="ord"/><s n ="m"/></r></p></e>
       <e><p><l>ी</l><r>ा<s n="num"/><s n="ord"/><s n ="f"/></r></p></e>
       <e><p><l>े</l><r>ा<s n="num"/><s n="ord"/><s n ="mf"/></r></p></e>
     </pardef>
 
-    <pardef n="प्रथम__adj">
+    <pardef n="एक__ord">
       <e><p><l></l><r><s n="num"/><s n="ord"/><s n="m"/></r></p></e>
       <e><p><l></l><r><s n="num"/><s n="ord"/><s n="f"/></r></p></e>
       <e><p><l></l><r><s n="num"/><s n="ord"/><s n="mf"/></r></p></e>
