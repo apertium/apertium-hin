@@ -29,7 +29,7 @@
     <sdef n="acc"      c="accusative"/>
     <sdef n="ins"      c="instrumental"/>
     <sdef n="loc"      c="Locative"/> 
-    "<sdef n="rel"     c="Relative"/>"    
+    <sdef n="rel"     c="Relative"/>
     <sdef n="dem"     c="Demonstrative"/>
     <sdef n="prox"     c="Proximate"/>
     <sdef n="dist"     c="Distant"/>          
