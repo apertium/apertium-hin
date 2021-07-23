@@ -1292,10 +1292,10 @@
       <e>       <p><l>होती</l><r>हो<s n="vbser"/><s n="impf"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>होकर</l><r>हो<s n="vbser"/><s n="gna"/></r></p></e>
       <e r="LR">       <p><l>होके</l><r>हो<s n="vbser"/><s n="gna"/></r></p></e>
-      <e>       <p><l>था</l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>थे</l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>थी</l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>थीं</l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e>       <p><l>था</l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>		<!-- VERIFY: nowhere else impf has a person tag -->
+      <e>       <p><l>थे</l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>		<!-- VERIFY: nowhere else impf has a person tag -->
+      <e>       <p><l>थी</l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>		<!-- VERIFY: nowhere else impf has a person tag -->
+      <e>       <p><l>थीं</l><r>हो<s n="vbser"/><s n="impf"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>		<!-- VERIFY: nowhere else impf has a person tag -->
 	</pardef>
 
     <pardef n="जा__vblex_iv">
