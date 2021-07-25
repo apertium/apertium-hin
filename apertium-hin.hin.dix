@@ -23,7 +23,8 @@
     <sdef n="vblex"   c="Verb"/>     
   	<sdef n="frm"	  c="formal"/>
   	<sdef n="fam"	  c="familiar"/>
-	<sdef n="pol"	  c="polite"/>  
+	<sdef n="pol"	  c="polite"/> 
+	<sdef n="ref"     c="Reflexive pronoun"/> 
 
     <sdef n="indef"   c="Indefinite" />
 
@@ -1393,10 +1394,8 @@
       <e><p><l></l><r><s n="det"/><s n="gen"/><s n="pl" /><s n="mf" /></r></p></e>
     </pardef>
 
-    <!-- dubious: maybe "det.dem..." -->
     <pardef n="यह__det">
-      <e><p><l></l><r><s n="det"/><s n="m"/><s n="sg"/><s n="nom"/><s n="dem"/></r></p></e>
-      <e><p><l></l><r><s n="det"/><s n="m"/><s n="sg"/><s n="obl"/><s n="itg"/><s n="dat"/><s n="dem"/></r></p></e> <!-- this is nonsensical -->
+      <e><p><l></l><r><s n="det"/><s n="dem"/></r></p></e>
     </pardef>
 
 
@@ -1667,12 +1666,8 @@
 	  <e><p><l>उन लोगों का</l><r>उन लोगों का<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     </pardef>
 
-	<pardef n="खुद_को__prn">
-	  <e><p><l>खुद को</l><r>खुद को<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
-    </pardef>
-
-	<pardef n="खुद_ही__prn">
-	  <e><p><l>खुद ही</l><r>खुद ही<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
+	<pardef n="खुदको__prn">
+	  <e><p><l>खुदको</l><r>खुदको<s n="prn"/><s n="p2"/><s n="gen"/><s n="pl"/><s n="pers"/></r></p></e>
     </pardef>
 
 	<pardef n="किस_को__prn">
@@ -1715,6 +1710,13 @@
 	  <e><p><l>कौनसा</l><r>कौनसा<s n="prn"/><s n="itg"/></r></p></e>
     </pardef> 
 
+	<pardef n="खुदको__prn">
+	  <e><p><l>खुदको</l><r>खुदको<s n="prn"/><s n="ref"/></r></p></e>
+    </pardef> 
+	
+	<pardef n="कई__prn">
+	  <e><p><l>कई</l><r>कई<s n="prn"/><s n="ref"/></r></p></e>
+    </pardef> 
 
 
 
@@ -1934,14 +1936,22 @@
     <e lm="कैस"><i>कैस</i><par n="ऐस__det"/></e>
     <e lm="ऐसा"><i>ऐस</i><par n="ऐस__det"/></e>
     <e lm="वैस"><i>वैस</i><par n="ऐस__det"/></e>
-    <e lm="अनेक"><i>अनेक</i><par n="कई__det"/></e>
-    <e lm="द"><i>द</i><par n="कई__det"/></e>
-    <e lm="दि"><i>दि</i><par n="कई__det"/></e>
-    <e lm="कई"><i>कई</i><par n="कई__det"/></e>
 	<e lm="हमारा"><i>हमारा</i><par n="हमारा__det"/></e>  
 
 <!--Itg-->
 	<e lm="क्या"><i>क्या</i><par n="सब__det"/></e>
+
+	<e lm="कौन सा"><i>कौन सा</i><par n="सब__det"/></e>
+	<e lm="कब"><i>कब</i><par n="सब__det"/></e>
+	<e lm="कैसे"><i>कैसे</i><par n="सब__det"/></e>
+	<e lm="क्यों"><i>क्यों</i><par n="सब__det"/></e>
+	<e lm="क्या करें"><i>क्या करें</i><par n="सब__det"/></e>
+	<e lm="किसके लिए"><i>किसके लिए</i><par n="सब__det"/></e>
+	<e lm="कब तक"><i>कब तक</i><par n="सब__det"/></e>
+	<e lm="कब"><i>कब</i><par n="सब__det"/></e>
+	<e lm="कौन"><i>कौन</i><par n="सब__det"/></e>
+	<e lm="कितने"><i>कितने</i><par n="सब__det"/></e>
+
 <!--Gen--> 
 	<e lm="मेरी"><i>मेरी</i><par n="हमारा__det"/></e>
 	<e lm="तुम लोगों का"><i>तुम लोगों का</i><par n="हमारा__det"/></e> 
@@ -1949,6 +1959,10 @@
 	<e lm="आईटी इस"><i>आईटी इस</i><par n="हमारा__det"/></e>
     <e lm="उन लोगों का"><i>उन लोगों का</i><par n="हमारा__det"/></e> 
 <!--Qty--> 
+	<e lm="अनेक"><i>अनेक</i><par n="कई__det"/></e>
+    <e lm="द"><i>द</i><par n="कई__det"/></e>
+    <e lm="दि"><i>दि</i><par n="कई__det"/></e>
+    <e lm="कई"><i>कई</i><par n="कई__det"/></e>
 	<e lm="बहुत सारे"><i>बहुत सारे</i><par n="कई__det"/></e> 
 	<e lm="कुछ"><i>कुछ</i><par n="कई__det"/></e> 
 	<e lm="कोई नहीं"><i>कोई नहीं</i><par n="कई__det"/></e>  
@@ -1960,12 +1974,14 @@
 	<e lm="बहुत सार"><i>बहुत सार</i><par n="कई__det"/></e>  
 	<e lm="बहुत कम"><i>बहुत कम</i><par n="कई__det"/></e> 
 	<e lm="बहुत"><i>बहुत</i><par n="कई__det"/></e>
+
 <!--Dem-->  
 	<e lm="यह है"><i>यह है</i><par n="यह__det"/></e>
 	<e lm="यह सब"><i>यह सब</i><par n="यह__det"/></e>  
 	<e lm="उन सब"><i>उन सब</i><par n="यह__det"/></e>  
 	<e lm="अगला"><i>अगला</i><par n="यह__det"/></e>  
 	<e lm="पिछला वाला"><i>पिछला वाला</i><par n="यह__det"/></e>
+	<e lm="यहाँ का"><i>यहाँ का</i><par n="यह__det"/></e>
 
    <!-- Conjunctions -->  
 
@@ -2380,6 +2396,7 @@
 
     <!-- SECTION: Pronouns -->  
 
+	<e lm="कई"><i>कई</i><par n="कई__prn"/></e>
 	 <e lm="कौनसा"><i>कौनसा</i><par n="कौनसा__prn"/></e>
 	 <e lm="आप लोग"><i>आप लोग</i><par n="आप__prn"/></e>
 	 <e lm="आप लोगो को"><i>आप लोगो को</i><par n="आप__prn"/></e>
@@ -2398,8 +2415,9 @@
 	 <e lm="कुछ एक"><i>कुछ<b/>एक</i><par n="कुछ_एक__prn"/></e>
 	 <e lm="किस को"><i>किस<b/>को</i><par n="किस_को__prn"/></e>
 	 <e lm="कहा पे"><i>कहा<b/>पे</i><par n="कहा_पे__prn"/></e>
-	 <e lm="खुद ही"><i>खुद<b/>ही</i><par n="खुद_ही__prn"/></e>
-	 <e lm="खुद को"><i>खुद<b/>को</i><par n="खुद_को__prn"/></e>
+	 <e lm="खुदही"><i>खुदही</i><par n="खुदको__prn"/></e>
+	 <e lm="खुदको"><i>खुदको</i><par n="खुदको__prn"/></e>
+	 <e lm="उन्हें"><i>उन्हें</i><par n="खुदको__prn"/></e>
 	 <e lm="उन लोगों का"><i>उन<b/>लोगों<b/>का</i><par n="उन_लोगों_का__prn"/></e>
 	 <e lm="तुमलोगों का"><i>तुमलोगों<b/>का</i><par n="तुमलोगों_का__prn"/></e>
 	 <e lm="हमलोगो का"><i>हमलोगो<b/>का</i><par n="हमलोगो_का__prn"/></e>
@@ -2422,7 +2440,6 @@
      <e lm="अपने आप"><i>अपने<b/>आप</i><par n="सब__prn"/></e>
 	 <e lm="उसके"><i>उसके</i><par n="उसके__prn"/></e>   
 	 <e lm="अप"><i>अप</i><par n="der__prn"/></e> 
-	 	
 
    <!-- Verbs -->
 	<e lm="ख़त्म हो"><i>ख़त्म<b/></i><par n="/होना__vblex_iv"/></e>
@@ -2653,6 +2670,8 @@
 	<e lm="खेल"><i>खेल</i><par n="बोल__vblex_tv"/></e>
 	<e lm="देख"><i>देख</i><par n="बोल__vblex_tv"/></e>
     <e lm="सुन"><i>सुन</i><par n="बोल__vblex_tv"/></e>
+	<e lm="खाना"><i>खाना</i><par n="बोल__vblex_tv"/></e>
+	<e lm="पीना"><i>पीना</i><par n="बोल__vblex_tv"/></e>
     <e lm="जान"><i>जान</i><par n="बोल__vblex_tv"/></e>
     <e lm="सोच"><i>सोच</i><par n="बोल__vblex_tv"/></e>
     <e lm="गिन"><i>गिन</i><par n="बोल__vblex_tv"/></e>
@@ -2681,7 +2700,9 @@
     <e lm="हंस"><i>हंस</i><par n="चल__vblex_iv"/></e>
 	<e lm="छुप"><i>छुप</i><par n="चल__vblex_iv"/></e>		
 	<e lm="चल"><i>चल</i><par n="चल__vblex_iv"/></e>	
-	<e lm="होना"><i></i><par n="/होना__vblex_iv"/></e>
+	<e lm="कोशिश"><i>कोशिश</i><par n="चल__vblex_iv"/></e>	
+	<e lm="होना"><i></i><par n="/होना__vblex_iv"/></e> 
+	<e lm="हुक्म देना"><i>हुक्म देना</i><par n="चल__vblex_iv"/></e>
 	<e lm="कर रह"><i>कर<b/>रह</i><par n="रह__vaux_iv"/></e>	
 	<e lm="रह"><i>रह</i><par n="रह__vaux_iv"/></e>
 	<e lm="जा रह"><i>जा<b/>रह</i><par n="रह__vaux_iv"/></e>
@@ -2861,7 +2882,7 @@
 	<e lm="हथिया"><i>हथिया</i><par n="बता__vblex_tv"/></e>
 	<e lm="हांक"><i>हांक</i><par n="बोल__vblex_tv"/></e>
 	<e lm="हिला"><i>हिला</i><par n="बता__vblex_tv"/></e>
-			
+	<e lm="उठो"><i>उठो</i><par n="चल__vblex_iv"/></e>		
     <e lm="हो"><i></i><par n="/हो__vbser"/></e>
 	<e lm="मान"><i>मान</i><par n="बोल__vblex_tv"/></e>
 	<e lm="उठ"><i>उठ</i><par n="बोल__vblex_tv"/></e>
@@ -3299,7 +3320,7 @@
 	<e lm="उजेड़"><i>उजेड़</i><par n="चल__vblex_iv"/></e>
 	<e lm="कौध"><i>कौध</i><par n="चल__vblex_iv"/></e>
   <e lm="पसंद"><i>पसंद</i><par n="बोल__vblex_tv"/></e>
-  <e lm="पसंद हो"><i>पसंद<b/>हो</i><par n="/हो__vbser"/></e>
+  <e lm="पसंद हो"><i>पसंद<b/></i><par n="/हो__vbser"/></e>
 	<e lm="बत्"><i>बत्</i><par n="बोल__vblex_tv"/></e>
 	<e lm="बतल्"><i>बतल्</i><par n="बोल__vblex_tv"/></e>
 	<e lm="कह्"><i>कह्</i><par n="बोल__vblex_tv"/></e>
@@ -3343,11 +3364,18 @@
 	<e lm="टा़ग"><i>टा़ग</i><par n="बोल__vblex_tv"/></e>
 	<e lm="ढलक"><i>ढलक</i><par n="बोल__vblex_tv"/></e>
 	<e lm="सरक्"><i>सरक्</i><par n="बोल__vblex_tv"/></e>
-	<e lm="सूँघ"><i>सूँघ</i><par n="बोल__vblex_tv"/></e>
+	<e lm="सूँघ"><i>सूँघ</i><par n="बोल__vblex_tv"/></e> 
+	<e lm="चालना"><i>चालना</i><par n="बोल__vblex_tv"/></e>  
 	<e lm="महक"><i>महक</i><par n="बोल__vblex_tv"/></e>
 	<e lm="भाफ"><i>भाफ</i><par n="बोल__vblex_tv"/></e>
 	<e lm="रेंग्"><i>रेंग्</i><par n="बोल__vblex_tv"/></e>
-	<e lm="भिग"><i>भिग</i><par n="चल__vblex_iv"/></e>
+	<e lm="भिग"><i>भिग</i><par n="चल__vblex_iv"/></e>  
+	<e lm="पसंद करना"><i>पसंद करना</i><par n="चल__vblex_iv"/></e>  
+	<e lm="महसूस करना"><i>महसूस करना</i><par n="चल__vblex_iv"/></e>
+	<e lm="कपड़ा पहनना"><i>कपड़ा पहनना</i><par n="चल__vblex_iv"/></e>
+	<e lm="अटके रहेना"><i>अटके रहेना</i><par n="चल__vblex_iv"/></e> 
+	<e lm="खुदाई करना"><i>खुदाई करना</i><par n="चल__vblex_iv"/></e>
+	<e lm="लगे रहना"><i>लगे रहना</i><par n="चल__vblex_iv"/></e>
 	<e lm="सिसक"><i>सिसक</i><par n="बोल__vblex_tv"/></e>
 	<e lm="ज्ँआच"><i>ज्ँआच</i><par n="बोल__vblex_tv"/></e>
 	<e lm="आँअक"><i>आँअक</i><par n="बोल__vblex_tv"/></e>
@@ -3362,6 +3390,7 @@
 	<e lm="बंध"><i>बंध</i><par n="बोल__vblex_tv"/></e>
 	<e lm="जूझ"><i>जूझ</i><par n="बोल__vblex_tv"/></e>
 	<e lm="प्रविभाजित"><i>प्रविभाजित</i><par n="बोल__vblex_tv"/></e>
+	<e lm="आना"><i>आन</i><par n="आ__vblex_iv"/></e>  
 	<e lm="जँच"><i>जँच</i><par n="बोल__vblex_tv"/></e>
 	<e lm="बुहार"><i>बुहार</i><par n="बोल__vblex_tv"/></e>
 	<e lm="सूज"><i>सूज</i><par n="बोल__vblex_tv"/></e>
@@ -4460,6 +4489,7 @@
 	<e lm="खाका बना"><i>खाका<b/>बना</i><par n="बता__vblex_tv"/></e>
 	<e lm="चुनौति दे"><i>चुनौति<b/>द</i><par n="द/े__vblex_tv"/></e>
 	<e lm="आपत्ति उठा"><i>आपत्ति<b/>उठा</i><par n="बता__vblex_tv"/></e>
+	<e lm="उठाना"><i>उठाना</i><par n="बता__vblex_tv"/></e>
 	<e lm="मौक़ा मिल"><i>मौक़ा<b/>मिल</i><par n="बोल__vblex_tv"/></e>
 	<e lm="जोखिम उठा"><i>जोखिम<b/>उठा</i><par n="बता__vblex_tv"/></e>
 	<e lm="खतरा उठा"><i>खतरा<b/>उठा</i><par n="बता__vblex_tv"/></e>
@@ -4620,9 +4650,11 @@
 	<e lm="घुल-मिल जा"><i>घुल-मिल<b/>जा</i><par n="आ__vblex_iv"/></e>
 	<e lm="खट-खट कर"><i>खट-खट<b/>क</i><par n="क/र__vblex_tv"/></e>
 	<e lm="ऊपर चढ"><i>ऊपर<b/>चढ</i><par n="चल__vblex_iv"/></e>
+	<e lm="तोड़ देना"><i>तोड़<b/>देना</i><par n="चल__vblex_iv"/></e>
 	<e lm="ऊपर जा"><i>ऊपर<b/>जा</i><par n="आ__vblex_iv"/></e>
 	<e lm="चढ जा"><i>चढ<b/>जा</i><par n="आ__vblex_iv"/></e>
 	<e lm="उपर चढ"><i>उपर<b/>चढ</i><par n="चल__vblex_iv"/></e>
+	<e lm="चोट पहुंचाना"><i>चोट<b/>पहुंचाना</i><par n="चल__vblex_iv"/></e>
 	<e lm="आरोहन कर"><i>आरोहन<b/>क</i><par n="क/र__vblex_tv"/></e>
 	<e lm="उँचा हो"><i>उँचा<b/></i><par n="/होना__vblex_iv"/></e>
 	<e lm="पर्वतारोहण कर"><i>पर्वतारोहण<b/>क</i><par n="क/र__vblex_tv"/></e>
@@ -4630,9 +4662,16 @@
 	<e lm="लिपट जा"><i>लिपट<b/>जा</i><par n="बता__vblex_tv"/></e>
 	<e lm="जकड़ा हो"><i>जकड़ा<b/></i><par n="/होना__vblex_iv"/></e>
 	<e lm="बाल कतर"><i>बाल<b/>कतर</i><par n="बोल__vblex_tv"/></e>
-	<e lm="किलप लगा"><i>किलप<b/>लगा</i><par n="बता__vblex_tv"/></e>
+	<e lm="किलप लगा"><i>किलप<b/>लगा</i><par n="बता__vblex_tv"/></e> 
+	<e lm="शुरू करना"><i>शुरू<b/>करना</i><par n="बता__vblex_tv"/></e>
+	<e lm="प्रवाहित होना"><i>प्रवाहित<b/>होना</i><par n="बता__vblex_tv"/></e>
+	<e lm="खरीदना"><i>खरीदना</i><par n="बता__vblex_tv"/></e> 
+	<e lm="झुकना"><i>झुकना</i><par n="बता__vblex_tv"/></e>
+	<e lm="जलाना"><i>जलाना</i><par n="बता__vblex_tv"/></e> 
+	<e lm="कटना"><i>कटना</i><par n="बता__vblex_tv"/></e> 
 	<e lm="समय मिला"><i>समय<b/>मिला</i><par n="बता__vblex_tv"/></e>
-	<e lm="अवरुद्ध हो"><i>अवरुद्ध<b/></i><par n="/होना__vblex_iv"/></e>
+	<e lm="अवरुद्ध हो"><i>अवरुद्ध<b/></i><par n="/होना__vblex_iv"/></e>  
+	<e lm="जन्म दिया"><i>जन्म दिया<b/></i><par n="चल__vblex_iv"/></e> 
 	<e lm="अवरुद्ध कर"><i>अवरुद्ध<b/>क</i><par n="क/र__vblex_tv"/></e>
 	<e lm="प्रतिरूपण कर"><i>प्रतिरूपण<b/>क</i><par n="क/र__vblex_tv"/></e>
 	<e lm="पूर्ण कर"><i>पूर्ण<b/>क</i><par n="क/र__vblex_tv"/></e>
@@ -5834,13 +5873,24 @@
 	<e lm="बलपूऋवक तोड़"><i>बलपूऋवक<b/>तोड़</i><par n="बोल__vblex_tv"/></e>
 	<e lm="जब्रदस्ती निकाल"><i>जब्रदस्ती<b/>निकाल</i><par n="बोल__vblex_tv"/></e>
 	<e lm="जबर्दसी निकाल"><i>जबर्दसी<b/>निकाल</i><par n="बोल__vblex_tv"/></e>
-	<e lm="बलपूर्वक खोल"><i>बलपूर्वक<b/>खोल</i><par n="बोल__vblex_tv"/></e>
+	<e lm="बलपूर्वक खोल"><i>बलपूर्वक<b/>खोल</i><par n="बोल__vblex_tv"/></e> 
+	<e lm="बोलना"><i>बोलना</i><par n="बोल__vblex_tv"/></e> 
+	<e lm="लड़ना"><i>लड़ना</i><par n="बोल__vblex_tv"/></e>  
+	<e lm="बजाना"><i>बजाना</i><par n="बोल__vblex_tv"/></e> 
 	<e lm="पूर्वानुमान कर"><i>पूर्वानुमान<b/>क</i><par n="क/र__vblex_tv"/></e>
-	<e lm="वृक्ष लगा"><i>वृक्ष<b/>लगा</i><par n="आ__vblex_iv"/></e>
+	<e lm="वृक्ष लगा"><i>वृक्ष<b/>लगा</i><par n="आ__vblex_iv"/></e>  
+	<e lm="झूठ बोलना"><i>झूठ<b/>बोलना</i><par n="आ__vblex_iv"/></e>
+	<e lm="जिक्र करना"><i>जिक्र<b/>करना</i><par n="आ__vblex_iv"/></e> 
+	<e lm="युद्ध लड़ना"><i>युद्ध<b/>लड़ना</i><par n="आ__vblex_iv"/></e>
 	<e lm="जंगल लगा"><i>जंगल<b/>लगा</i><par n="बता__vblex_tv"/></e>
 	<e lm="भूल जा"><i>भूल<b/>जा</i><par n="बता__vblex_tv"/></e>
 	<e lm="विस्मरण कर"><i>विस्मरण<b/>क</i><par n="क/र__vblex_tv"/></e>
-	<e lm="भूल जाना"><i>भूल<b/>जा</i><par n="बता__vblex_tv"/></e>
+	<e lm="भूल जाना"><i>भूल<b/>जा</i><par n="बता__vblex_tv"/></e> 
+	<e lm="सुनना"><i>सुनना</i><par n="बता__vblex_tv"/></e> 
+	<e lm="चले जाना"><i>चले जाना</i><par n="बता__vblex_tv"/></e>  
+	<e lm="लटकना"><i>लटकना</i><par n="बता__vblex_tv"/></e>
+	<e lm="जन्म लेना"><i>जन्म लेना</i><par n="बता__vblex_tv"/></e>  
+	<e lm="मिल रहा"><i>मिल रहा</i><par n="बता__vblex_tv"/></e>
 	<e lm="नकली बना"><i>नकली<b/>बना</i><par n="बता__vblex_tv"/></e>
 	<e lm="शाखायुक्त हो"><i>शाखायुक्त<b/></i><par n="/होना__vblex_iv"/></e>
 	<e lm="परिवृतित हो"><i>परिवृतित<b/></i><par n="/होना__vblex_iv"/></e>
@@ -6172,6 +6222,9 @@
 	<e lm="बलपूर्वक कर्वा"><i>बलपूर्वक<b/>कर्वा</i><par n="बता__vblex_tv"/></e>
 	<e lm="जलयोजित कर"><i>जलयोजित<b/>क</i><par n="क/र__vblex_tv"/></e>
 	<e lm="समान समझ"><i>समान<b/>समझ</i><par n="बोल__vblex_tv"/></e>
+	<e lm="बनाना"><i>बनाना</i><par n="बोल__vblex_tv"/></e>
+	<e lm="देखना"><i>देखना</i><par n="बोल__vblex_tv"/></e>  
+	<e lm="पकड़ना"><i>पकड़ना</i><par n="बोल__vblex_tv"/></e>
 	<e lm="शिनाख्त कर"><i>शिनाख्त<b/>क</i><par n="क/र__vblex_tv"/></e>
 	<e lm="खाली चल"><i>खाली<b/>चल</i><par n="चल__vblex_iv"/></e>
 	<e lm="आलस्य कर"><i>आलस्य<b/>क</i><par n="क/र__vblex_tv"/></e>
@@ -22971,7 +23024,6 @@
     <e lm="दीपावली"><i>दीपावली</i><par n="ऐ__n_f"/></e>
     <e lm="आत्मघात"><i>आत्मघात</i><par n="ऐ__n_m"/></e>
     <e lm="शारिका"><i>शारिका</i><par n="बला__n_f"/></e>
-    <e lm="आना"><i>आन</i><par n="आ__vblex_iv"/></e>
     <e lm="वामपंथी"><i>वामपंथ</i><par n="हठ/ी__n_m"/></e>
     <e lm="व्यवसायी"><i>व्यवसाय</i><par n="हठ/ी__n_m"/></e>
     <e lm="उपवेशन"><i>उपवेशन</i><par n="ऐ__n_m"/></e>
@@ -33478,7 +33530,18 @@
 	<e lm="ऐसा"><i>ऐसा</i><par n="कोई__det"/></e>
 	<e lm="जो"><i>जो</i><par n="कोई__det"/></e>
 	<e lm="कितना"><i>कितना</i><par n="कोई__det"/></e>
-	<e lm="कुछ"><i>कुछ</i><par n="कोई__det"/></e>
+	<e lm="कुछ"><i>कुछ</i><par n="कोई__det"/></e>  
+	<e lm="कुछ भी"><i>कुछ भी</i><par n="कोई__det"/></e>
+	<e lm="हर कोई"><i>हर कोई</i><par n="कोई__det"/></e>  
+	<e lm="और एक"><i>और एक</i><par n="दूसरी__det"/></e> 
+	<e lm="और"><i>और</i><par n="दूसरी__det"/></e> 
+	<e lm="कोई"><i>कोई</i><par n="कोई__det"/></e>  
+	<e lm="व्यक्ति"><i>व्यक्ति</i><par n="कोई__det"/></e>    
+	<e lm="दोनों"><i>दोनों</i><par n="दोनों__det"/></e>  
+	<e lm="हर एक"><i>हर एक</i><par n="कोई__det"/></e>  
+	<e lm="जो सब"><i>जो सब</i><par n="कोई__det"/></e>  
+	<e lm="एक"><i>एक</i><par n="कई__det"/></e>  
+	<e lm="अगला"><i>अगला</i><par n="दूसरी__det"/></e> 
 
 	<!--New words-->    
 	<e lm="वन्यजीव"><i>वन्यजीव</i><par n="मौलाना__n_m"/></e>
