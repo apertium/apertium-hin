@@ -22,18 +22,26 @@ LIST Det = det ;
 LIST Conj = cnjcoo;
 LIST ConjAdv = cnjadv;
 LIST Prn = prn;
+LIST Masc = m mf ; 
+LIST Fem = f mf ; 
+LIST Sg = sg sp ; 
+LIST Pl = pl sp ; 
 LIST MaleAdjective = (adj m);
 LIST FemaleAdjective = (adj f);
 LIST MaleNoun = (n m);
 LIST FemaleNoun = (n f);
 LIST NominativeNoun = (n nom);
 LIST ObliqueNoun = (n obl);
+LIST Impf = impf ; 
 LIST Perf = perf ; 
+LIST Pres = pres ; 
 
 LIST P1 = p1 ;
 LIST P2 = p2 ;
 LIST P3 = p3 ;
 LIST Pers = p1 p2 p3 ;
+
+SET NumAgree = Sg OR Pl ;
 
 SET MascSg = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
 SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
@@ -122,6 +130,9 @@ SELECT Adv IF
 	(1 Vblex);
 
 
+SELECT Impf + &&GenNumAgree IF
+	(0 Impf + &&GenNumAgree)
+	(1 Vbser + Pres + &&GenNumAgree);
 
 SELECT Stem IF
 	(0 Stem)
@@ -150,8 +161,6 @@ SELECT Det IF
 
 select ObliqueNoun if 
 	(1 Post);
-
-
 
 #Select oblique case if followed by conjunction, another noun and a postposition”
 
@@ -198,9 +207,9 @@ SELECT &&GenNumCaseAgree IF (0C Adj) (1C N) (0 Adj + &&GenNumCaseAgree) (1 N + &
 SELECT &&GenNumCaseAgree IF (-1C Adj) (0C N) (-1 Adj + &&GenNumCaseAgree) (0 N + &&GenNumCaseAgree) ; 
 
 
-#Select nominative case if followed by a “to be” verb
+#Remove oblique case if followed by a “to be” verb
 
-select NominativeNoun if
+remove Obl if
 	(1 Vbser);
 
 
@@ -218,38 +227,22 @@ select (adj pl) if
 select (Adj sg) if
 	(-1 (N sg));
 
-# The next 4 rules decide the plurality of verbs/auxillary verbs by checking whether the "to be" form or है is plural or not
+# The next 2 rules decide the plurality of verbs/auxillary verbs by checking whether the "to be" form or है is plural or not
 
-#13 
-select (Vaux pl) if
-	(1 (Vbser pl));
-
-
-#14 
-select (Vaux sg) if
-	(1 (Vbser sg));
+select Vaux + &&NumAgree if
+	(1 Vbser + &&NumAgree);
 
 
-#15 
-select (Vblex pl) if
-	(1 (Vbser pl));
-
-
-#16
-select (Vblex sg) if
-	(1 (Vbser sg));
+select Vblex + &&NumAgree if
+	(1 Vbser + &&NumAgree);
 
 
 
-#The next two rules decide plurality of adjectives by checking whether the "to be" form or है is plural or not
+#The next rule decide plurality of adjectives by checking whether the "to be" form or है is plural or not
 
-#17 
-select (Adj pl) if
-	(1 (Vbser pl));
-
-#18
-select (Adj sg) if
-	(1 (Vbser sg));
+select Adj + &&NumAgree if
+	(0C Adj)
+	(1 Vbser + &&NumAgree);
 
 
 #
