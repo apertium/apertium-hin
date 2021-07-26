@@ -1398,6 +1398,37 @@
       <e><p><l></l><r><s n="det"/><s n="dem"/></r></p></e>
     </pardef>
 
+	<pardef n="हमार/ा__det">
+	  <e><p><l>ा</l><r>ा<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+	  <e><p><l>ी</l><r>ा<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	  <e><p><l>े</l><r>ा<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+	  <e><p><l>ी</l><r>ा<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+	  <e><p><l>े</l><r>ा<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+
+	<pardef n="बहुत/_सारा__det">
+          <e><p><l><b/>सारा</l><r><b/>सारा<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+          <e><p><l><b/>सारा</l><r><b/>सारा<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	  	  <e><p><l>े<b/>सारे</l><r><b/>सारा<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+          <e><p><l>े<b/>सारे</l><r><b/>सारा<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+          <e><p><l><b/>सारा</l><r><b/>सारा<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef> 
+
+	<pardef n="तुम_लोग/_का__det">
+          <e><p><l><b/>का</l><r><b/>का<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+          <e><p><l><b/>का</l><r><b/>का<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	      <e><p><l>ो<b/>का</l><r><b/>का<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+          <e><p><l>ो<b/>का</l><r><b/>का<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+          <e><p><l><b/>का</l><r><b/>का<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+	
+	<pardef n="थोड़/_सा__det">
+          <e><p><l>ा<b/>सा</l><r><b/>सा<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+          <e><p><l>ा<b/>सा</l><r><b/>सा<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	      <e><p><l>े<b/>से</l><r><b/>सा<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+          <e><p><l>े<b/>से</l><r><b/>सा<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+          <e><p><l>ा<b/>सा</l><r><b/>सा<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>	  
 
     <!-- SECTION: Pronouns -->
 
@@ -1963,7 +1994,7 @@
     <e lm="द"><i>द</i><par n="कई__det"/></e>
     <e lm="दि"><i>दि</i><par n="कई__det"/></e>
     <e lm="कई"><i>कई</i><par n="कई__det"/></e>
-	<e lm="बहुत सारे"><i>बहुत सारे</i><par n="कई__det"/></e> 
+	<!-- <e lm="बहुत सारे"><i>बहुत सारे</i><par n="कई__det"/></e>  -->
 	<e lm="कुछ"><i>कुछ</i><par n="कई__det"/></e> 
 	<e lm="कोई नहीं"><i>कोई नहीं</i><par n="कई__det"/></e>  
 	<e lm="कोई भी"><i>कोई भी</i><par n="कई__det"/></e>  
@@ -1971,7 +2002,7 @@
 	<e lm="विभिन्न"><i>विभिन्न</i><par n="कई__det"/></e>
 	<e lm="विभिन्न"><i>विभिन्न</i><par n="कई__det"/></e>  
 	<e lm="थोड़ा सा"><i>थोड़ा सा</i><par n="कई__det"/></e>  
-	<e lm="बहुत सार"><i>बहुत सार</i><par n="कई__det"/></e>  
+	<!-- <e lm="बहुत सार"><i>बहुत सार</i><par n="कई__det"/></e>   -->
 	<e lm="बहुत कम"><i>बहुत कम</i><par n="कई__det"/></e> 
 	<e lm="बहुत"><i>बहुत</i><par n="कई__det"/></e>
 
@@ -1982,6 +2013,22 @@
 	<e lm="अगला"><i>अगला</i><par n="यह__det"/></e>  
 	<e lm="पिछला वाला"><i>पिछला वाला</i><par n="यह__det"/></e>
 	<e lm="यहाँ का"><i>यहाँ का</i><par n="यह__det"/></e>
+
+<!--New determiners-->
+	<e lm="हमारा"><i>हमार</i><par n="हमार/ा__det"/></e>
+	<e lm="मेरा"><i>मेर</i><par n="हमार/ा__det"/></e>
+	<e lm="तेरा"><i>तेर</i><par n="हमार/ा__det"/></e>
+	<e lm="तुम्हारा"><i>तुम्हार</i><par n="हमार/ा__det"/></e>
+	<e lm="आपका"><i>आपक</i><par n="हमार/ा__det"/></e>
+	<e lm="इसका"><i>इसक</i><par n="हमार/ा__det"/></e>
+	<e lm="उसका"><i>उसक</i><par n="हमार/ा__det"/></e>
+	<e lm="इनका"><i>इनक</i><par n="हमार/ा__det"/></e>
+	<e lm="उनका"><i>उनक</i><par n="हमार/ा__det"/></e>
+
+	<e lm="बहुत सारा"><i>बहुत</i><par n="बहुत/_सारा__det"/></e> 
+	<e lm="तुम लोग का"><i>तुम<b/>लोग</i><par n="तुम_लोग/_का__det"/></e>
+	<e lm="थोड़ सा"><i>थोड़</i><par n="थोड़/_सा__det"/></e>
+
 
    <!-- Conjunctions -->  
 
