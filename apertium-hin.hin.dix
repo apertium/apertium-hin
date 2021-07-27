@@ -1430,6 +1430,38 @@
           <e><p><l>ा<b/>सा</l><r><b/>सा<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
 	</pardef>	  
 
+	<pardef n="य/_है__det">
+        <e><p><l>ह<b/>है</l><r><b/>है<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>ह<b/>है</l><r><b/>है<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	  	<e><p><l>े<b/>है</l><r><b/>है<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>े<b/>है</l><r><b/>है<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>ह<b/>है</l><r><b/>है<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+
+	<pardef n="य/_सब__det">
+        <e><p><l>ह<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>ह<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	  	<e><p><l>े<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>े<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>ह<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>	
+
+	<pardef n="पिछल/_वाला__det">
+        <e><p><l>ा<b/>वाला</l><r><b/>वाला<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>ा<b/>वाला</l><r><b/>वाला<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	    <e><p><l>े<b/>वाले</l><r><b/>वाला<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>े<b/>वाले</l><r><b/>वाला<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>ा<b/>वाला</l><r><b/>वाला<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+
+	<pardef n="उ/_सब__det">
+        <e><p><l>स<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>स<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	    <e><p><l>न<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>न<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>स<b/>सब</l><r><b/>सब<s n="det"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>	
+
     <!-- SECTION: Pronouns -->
 
     <pardef n="म/ैं__prn">
@@ -2025,8 +2057,11 @@
 
 	<e lm="बहुत सारा"><i>बहुत</i><par n="बहुत/_सारा__det"/></e> 
 	<e lm="तुम लोग का"><i>तुम<b/>लोग</i><par n="तुम_लोग/_का__det"/></e>
-	<e lm="थोड़ सा"><i>थोड़</i><par n="थोड़/_सा__det"/></e>
-
+	<e lm="थोड़ सा"><i>थोड़</i><par n="थोड़/_सा__det"/></e> 
+	<e lm="य है"><i>य</i><par n="य/_है__det"/></e>  
+	<e lm="य सब"><i>य</i><par n="य/_सब__det"/></e>
+	<e lm="उ सब"><i>उ</i><par n="उ/_सब__det"/></e>
+	<e lm="पिछल वाला"><i>पिछल</i><par n="पिछल/_वाला__det"/></e>
 
    <!-- Conjunctions -->  
 
