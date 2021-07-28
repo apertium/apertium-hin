@@ -51,7 +51,7 @@
     <sdef n="vaux"    c=""/>     
     <sdef n="sg"      c="Singular"/>     
     <sdef n="pl"      c="Plural"/>     
-    <sdef n="sp"      c=""/>        
+    <sdef n="sp"      c="Singular / plural"/>        
     <sdef n="nom"     c="Nominative"/>     
     <sdef n="obl"     c="Oblique"/>        
     <sdef n="pos"     c="Possessive"/> 
@@ -1359,13 +1359,16 @@
 
 	</pardef>
 
-    <!-- SECTION: Determiners -->       
+    <!-- SECTION: Determiners --> 
+
     <pardef n="ऐस__det">   
       <e>       <p><l>ा</l><r><s n="det"/><s n="ind"/><s n="sg"/><s n="m"/></r></p></e>
       <e>       <p><l>ी</l><r><s n="det"/><s n="ind"/><s n="sg"/><s n="f"/></r></p></e>
       <e>       <p><l>ी</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="f"/></r></p></e>
       <e>       <p><l>े</l><r><s n="det"/><s n="ind"/><s n="pl"/><s n="m"/></r></p></e>
     </pardef>
+
+	
     <pardef n="दोनों__det">
       <e><p><l></l><r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
     </pardef>
@@ -1398,6 +1401,7 @@
       <e><p><l></l><r><s n="det"/><s n="dem"/></r></p></e>
     </pardef>
 
+	<!--new paradigms-->
 	<pardef n="हमार/ा__det">
 	  <e><p><l>ा</l><r>ा<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 	  <e><p><l>ी</l><r>ा<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1638,34 +1642,38 @@
  	 <e><p><l>जिनमें</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>	
 	<e><p><l>जिनमे</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>	
      </pardef>
- 
 
-     <pardef n="/क्या__prn">       
-          <e><p><l>क्या</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="aa"/><s n="nom"/></r></p></e>
-          <e><p><l>क्या</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="aa"/><s n="nom"/></r></p></e>
-          <e><p><l>क्या</l><r>क्या<s n="prn"/><s n="itg"/><s n="sp"/><s n="aa"/><s n="nom"/></r></p></e>
-          <e><p><l>कौन</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="nn"/><s n="nom"/></r></p></e>
-          <e><p><l>कौन</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="nn"/><s n="nom"/></r></p></e>
- 	 <e><p><l>किस</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="obl"/></r></p></e>
- 	 <e><p><l>किन</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="obl"/></r></p></e>
- 	 <e><p><l>किससे</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="ins"/></r></p></e>
- 	 <e><p><l>किनसे</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="ins"/></r></p></e>
- 	 <e><p><l>किसे</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>किसको</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>किने</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
- 	 <e><p><l>किन्हें</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>किनको</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="dat"/></r></p></e>
- 	 <e><p><l>किसकी</l><r>क्या<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
- 	 <e><p><l>किसके</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
- 	 <e><p><l>किसका</l><r>क्या<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
- 	 <e><p><l>किनकी</l><r>क्या<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
- 	 <e><p><l>किनके</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
- 	 <e><p><l>किनका</l><r>क्या<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
- 	 <e><p><l>किसने</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="erg"/></r></p></e>
- 	 <e><p><l>किन्होंने</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="erg"/></r></p></e>
- 	 <e><p><l>किसमें</l><r>क्या<s n="prn"/><s n="itg"/><s n="sg"/><s n="loc"/></r></p></e>
- 	 <e><p><l>किनमें</l><r>क्या<s n="prn"/><s n="itg"/><s n="pl"/><s n="loc"/></r></p></e>	
-    </pardef>
+	<pardef n="/कौन__prn">       
+		<e><p><l>कौन</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><s n="nom"/></r></p></e>
+        <e><p><l>कौन</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+        <e><p><l>किन</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+        <e><p><l>कौन</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+        <e><p><l>किनसे</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+        <e r="LR"><p><l>किने</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+ 	    <e><p><l>किन्हें</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><s n="dat"/></r></p></e>
+ 	    <e r="LR"><p><l>किनको</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+        <e><p><l>कौन</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
+        <e><p><l>किनका</l><r>कौन<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+        <e><p><l>किनकी</l><r>कौन<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+ 	    <e><p><l>किनके</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
+        <e><p><l>किनसे</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>
+        <e><p><l>किन्होंने</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+        <e><p><l>कौन</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+        <e><p><l>किनमें</l><r>कौन<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>		
+    </pardef>  
+
+	<pardef n="/क्या__prn">       
+        <e><p><l>क्या</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="nom"/></r></p></e>  
+        <e><p><l>किस</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="obl"/></r></p></e> 
+ 	 	<e><p><l>किससे</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="ins"/></r></p></e>
+ 	 	<e><p><l>किसे</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="dat"/></r></p></e>
+ 	 	<e r="LR"><p><l>किसको</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="dat"/></r></p></e>
+        <e><p><l>किसका</l><r>क्या<s n="prn"/><s n="itg"/><s n="m"/><s n = "sp"/><s n="gen"/></r></p></e>  	 
+        <e><p><l>किसकी</l><r>क्या<s n="prn"/><s n="itg"/><s n="f"/><s n = "sp"/><s n="gen"/></r></p></e>
+ 	 	<e><p><l>किसके</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n = "pl"/><s n="gen"/></r></p></e>
+ 	 	<e><p><l>किसने</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="erg"/></r></p></e> 
+ 	 	<e><p><l>किसमें</l><r>क्या<s n="prn"/><s n="itg"/><s n="mf"/><s n = "sp"/><s n="loc"/></r></p></e>	
+    </pardef>  
 
     <pardef n="सब__prn">
       <e>       <p><l></l><r><s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -2115,7 +2123,6 @@
 	<e lm="अन्य"><i>अन्य</i><par n="और__cnjcoo"/></e>
    <!-- Sub-ordinating Conjunctions -->   
 
-	<e lm="इसके बजाय"><i>इसके बजाय</i><par n="अगर__cnjsub"/></e>
 	<e lm="कौन"><i>कौन</i><par n="अगर__cnjsub"/></e>
 	<e lm="कब"><i>कब</i><par n="अगर__cnjsub"/></e>
 	<e lm="कौनसा"><i>कौनसा</i><par n="अगर__cnjsub"/></e>
@@ -2153,9 +2160,8 @@
     <e lm="कि"><i>कि</i><par n="अगर__cnjsub"/></e>
     <e lm="जोकि"><i>जोकि</i><par n="अगर__cnjsub"/></e>
     <e lm="िक"><i>िक</i><par n="अगर__cnjsub"/></e>
-	<!-- Adverbial Conjunctions -->
+	<!-- Adverbial Conjunctions --> 
 
-	<e lm="बुद्धिमान की तरह"><i>बुद्धिमान की तरह</i><par n="क्योंकि__cnjadv"/></e>
 	<e lm="निश्चित रूप से"><i>निश्चित रूप से</i><par n="क्योंकि__cnjadv"/></e>
 	<e lm="वास्तव में"><i>वास्तव में</i><par n="क्योंकि__cnjadv"/></e>
 	<e lm="नतीजतन"><i>नतीजतन</i><par n="क्योंकि__cnjadv"/></e>
@@ -2516,6 +2522,7 @@
      <e lm="यह"><i></i><par n="/यह__prn"/></e>
      <e lm="जो"><i></i><par n="/जो__prn"/></e>
      <e lm="क्या"><i></i><par n="/क्या__prn"/></e>
+	 <e lm="कौन"><i></i><par n="/कौन__prn"/></e>
      <e lm="सब"><i>सब</i><par n="सब__prn"/></e>
      <e lm="ख़ुद"><i>ख़ुद</i><par n="सब__prn"/></e>
      <e lm="खुद"><i>खुद</i><par n="सब__prn"/></e>	
@@ -10145,6 +10152,7 @@
 	<e lm="गुमना"><i>गुमना</i><par n="ऐ__n_m"/></e>
 	<e lm="ं"><i>ं</i><par n="ऐ__n_m"/></e>
 	<e lm="ें"><i>ें</i><par n="ऐ__n_m"/></e>
+	<e lm="बाहर"><i>बाहर</i><par n="गलत__adv"/></e>
 	<e lm="चित्राली"><i>चित्राल</i><par n="हठ/ी__n_m"/></e>
 	<e lm="ें"><i>ें</i><par n="ऐ__n_f"/></e>
 	<e lm="दारुल उलूम"><i>दारुल<b/>उलूम</i><par n="ऐ__n_m"/></e>
@@ -20567,7 +20575,7 @@
     <e lm="पुनर्नियुक्ति"><i>पुनर्नियुक्ति</i><par n="नति__n_f"/></e>
     <e lm="ईश्वरवाद"><i>ईश्वरवाद</i><par n="ऐ__n_m"/></e>
     <e lm="नमकीन"><i>नमकीन</i><par n="थ__n_m"/></e>
-    <e lm="चंद्रमा"><i>चंद्रमा</i><par n="जेम्स__np"/></e>
+    <e lm="चंद्रमा"><i>चंद्रमा</i><par n="मौलाना__n_m"/></e>
     <e lm="चन्द्रमा"><i>चन्द्रमा</i><par n="मौलाना__n_m"/></e>
     <e lm="किलोग्राम"><i>किलोग्राम</i><par n="ऐ__n_m"/></e>
     <e lm="पंजिका"><i>पंजिका</i><par n="बला__n_f"/></e>
@@ -33086,8 +33094,6 @@
     <e lm="अलग - अलग"><i>अलग<b/>-<b/>अलग</i><par n="गलत__adj"/></e>
        <!-- Adverbs -->  
 
-	<e lm="अधिक"><i>अधिक</i><par n="गलत__adv"/></e>
-	<e lm="बाहर"><i>बाहर</i><par n="गलत__adv"/></e>
 	<e lm="समुद्र तक"><i>समुद्र तक</i><par n="गलत__adv"/></e>
 	<e lm="मृत्यु तक"><i>मृत्यु तक</i><par n="गलत__adv"/></e>
 	<e lm="फिर"><i>फिर</i><par n="गलत__adv"/></e>
