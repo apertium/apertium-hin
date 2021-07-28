@@ -33,10 +33,6 @@
     <sdef n="loc"      c="Locative"/> 
     <sdef n="rel"     c="Relative"/>
     <sdef n="dem"     c="Demonstrative"/>
-    <sdef n="prox"     c="Proximate"/>
-    <sdef n="dist"     c="Distant"/>          
-    <sdef n="aa"      c="Animate"/>
-    <sdef n="nn"      c="Inanimate"/>       
     <sdef n="itg"     c="Interrogative"/>
 	<sdef n="obj"     c="Objective"/>     
 
@@ -47,15 +43,15 @@
     <sdef n="prn"     c="Pronoun"/>     
     <sdef n="f"       c="Feminine"/>     
     <sdef n="m"       c="Masculine"/>     
-    <sdef n="mf"      c=""/>        
-    <sdef n="vaux"    c=""/>     
+    <sdef n="mf"      c="Masculine / Feminine"/>        
+    <sdef n="vaux"    c="Auxiliar verb"/>     
     <sdef n="sg"      c="Singular"/>     
     <sdef n="pl"      c="Plural"/>     
     <sdef n="sp"      c="Singular / plural"/>        
     <sdef n="nom"     c="Nominative"/>     
     <sdef n="obl"     c="Oblique"/>        
     <sdef n="pos"     c="Possessive"/> 
-    <sdef n="qnt"     c=""/>            
+    <sdef n="qnt"     c="Quantitative"/>            
     <sdef n="ind"     c="Indefinite"/>        
     <sdef n="pr"      c="Preposition"/>      
     <sdef n="p1"      c="First person"/>     
