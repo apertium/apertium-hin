@@ -1383,12 +1383,12 @@
 		<e r="RL"><p><l></l><r><s n="det"/><s n="indef"/><s n="obl"/><s n="mfn"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <!-- dubious: a case tag shoud not be used as a subcategory -->
+    <!-- deprecated, since a case tag shoud not be used as a subcategory, word is analysed as prn/ adj -->
     <pardef n="सब__det">
       <e><p><l></l><r><s n="det"/><s n="obl"/><s n="itg"/><s n="sp"/></r></p></e>
     </pardef>
 
-    <!-- dubious: a case tag shoud not be used as a subcategory -->
+    <!-- deprecated, since a case tag shoud not be used as a subcategory, new paradigm - हमार/ा__det -->
     <pardef n="हमारा__det">
       <e><p><l></l><r><s n="det"/><s n="gen"/><s n="pl" /><s n="mf" /></r></p></e>
     </pardef>
