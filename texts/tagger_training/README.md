@@ -3,7 +3,7 @@
 * First convert the raw file to a vislcg format file using:
 
 ```
-cat text_file.raw.txt | apertium -d ../ oci-disam > text_file.vislcg.txt
+cat text_file.raw.txt | apertium -d ../../ hin-disam > text_file.vislcg.txt
 ```
 
 * Then edit the file `text_file.vislcg.txt` and fix the tokenisation, disambiguate it and add
