@@ -1,22 +1,22 @@
 "<ग्लेशियर>"
-	"ग्लेशियर" n m sg nom
-	"ग्लेशियर" n m sg obl
+;	"ग्लेशियर" n m sg nom
+;	"ग्लेशियर" n m sg obl
 	"ग्लेशियर" n m pl nom
 "<नेशनल>"
-	"नेशनल" n m sg nom
-	"नेशनल" n m sg obl
-	"नेशनल" n m pl nom
-	"नेशनल" n m pl obl
+	"नेशनल" adj m sg nom
+;	"नेशनल" n m sg obl
+;	"नेशनल" n m pl nom
+;	"नेशनल" n m pl obl
 "<पार्क>"
 	"पार्क" n m sg nom
-	"पार्क" n m sg obl
-	"पार्क" n m pl nom
+;	"पार्क" n m sg obl
+;	"पार्क" n m pl nom
 "<(>"
 	"(" lpar
 "<अंग्रेज़ी>"
 	"अंग्रेज़ी" n f sg nom
-	"अंग्रेज़ी" n f sg obl
-	"अंग्रेज़ी" n f pl nom
+;	"अंग्रेज़ी" n f sg obl
+;	"अंग्रेज़ी" n f pl nom
 	"अंग्रेज़ी" n f pl obl
 "<:>"
 	":" sent
@@ -26,7 +26,7 @@
 "<National>"
 	"National" barb
 "<Park>"
-	"*Park"
+	"*Park"	   barb
 "<;>"
 	";" sent
 "<उच्चा>"
@@ -38,18 +38,18 @@
 	":" sent
 
 "<ग्लेशियर>"
-	"ग्लेशियर" n m sg nom
-	"ग्लेशियर" n m sg obl
+;	"ग्लेशियर" n m sg nom
+;	"ग्लेशियर" n m sg obl
 	"ग्लेशियर" n m pl nom
 "<नेशनल>"
-	"नेशनल" n m sg nom
-	"नेशनल" n m sg obl
-	"नेशनल" n m pl nom
-	"नेशनल" n m pl obl
+	"नेशनल" adj m sg nom
+;	"नेशनल" n m sg obl
+;	"नेशनल" n m pl nom
+;	"नेशनल" n m pl obl
 "<पार्क>"
 	"पार्क" n m sg nom
-	"पार्क" n m sg obl
-	"पार्क" n m pl nom
+;	"पार्क" n m sg obl
+;	"पार्क" n m pl nom
 "<)>"
 	")" rpar
 "<अमेरिकी>"
@@ -588,17 +588,15 @@
 "<.>"
 	"." sent
 
-
-
 "<ग्लेशियर>"
-	"ग्लेशियर" n m sg nom
-	"ग्लेशियर" n m sg obl
+;	"ग्लेशियर" n m sg nom
+;	"ग्लेशियर" n m sg obl
 	"ग्लेशियर" n m pl nom
 "<नेशनल>"
-	"नेशनल" n m sg nom
-	"नेशनल" n m sg obl
-	"नेशनल" n m pl nom
-	"नेशनल" n m pl obl
+	"नेशनल" adj m sg nom
+;	"नेशनल" n m sg obl
+;	"नेशनल" n m pl nom
+;	"नेशनल" n m pl obl
 "<पार्क>"
 	"पार्क" n m sg obl SELECT:162
 ;	"पार्क" n m sg nom SELECT:162
