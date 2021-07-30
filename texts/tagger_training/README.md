@@ -21,7 +21,7 @@ apertium-tagger: can't train LexicalUnit comprising empty Analysis std::vector
 Try 'apertium-tagger --help' for more information.
 ```
 
-* Tips:
+### Tips:
 
-** analyse foreign works as 'barb' (barbarism)
+* analyse foreign works as 'barb' (barbarism)
 
