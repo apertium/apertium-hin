@@ -1,0 +1,1182 @@
+"<ग्लेशियर>"
+;	"ग्लेशियर" n m sg nom
+;	"ग्लेशियर" n m sg obl
+	"ग्लेशियर" n m pl nom
+"<नेशनल>"
+	"नेशनल" adj m sg nom
+;	"नेशनल" n m sg obl
+;	"नेशनल" n m pl nom
+;	"नेशनल" n m pl obl
+"<पार्क>"
+	"पार्क" n m sg nom
+;	"पार्क" n m sg obl
+;	"पार्क" n m pl nom
+"<(>"
+	"(" lpar
+"<अंग्रेज़ी>"
+	"अंग्रेज़ी" n f sg nom
+;	"अंग्रेज़ी" n f sg obl
+;	"अंग्रेज़ी" n f pl nom
+	"अंग्रेज़ी" n f pl obl
+"<:>"
+	":" sent
+
+"<Glacier>"
+	"Glacier" barb
+"<National>"
+	"National" barb
+"<Park>"
+	"Park"	   barb
+"<;>"
+	";" sent
+"<उच्चा>"
+	"उच्चा" adj m sg nom
+"<.>"
+	"." sent
+
+"<:>"
+	":" sent
+
+"<ग्लेशियर>"
+;	"ग्लेशियर" n m sg nom
+;	"ग्लेशियर" n m sg obl
+	"ग्लेशियर" n m pl nom
+"<नेशनल>"
+	"नेशनल" adj m sg nom
+;	"नेशनल" n m sg obl
+;	"नेशनल" n m pl nom
+;	"नेशनल" n m pl obl
+"<पार्क>"
+	"पार्क" n m sg nom
+;	"पार्क" n m sg obl
+;	"पार्क" n m pl nom
+"<)>"
+	")" rpar
+"<अमेरिकी>"
+	"अमेरिकी" adj m sg nom
+;	"अमेरिकी" n m sg nom
+;	"अमेरिकी" n m sg obl
+;	"अमेरिकी" n m pl nom
+"<राष्ट्रीय>"
+	"राष्ट्रीय" adj m sg nom SELECT:180 SELECT:206 SELECT:206
+;	"राष्ट्रीय" adj m pl nom SELECT:180 SELECT:206 SELECT:206
+;	"राष्ट्रीय" adj m sg obl SELECT:180 SELECT:206 SELECT:206
+;	"राष्ट्रीय" adj m pl obl SELECT:180 SELECT:206
+;	"राष्ट्रीय" adj f sg nom SELECT:180
+;	"राष्ट्रीय" adj f sg obl SELECT:180
+;	"राष्ट्रीय" adj f pl nom SELECT:180
+;	"राष्ट्रीय" adj f pl obl SELECT:180
+"<उद्यान>"
+	"उद्यान" n m sg nom
+;	"उद्यान" n m pl nom
+;	"उद्यान" n m sg obl REMOVE:212
+"<है>"
+;	"हो" vbser pres m pl nom
+;	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<,>"
+	"," cm
+"<जो>"
+	"जो" prn rel sg nom
+;	"जो" prn rel pl nom
+;	"जो" det ind sp REMOVE:75
+"<कि>"
+	"कि" cnjsub
+"<कनाडा>"
+	"कनाडा" np top sg
+"<->"
+	"-" guio
+"<संयुक्त>"
+;	"संयुक्त" adj m sg nom SELECT:180 SELECT:206
+	"संयुक्त" adj m sg obl SELECT:180 SELECT:206
+;	"संयुक्त" adj m pl nom SELECT:180 SELECT:206
+;	"संयुक्त" adj m pl obl SELECT:180 SELECT:206
+;	"संयुक्त" adj f sg nom SELECT:180
+;	"संयुक्त" adj f sg obl SELECT:180
+;	"संयुक्त" adj f pl nom SELECT:180
+;	"संयुक्त" adj f pl obl SELECT:180
+"<राज्य>"
+;	"राज्य" n m sg nom
+	"राज्य" n m sg obl
+;	"राज्य" n m pl nom
+"<अमेरिका>"
+	"अमेरिका" np top sg
+"<की>"
+	"का" post gen f sg
+;	"का" post gen f pl
+;	"कर" vblex tv perf f sg
+;	"कर" vblex tv perf f pl
+"<सीमा>"
+	"सीमा" n f sg obl SELECT:162
+;	"सीमा" n f sg nom SELECT:162
+"<पर>"
+;	"पर" n m sg nom SELECT:187
+;	"पर" n m pl nom SELECT:187
+;	"पर" post SELECT:187
+;	"पर" cnjcoo REMOVE:78
+	"पर" n m sg obl SELECT:187
+"<स्थित>"
+	"स्थित" adj m sg nom SELECT:201
+;	"स्थित" adj m pl nom SELECT:201
+;	"स्थित" adj m sg obl SELECT:201 REMOVE:212
+;	"स्थित" adj m pl obl SELECT:201 REMOVE:212
+;	"स्थित" adj f sg nom SELECT:201
+;	"स्थित" adj f sg obl SELECT:201
+;	"स्थित" adj f pl nom SELECT:201
+;	"स्थित" adj f pl obl SELECT:201
+"<है>"
+;	"हो" vbser pres m pl nom
+;	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<।>"
+	"।" sent
+"<उद्यान>"
+	"उद्यान" n m sg nom
+	"उद्यान" n m sg obl
+	"उद्यान" n m pl nom
+"<संयुक्त>"
+	"संयुक्त" adj m sg obl SELECT:180 SELECT:206
+;	"संयुक्त" adj m sg nom SELECT:180 SELECT:206
+;	"संयुक्त" adj m pl nom SELECT:180 SELECT:206
+;	"संयुक्त" adj m pl obl SELECT:180 SELECT:206
+;	"संयुक्त" adj f sg nom SELECT:180
+;	"संयुक्त" adj f sg obl SELECT:180
+;	"संयुक्त" adj f pl nom SELECT:180
+;	"संयुक्त" adj f pl obl SELECT:180
+"<राज्य>"
+	"राज्य" n m sg obl SELECT:162
+;	"राज्य" n m sg nom SELECT:162
+;	"राज्य" n m pl nom SELECT:162
+"<के>"
+	"का" post gen m pl
+"<उत्तर>"
+	"उत्तर" np al sg
+	"उत्तर" n m sg nom
+	"उत्तर" n m sg obl
+	"उत्तर" n m pl nom
+"<->"
+	"-" guio
+"<पश्चिमी>"
+	"पश्चिमी" adj m sg nom
+	"पश्चिमी" adj m sg obl
+	"पश्चिमी" adj m pl nom
+	"पश्चिमी" adj m pl obl
+	"पश्चिमी" adj f sg nom
+	"पश्चिमी" adj f sg obl
+	"पश्चिमी" adj f pl nom
+	"पश्चिमी" adj f pl obl
+"<मोंटाना>"
+	"*मोंटाना"
+"<राज्य>"
+	"राज्य" n m sg obl SELECT:162
+;	"राज्य" n m sg nom SELECT:162
+;	"राज्य" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<स्थित>"
+	"स्थित" adj m sg nom
+	"स्थित" adj m pl nom
+	"स्थित" adj f sg nom
+	"स्थित" adj f pl nom
+;	"स्थित" adj m sg obl REMOVE:212
+;	"स्थित" adj m pl obl REMOVE:212
+;	"स्थित" adj f sg obl REMOVE:212
+;	"स्थित" adj f pl obl REMOVE:212
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<कनाडा>"
+	"कनाडा" np top sg
+"<की ओर>"
+	"की ओर" post
+"<अल्बर्टा>"
+	"*अल्बर्टा"
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<ब्रिटिश>"
+	"ब्रिटिश" adj m sg nom
+	"ब्रिटिश" adj m sg obl
+	"ब्रिटिश" adj m pl nom
+	"ब्रिटिश" adj m pl obl
+	"ब्रिटिश" adj f sg nom
+	"ब्रिटिश" adj f sg obl
+	"ब्रिटिश" adj f pl nom
+	"ब्रिटिश" adj f pl obl
+"<कोलम्बिया>"
+	"कोलम्बिया" np top sg
+"<प्रांतों>"
+	"*प्रांतों"
+"<से>"
+	"से" post
+	"सा" adj m sg obl
+	"सा" adj m pl nom
+	"सा" adj m pl obl
+"<सटा हुआ>"
+	"सटा होना" vblex iv perf m sg
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<।>"
+	"।" sent
+"<उद्यान>"
+	"उद्यान" n m sg nom
+	"उद्यान" n m sg obl
+	"उद्यान" n m pl nom
+"<दस>"
+	"दस" num
+"<लाख>"
+	"लाख" num
+	"लाख" n m sg nom
+	"लाख" n m sg obl
+	"लाख" n m pl nom
+"<एकड़>"
+	"एकड़" n m sg nom
+	"एकड़" n m sg obl
+	"एकड़" n m pl nom
+"<(>"
+	"(" lpar
+"<4>"
+	"4" num
+"<,>"
+	"," cm
+"<000>"
+	"000" num
+"<किमी2>"
+	"*किमी2"
+"<)>"
+	")" rpar
+"<से>"
+	"से" post
+	"सा" adj m sg obl
+	"सा" adj m pl nom
+	"सा" adj m pl obl
+"<अधिक>"
+	"अधिक" adj m sg obl SELECT:180 SELECT:206
+;	"अधिक" cnjcoo SELECT:180
+;	"अधिक" det ind sp SELECT:180
+;	"अधिक" adj m sg nom SELECT:180 SELECT:206
+;	"अधिक" adj m pl nom SELECT:180 SELECT:206
+;	"अधिक" adj m pl obl SELECT:180 SELECT:206
+;	"अधिक" adj f sg nom SELECT:180
+;	"अधिक" adj f sg obl SELECT:180
+;	"अधिक" adj f pl nom SELECT:180
+;	"अधिक" adj f pl obl SELECT:180
+;	"अधिक" det obl itg sp SELECT:180
+"<क्षेत्र>"
+	"क्षेत्र" n m sg obl SELECT:162
+;	"क्षेत्र" n m sg nom SELECT:162
+;	"क्षेत्र" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<फैला हुआ>"
+	"फैला होना" vblex iv perf m sg
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<इसमें>"
+	"यह" prn dem p3 mf sg loc
+"<दो>"
+	"दो" num
+	"दे" vblex tv prs p2 sg
+	"दे" vblex tv prs p2 pl
+	"दे" vblex tv imp p2 sg
+	"दे" vblex tv imp p2 pl
+"<पर्वत>"
+	"पर्वत" n m sg nom
+	"पर्वत" n m sg obl
+	"पर्वत" n m pl nom
+"<श्रृंखला>"
+	"श्रृंखला" n f sg nom
+	"श्रृंखला" n f sg obl
+"<(>"
+	"(" lpar
+"<रॉकी>"
+	"*रॉकी"
+"<पर्वत>"
+	"पर्वत" n m sg obl SELECT:162
+;	"पर्वत" n m sg nom SELECT:162
+;	"पर्वत" n m pl nom SELECT:162
+"<की>"
+	"का" post gen f sg
+	"का" post gen f pl
+	"कर" vblex tv perf f sg
+	"कर" vblex tv perf f pl
+"<उप>"
+	"उप" adj m sg nom
+	"उप" adj m sg obl
+	"उप" adj m pl nom
+	"उप" adj m pl obl
+	"उप" adj f sg nom
+	"उप" adj f sg obl
+	"उप" adj f pl nom
+	"उप" adj f pl obl
+"<->"
+	"-" guio
+"<श्रेणियाँ>"
+	"श्रेणी" n f pl nom
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<130>"
+	"130" num
+"<से>"
+	"से" post
+	"सा" adj m sg obl
+	"सा" adj m pl nom
+	"सा" adj m pl obl
+"<अधिक>"
+	"अधिक" cnjcoo
+	"अधिक" det ind sp
+	"अधिक" adj m sg nom
+	"अधिक" adj m sg obl
+	"अधिक" adj m pl nom
+	"अधिक" adj m pl obl
+	"अधिक" adj f sg nom
+	"अधिक" adj f sg obl
+	"अधिक" adj f pl nom
+	"अधिक" adj f pl obl
+	"अधिक" det obl itg sp
+"<नामित>"
+	"नामित" adj f pl nom SELECT:175 SELECT:206
+;	"नामित" adj m sg nom SELECT:175
+;	"नामित" adj m sg obl SELECT:175
+;	"नामित" adj m pl nom SELECT:175
+;	"नामित" adj m pl obl SELECT:175
+;	"नामित" adj f sg nom SELECT:175 SELECT:206
+;	"नामित" adj f sg obl SELECT:175 SELECT:206
+;	"नामित" adj f pl obl SELECT:175 SELECT:206
+"<झीलें>"
+	"झील" n f pl nom
+"<,>"
+	"," cm
+"<1>"
+	"1" num
+"<,>"
+	"," cm
+"<000>"
+	"000" num
+"<से>"
+	"से" post
+	"सा" adj m sg obl
+	"सा" adj m pl nom
+	"सा" adj m pl obl
+"<अधिक>"
+	"अधिक" cnjcoo
+	"अधिक" det ind sp
+	"अधिक" adj m sg nom
+	"अधिक" adj m sg obl
+	"अधिक" adj m pl nom
+	"अधिक" adj m pl obl
+	"अधिक" adj f sg nom
+	"अधिक" adj f sg obl
+	"अधिक" adj f pl nom
+	"अधिक" adj f pl obl
+	"अधिक" det obl itg sp
+"<विभिन्न>"
+	"विभिन्न" adj m pl obl SELECT:180 SELECT:206
+;	"विभिन्न" det qnt pl SELECT:180
+;	"विभिन्न" adj m sg nom SELECT:180 SELECT:206
+;	"विभिन्न" adj m sg obl SELECT:180 SELECT:206
+;	"विभिन्न" adj m pl nom SELECT:180 SELECT:206
+;	"विभिन्न" adj f sg nom SELECT:180
+;	"विभिन्न" adj f sg obl SELECT:180
+;	"विभिन्न" adj f pl nom SELECT:180
+;	"विभिन्न" adj f pl obl SELECT:180
+"<पौधों>"
+	"पौध" n m pl obl
+	"पौधा" n m pl obl
+"<की>"
+	"का" post gen f sg
+	"का" post gen f pl
+	"कर" vblex tv perf f sg
+	"कर" vblex tv perf f pl
+"<प्रजातियां>"
+	"*प्रजातियां"
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<सैकड़ों>"
+	"सैकड़ा" n m pl obl
+	"सैकड़ों" adj m sg nom
+	"सैकड़ों" adj m sg obl
+	"सैकड़ों" adj m pl nom
+	"सैकड़ों" adj m pl obl
+	"सैकड़ों" adj f sg nom
+	"सैकड़ों" adj f sg obl
+	"सैकड़ों" adj f pl nom
+	"सैकड़ों" adj f pl obl
+"<वन्यजीवों>"
+	"*वन्यजीवों"
+"<की>"
+	"का" post gen f sg
+	"का" post gen f pl
+	"कर" vblex tv perf f sg
+	"कर" vblex tv perf f pl
+"<प्रजातियां>"
+	"*प्रजातियां"
+"<शामिल>"
+	"शामिल" adj m sg nom
+	"शामिल" adj m pl nom
+	"शामिल" adj f sg nom
+	"शामिल" adj f pl nom
+;	"शामिल" adj m sg obl REMOVE:212
+;	"शामिल" adj m pl obl REMOVE:212
+;	"शामिल" adj f sg obl REMOVE:212
+;	"शामिल" adj f pl obl REMOVE:212
+"<हैं>"
+	"हो" vbser pres p3 mf pl
+	"हो" vbser pres p1 mf sg
+	"हो" vbser pres p1 mf pl
+"<।>"
+	"।" sent
+"<इस>"
+	"यह" prn dem p3 mf sg obl
+"<विशाल>"
+	"विशाल" adj m sg nom
+	"विशाल" adj m sg obl
+	"विशाल" adj m pl nom
+	"विशाल" adj m pl obl
+	"विशाल" adj f sg nom
+	"विशाल" adj f sg obl
+	"विशाल" adj f pl nom
+	"विशाल" adj f pl obl
+"<प्राचीन>"
+	"प्राचीन" adj m sg nom
+	"प्राचीन" adj m sg obl
+	"प्राचीन" adj m pl nom
+	"प्राचीन" adj m pl obl
+	"प्राचीन" adj f sg nom
+	"प्राचीन" adj f sg obl
+	"प्राचीन" adj f pl nom
+	"प्राचीन" adj f pl obl
+"<पारिस्थितिकी>"
+	"*पारिस्थितिकी"
+"<तंत्र>"
+	"तंत्र" n m sg obl SELECT:162
+	"तंत्र" n m pl obl SELECT:162
+;	"तंत्र" n m sg nom SELECT:162
+;	"तंत्र" n m pl nom SELECT:162
+"<को>"
+	"को" post
+"<जो>"
+	"जो" prn rel sg nom
+	"जो" prn rel pl nom
+;	"जो" det ind sp REMOVE:75
+"<कि>"
+	"कि" cnjsub
+"<16>"
+	"16" num
+"<,>"
+	"," cm
+"<000>"
+	"000" num
+"<वर्ग>"
+	"वर्ग" n m sg nom
+	"वर्ग" n m sg obl
+	"वर्ग" n m pl nom
+"<मील>"
+	"मील" n m sg nom
+	"मील" n m sg obl
+	"मील" n m pl nom
+"<(>"
+	"(" lpar
+"<41>"
+	"41" num
+"<,>"
+	"," cm
+"<000>"
+	"000" num
+"<किमी2>"
+	"*किमी2"
+"<)>"
+	")" rpar
+"<में>"
+	"में" post
+"<शामिल>"
+	"शामिल" adj m sg nom
+	"शामिल" adj m sg obl
+	"शामिल" adj m pl nom
+	"शामिल" adj m pl obl
+	"शामिल" adj f sg nom
+	"शामिल" adj f sg obl
+	"शामिल" adj f pl nom
+	"शामिल" adj f pl obl
+"<संरक्षित>"
+	"*संरक्षित"
+"<भूमि>"
+	"भूमि" n f sg obl SELECT:162
+	"भूमि" n f pl obl SELECT:162
+;	"भूमि" n f sg nom SELECT:162
+;	"भूमि" n f pl nom SELECT:162
+"<का>"
+	"का" post gen m sg
+"<भाग>"
+	"भाग" vblex iv stem
+	"भाग" n m sg nom
+	"भाग" n m pl nom
+;	"भाग" n m sg obl REMOVE:212
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<,>"
+	"," cm
+	"
+"<क्राउन>"
+	"क्राउन" n m sg nom
+	"क्राउन" n m sg obl
+	"क्राउन" n m pl nom
+"<ऑफ़>"
+	"ऑफ़" adj m sg nom SELECT:180
+	"ऑफ़" adj m sg obl SELECT:180
+	"ऑफ़" adj m pl nom SELECT:180
+	"ऑफ़" adj m pl obl SELECT:180
+;	"ऑफ़" adj f sg nom SELECT:180
+;	"ऑफ़" adj f sg obl SELECT:180
+;	"ऑफ़" adj f pl nom SELECT:180
+;	"ऑफ़" adj f pl obl SELECT:180
+"<द>"
+	"द" det qnt pl
+	"द" n m sg nom
+	"द" n m sg obl
+	"द" n m pl nom
+	"द" n m pl obl
+"<कॉन्टिनेंट>"
+	"*कॉन्टिनेंट"
+"<इकोसिस्टम>"
+	"*इकोसिस्टम"
+" 
+"<के>"
+	"का" post gen m pl
+"<रूप>"
+	"रूप" n m sg obl SELECT:162
+;	"रूप" n m sg nom SELECT:162
+;	"रूप" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<संदर्भित>"
+	"संदर्भित" n m sg nom
+	"संदर्भित" n m sg obl
+	"संदर्भित" n m pl nom
+	"संदर्भित" n m pl obl
+"<किया>"
+	"कर" vblex tv perf m sg
+"<गया>"
+	"जा" vblex iv perf m sg
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<।>"
+	"।" sent
+"<>"
+	"" lpar
+"<1>"
+	"1" num
+"<>"
+	"" rpar
+"<.>"
+	"." sent
+
+"<ग्लेशियर>"
+;	"ग्लेशियर" n m sg nom
+;	"ग्लेशियर" n m sg obl
+	"ग्लेशियर" n m pl nom
+"<नेशनल>"
+	"नेशनल" adj m sg nom
+;	"नेशनल" n m sg obl
+;	"नेशनल" n m pl nom
+;	"नेशनल" n m pl obl
+"<पार्क>"
+	"पार्क" n m sg obl SELECT:162
+;	"पार्क" n m sg nom SELECT:162
+;	"पार्क" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<लगभग>"
+	"लगभग" adv
+"<सभी>"
+	"सभी" adv SELECT:85
+;	"सभी" n m sg nom SELECT:85
+;	"सभी" n m sg obl SELECT:85
+;	"सभी" n m pl nom SELECT:85
+;	"सभी" n m pl obl SELECT:85
+;	"सभी" adj m sg nom SELECT:85
+;	"सभी" adj m sg obl SELECT:85
+;	"सभी" adj m pl nom SELECT:85
+;	"सभी" adj m pl obl SELECT:85
+;	"सभी" adj f sg nom SELECT:85
+;	"सभी" adj f sg obl SELECT:85
+;	"सभी" adj f pl nom SELECT:85
+;	"सभी" adj f pl obl SELECT:85
+"<मूल>"
+	"मूल" n m sg nom
+	"मूल" n m sg obl
+	"मूल" n m pl nom
+	"मूल" n m pl obl
+	"मूल" adj m sg nom
+	"मूल" adj m sg obl
+	"मूल" adj m pl nom
+	"मूल" adj m pl obl
+	"मूल" adj f sg nom
+	"मूल" adj f sg obl
+	"मूल" adj f pl nom
+	"मूल" adj f pl obl
+"<स्थानीय>"
+	"स्थानीय" adj m sg nom SELECT:180
+	"स्थानीय" adj m sg obl SELECT:180
+	"स्थानीय" adj m pl nom SELECT:180
+	"स्थानीय" adj m pl obl SELECT:180
+;	"स्थानीय" adj f sg nom SELECT:180
+;	"स्थानीय" adj f sg obl SELECT:180
+;	"स्थानीय" adj f pl nom SELECT:180
+;	"स्थानीय" adj f pl obl SELECT:180
+"<पादप>"
+	"पादप" n m sg nom
+	"पादप" n m sg obl
+	"पादप" n m pl nom
+	"पादप" n m pl obl
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<जीव>"
+	"जीव" n m sg nom
+	"जीव" n m sg obl
+	"जीव" n m pl nom
+"<->"
+	"-" guio
+"<जन्तु>"
+	"*जन्तु"
+"<प्रजातियां>"
+	"*प्रजातियां"
+"<हैं>"
+	"हो" vbser pres p3 mf pl
+	"हो" vbser pres p1 mf sg
+	"हो" vbser pres p1 mf pl
+"<।>"
+	"।" sent
+"<बड़े>"
+	"बड़ा" adj m sg obl
+	"बड़ा" adj m pl nom
+	"बड़ा" adj m pl obl
+"<स्तनधारी>"
+	"स्तनधारी" adj m sg nom
+	"स्तनधारी" adj m sg obl
+	"स्तनधारी" adj m pl nom
+	"स्तनधारी" adj m pl obl
+	"स्तनधारी" adj f sg nom
+	"स्तनधारी" adj f sg obl
+	"स्तनधारी" adj f pl nom
+	"स्तनधारी" adj f pl obl
+"<जैसे>"
+	"जैसे" adv
+	"जैसे" cnjcoo
+	"जैस" det ind pl m
+	"जैसा" adj m sg obl
+	"जैसा" adj m pl nom
+	"जैसा" adj m pl obl
+"<कि>"
+	"कि" cnjsub
+"<भूरा>"
+	"भूरा" n m sg nom
+"<भालू>"
+	"भालू" n m sg nom
+	"भालू" n m sg obl
+	"भालू" n m pl nom
+"<,>"
+	"," cm
+"<मूस>"
+	"मूस" n m sg nom
+	"मूस" n m sg obl
+	"मूस" n m pl nom
+"<,>"
+	"," cm
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<पहाड़ी>"
+	"पहाड़ी" adj f pl obl SELECT:112 SELECT:175 SELECT:206
+;	"पहाड़ी" n f sg nom SELECT:112
+;	"पहाड़ी" n f sg obl SELECT:112
+;	"पहाड़ी" adj m sg nom SELECT:112 SELECT:175
+;	"पहाड़ी" adj m sg obl SELECT:112 SELECT:175
+;	"पहाड़ी" adj m pl nom SELECT:112 SELECT:175
+;	"पहाड़ी" adj m pl obl SELECT:112 SELECT:175
+;	"पहाड़ी" adj f sg nom SELECT:112 SELECT:175 SELECT:206
+;	"पहाड़ी" adj f sg obl SELECT:112 SELECT:175 SELECT:206
+;	"पहाड़ी" adj f pl nom SELECT:112 SELECT:175 SELECT:206
+"<बकरियों>"
+	"बकरी" n f pl obl
+"<के साथ-साथ>"
+	"के साथ-साथ" post
+"<दुर्लभ>"
+	"दुर्लभ" adj m sg nom
+	"दुर्लभ" adj m sg obl
+	"दुर्लभ" adj m pl nom
+	"दुर्लभ" adj m pl obl
+	"दुर्लभ" adj f sg nom
+	"दुर्लभ" adj f sg obl
+	"दुर्लभ" adj f pl nom
+	"दुर्लभ" adj f pl obl
+"<या>"
+	"या" cnjcoo
+"<लुप्तप्राय>"
+	"*लुप्तप्राय"
+"<प्रजातियां>"
+	"*प्रजातियां"
+"<जैसे>"
+	"जैसे" adv
+	"जैसे" cnjcoo
+	"जैस" det ind pl m
+	"जैसा" adj m sg obl
+	"जैसा" adj m pl nom
+	"जैसा" adj m pl obl
+"<कि>"
+	"कि" cnjsub
+"<वूल्वरिन>"
+	"*वूल्वरिन"
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<कनाडाई>"
+	"*कनाडाई"
+"<लिनेक्स>"
+	"*लिनेक्स"
+"<,>"
+	"," cm
+"<उद्यान>"
+	"उद्यान" n m sg obl SELECT:162
+;	"उद्यान" n m sg nom SELECT:162
+;	"उद्यान" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<निवास करते>"
+	"निवास कर" vblex tv impf m pl
+"<हैं>"
+	"हो" vbser pres p3 mf pl
+	"हो" vbser pres p1 mf sg
+	"हो" vbser pres p1 mf pl
+"<।>"
+	"।" sent
+"<यहां से>"
+	"यहां से" adv
+"<पक्षियों>"
+	"पक्षी" n m pl obl
+"<की>"
+	"का" post gen f sg
+	"का" post gen f pl
+	"कर" vblex tv perf f sg
+	"कर" vblex tv perf f pl
+"<सैकड़ों>"
+	"सैकड़ा" n m pl obl
+	"सैकड़ों" adj m sg nom
+	"सैकड़ों" adj m sg obl
+	"सैकड़ों" adj m pl nom
+	"सैकड़ों" adj m pl obl
+	"सैकड़ों" adj f sg nom
+	"सैकड़ों" adj f sg obl
+	"सैकड़ों" adj f pl nom
+	"सैकड़ों" adj f pl obl
+"<प्रजातियां>"
+	"*प्रजातियां"
+"<,>"
+	"," cm
+"<एक>"
+	"एक" num
+	"एक" det qnt pl
+"<दर्जन>"
+	"दर्जन" n m sg obl SELECT:162
+;	"दर्जन" n m sg nom SELECT:162
+;	"दर्जन" n m pl nom SELECT:162
+"<से>"
+	"सा" adj m sg obl SELECT:201
+	"सा" adj m pl nom SELECT:201
+	"सा" adj m pl obl SELECT:201
+;	"से" post SELECT:201
+"<अधिक>"
+	"अधिक" adj f pl obl SELECT:175 SELECT:206
+;	"अधिक" cnjcoo SELECT:175
+;	"अधिक" det ind sp SELECT:175
+;	"अधिक" adj m sg nom SELECT:175
+;	"अधिक" adj m sg obl SELECT:175
+;	"अधिक" adj m pl nom SELECT:175
+;	"अधिक" adj m pl obl SELECT:175
+;	"अधिक" adj f sg nom SELECT:175 SELECT:206
+;	"अधिक" adj f sg obl SELECT:175 SELECT:206
+;	"अधिक" adj f pl nom SELECT:175 SELECT:206
+;	"अधिक" det obl itg sp SELECT:175
+"<मछलियों>"
+	"मछली" n f pl obl
+"<की>"
+	"का" post gen f sg
+	"का" post gen f pl
+	"कर" vblex tv perf f sg
+	"कर" vblex tv perf f pl
+"<प्रजातियां>"
+	"*प्रजातियां"
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<कुछ>"
+	"कुछ" adj m sg nom SELECT:90 SELECT:180
+	"कुछ" adj m pl nom SELECT:90 SELECT:180
+;	"कुछ" adv SELECT:90
+;	"कुछ" det ind sp SELECT:90
+;	"कुछ" det qnt pl SELECT:90
+;	"कुछ" adj f sg nom SELECT:90 SELECT:180
+;	"कुछ" adj f pl nom SELECT:90 SELECT:180
+"<सरीसृप>"
+	"सरीसृप" n m sg nom SELECT:207
+	"सरीसृप" n m pl nom SELECT:207
+;	"सरीसृप" n m sg obl SELECT:207
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<उभयचर>"
+	"उभयचर" adj f pl obl SELECT:175 SELECT:206
+;	"उभयचर" adj m sg nom SELECT:175
+;	"उभयचर" adj m sg obl SELECT:175
+;	"उभयचर" adj m pl nom SELECT:175
+;	"उभयचर" adj m pl obl SELECT:175
+;	"उभयचर" adj f sg nom SELECT:175 SELECT:206
+;	"उभयचर" adj f sg obl SELECT:175 SELECT:206
+;	"उभयचर" adj f pl nom SELECT:175 SELECT:206
+"<प्रजातियों>"
+	"प्रजाति" n f pl obl
+"<को>"
+	"को" post
+"<प्रलेखित>"
+	"*प्रलेखित"
+"<किया>"
+	"कर" vblex tv perf m sg
+"<गया>"
+	"जा" vblex iv perf m sg
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<।>"
+	"।" sent
+"<उद्यान>"
+	"उद्यान" n m sg obl SELECT:162
+;	"उद्यान" n m sg nom SELECT:162
+;	"उद्यान" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<प्रेरी>"
+	"*प्रेरी"
+"<से>"
+	"सा" adj m sg obl SELECT:180
+	"सा" adj m pl nom SELECT:180
+	"सा" adj m pl obl SELECT:180
+;	"से" post SELECT:180
+"<टुंड्रा>"
+	"टुंड्रा" n m sg obl SELECT:207
+	"टुंड्रा" n m pl nom SELECT:207
+	"टुंड्रा" n m pl obl SELECT:207
+;	"टुंड्रा" n m sg nom SELECT:207
+"<तक>"
+	"तक" cnjadv
+"<कई>"
+	"कई" det qnt pl
+	"कई" n m sg nom
+	"कई" n m sg obl
+	"कई" n m pl nom
+	"कई" adj m sg nom
+	"कई" adj m sg obl
+	"कई" adj m pl nom
+	"कई" adj m pl obl
+	"कई" adj f sg nom
+	"कई" adj f sg obl
+	"कई" adj f pl nom
+	"कई" adj f pl obl
+"<पारिस्थितिकी>"
+	"*पारिस्थितिकी"
+"<तंत्र>"
+	"तंत्र" n m sg nom
+	"तंत्र" n m pl nom
+;	"तंत्र" n m sg obl REMOVE:212
+;	"तंत्र" n m pl obl REMOVE:212
+"<हैं>"
+	"हो" vbser pres p3 mf pl
+	"हो" vbser pres p1 mf sg
+	"हो" vbser pres p1 mf pl
+"<।>"
+	"।" sent
+"<उद्यान>"
+	"उद्यान" n m sg obl SELECT:162
+;	"उद्यान" n m sg nom SELECT:162
+;	"उद्यान" n m pl nom SELECT:162
+"<के>"
+	"का" post gen m pl
+"<दक्षिण-पश्चिम>"
+	"दक्षिण-पश्चिम" n m sg nom
+	"दक्षिण-पश्चिम" n m sg obl
+	"दक्षिण-पश्चिम" n m pl nom
+	"दक्षिण-पश्चिम" n m pl obl
+"<हिस्से>"
+	"हिस्सा" n m sg obl SELECT:162
+;	"हिस्सा" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<पश्चिमी>"
+	"पश्चिमी" adj m sg nom
+	"पश्चिमी" adj m sg obl
+	"पश्चिमी" adj m pl nom
+	"पश्चिमी" adj m pl obl
+	"पश्चिमी" adj f sg nom
+	"पश्चिमी" adj f sg obl
+	"पश्चिमी" adj f pl nom
+	"पश्चिमी" adj f pl obl
+"<रेडेकार्डर>"
+	"*रेडेकार्डर"
+"<और>"
+	"और" cnjcoo
+	"और" det ind sp
+"<हेमलॉक>"
+	"*हेमलॉक"
+"<के>"
+	"का" post gen m pl
+"<जंगल>"
+	"जंगल" n m sg nom
+	"जंगल" n m sg obl
+	"जंगल" n m pl nom
+"<पाये>"
+	"पा" vblex tv prs p2 sg
+	"पा" vblex tv prs p3 sg
+	"पा" vblex tv perf m pl
+"<जाते>"
+	"जा" vblex iv impf m pl
+"<हैं>"
+	"हो" vbser pres p3 mf pl
+	"हो" vbser pres p1 mf sg
+	"हो" vbser pres p1 mf pl
+"<।>"
+	"।" sent
+"<उद्यान>"
+	"उद्यान" n m sg obl SELECT:162
+;	"उद्यान" n m sg nom SELECT:162
+;	"उद्यान" n m pl nom SELECT:162
+"<के>"
+	"का" post gen m pl
+"<जंगलों>"
+	"जंगल" n m pl obl
+	"जंगला" n m pl obl
+"<में>"
+	"में" post
+"<आग लगना>"
+	"आग लग" vblex tv inf nom
+	"आग लग" vblex tv inf nom m
+"<आम>"
+	"आम" n m sg nom
+	"आम" n m pl nom
+	"आम" adj m sg nom
+	"आम" adj m pl nom
+	"आम" adj f sg nom
+	"आम" adj f pl nom
+;	"आम" n m sg obl REMOVE:212
+;	"आम" adj m sg obl REMOVE:212
+;	"आम" adj m pl obl REMOVE:212
+;	"आम" adj f sg obl REMOVE:212
+;	"आम" adj f pl obl REMOVE:212
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<।>"
+	"।" sent
+"<1964>"
+	"1964" num
+"<को>"
+	"को" post
+"<छोड़कर>"
+	"छोड़" vblex tv gna
+"<उद्यान>"
+	"उद्यान" n m sg obl SELECT:162
+;	"उद्यान" n m sg nom SELECT:162
+;	"उद्यान" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<हर>"
+	"हर" adj m sg nom SELECT:90 SELECT:180 SELECT:206
+	"हर" adj m sg obl SELECT:90 SELECT:180 SELECT:206
+	"हर" adj m pl nom SELECT:90 SELECT:180 SELECT:206
+;	"हर" adv SELECT:90
+;	"हर" det ind sp SELECT:90
+;	"हर" adj m pl obl SELECT:90 SELECT:180 SELECT:206
+;	"हर" adj f sg nom SELECT:90 SELECT:180
+;	"हर" adj f sg obl SELECT:90 SELECT:180
+;	"हर" adj f pl nom SELECT:90 SELECT:180
+;	"हर" adj f pl obl SELECT:90 SELECT:180
+"<साल>"
+	"साल" n m sg nom
+	"साल" n m sg obl
+	"साल" n m pl nom
+"<आग लगती>"
+	"आग लग" vblex tv impf f sg SELECT:133
+;	"आग लग" vblex tv impf f pl SELECT:133
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<।>"
+	"।" sent
+"<1936>"
+	"1936" num
+"<में>"
+	"में" post
+"<64>"
+	"64" num
+"<बार>"
+	"बार" n m sg nom
+	"बार" n m sg obl
+	"बार" n m pl nom
+	"बार" n m pl obl
+"<आग लगी>"
+	"आग लग" vblex tv perf f sg SELECT:236
+;	"आग लग" vblex tv perf f pl SELECT:236
+"<थी>"
+	"हो" vbser past f sg
+"<जो>"
+	"जो" prn rel sg nom
+	"जो" prn rel pl nom
+;	"जो" det ind sp REMOVE:75
+"<कि>"
+	"कि" cnjsub
+"<रिकॉर्ड>"
+	"रिकॉर्ड" n m sg obl SELECT:162
+	"रिकॉर्ड" n m pl obl SELECT:162
+;	"रिकॉर्ड" n m sg nom SELECT:162
+;	"रिकॉर्ड" n m pl nom SELECT:162
+"<में>"
+	"में" post
+"<सबसे>"
+	"सब" prn pers p3 mf pl obl
+	"सब" prn pers p3 mf pl ins
+"<अधिक>"
+	"अधिक" cnjcoo
+	"अधिक" det ind sp
+	"अधिक" adj m sg nom
+	"अधिक" adj m pl nom
+	"अधिक" adj f sg nom
+	"अधिक" adj f pl nom
+;	"अधिक" adj m sg obl REMOVE:212
+;	"अधिक" adj m pl obl REMOVE:212
+;	"अधिक" adj f sg obl REMOVE:212
+;	"अधिक" adj f pl obl REMOVE:212
+;	"अधिक" det obl itg sp REMOVE:212
+"<है>"
+	"हो" vbser pres m pl nom
+	"हो" vbser pres p2 mf sg
+	"हो" vbser pres p3 mf sg
+"<।>"
+	"।" sent
+"<>"
+	"" lpar
+"<2>"
+	"2" num
+"<>"
+	"" rpar
+"<>"
+	"" lpar
+"<3>"
+	"3" num
+"<>"
+	"" rpar
+"<2003>"
+	"2003" num
+"<में>"
+	"में" post
+"<लगी>"
+	"लग" vblex tv perf f sg
+	"लग" vblex tv perf f pl
+"<छह>"
+	"छह" num
+"<आग>"
+	"आग" n f sg obl SELECT:162
+	"आग" n f pl obl SELECT:162
+;	"आग" n f sg nom SELECT:162
+;	"आग" n f pl nom SELECT:162
+"<ने>"
+	"ने" post
+"<लगभग>"
+	"लगभग" adv
+"<136>"
+	"136" num
+"<,>"
+	"," cm
+"<000>"
+	"000" num
+"<एकड़>"
+	"एकड़" n m sg nom
+	"एकड़" n m sg obl
+	"एकड़" n m pl nom
+"<(>"
+	"(" lpar
+"<550>"
+	"550" num
+"<किमी2>"
+	"*किमी2"
+"<)>"
+	")" rpar
+"<,>"
+	"," cm
+"<उद्यान>"
+	"उद्यान" n m sg obl SELECT:162
+;	"उद्यान" n m sg nom SELECT:162
+;	"उद्यान" n m pl nom SELECT:162
+"<के>"
+	"का" post gen m pl
+"<13>"
+	"13" num
+% 
+"<से>"
+	"से" post
+	"सा" adj m sg obl
+	"सा" adj m pl nom
+	"सा" adj m pl obl
+"<अधिक>"
+	"अधिक" adj m sg obl SELECT:180 SELECT:206
+;	"अधिक" cnjcoo SELECT:180
+;	"अधिक" det ind sp SELECT:180
+;	"अधिक" adj m sg nom SELECT:180 SELECT:206
+;	"अधिक" adj m pl nom SELECT:180 SELECT:206
+;	"अधिक" adj m pl obl SELECT:180 SELECT:206
+;	"अधिक" adj f sg nom SELECT:180
+;	"अधिक" adj f sg obl SELECT:180
+;	"अधिक" adj f pl nom SELECT:180
+;	"अधिक" adj f pl obl SELECT:180
+;	"अधिक" det obl itg sp SELECT:180
+"<हिस्से>"
+	"हिस्सा" n m sg obl SELECT:162
+;	"हिस्सा" n m pl nom SELECT:162
+"<को>"
+	"को" post
+"<जला डाला>"
+	"जला डाल" vblex tv perf m sg
+"<था>"
+	"हो" vbser past m sg
+"<।>"
+	"।" sent
+"<>"
+	"" lpar
+"<4>"
+	"4" num
+"<>"
+	"" rpar
+"<.>"
+	"." sent
+
+
+

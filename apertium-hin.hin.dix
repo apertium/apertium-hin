@@ -198,6 +198,7 @@
     </pardef>
 
     <!-- basic postpositions -->
+<!--
     <pardef n="case">
       <e><p><l>को</l><r>को<s n="dat"/></r></p></e>
       <e><p><l>ने</l><r>ने<s n="erg"/></r></p></e>
@@ -208,9 +209,11 @@
       <e><p><l>तक</l><r>तक<s n="post"/></r></p></e>
       <e><p><l></l><r></r></p><par n="__gen_endings"/></e>
     </pardef>    
+-->
 
-    <pardef n="__prn_gen">
       <!-- genitives (CHECK) -->
+<!--
+    <pardef n="__prn_gen">
       <e>     <p><l>ा</l><r>ा<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
       <e>     <p><l>ी</l><r>ी<s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
       <e>     <p><l>े</l><r>े<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
@@ -219,7 +222,9 @@
       <e>     <p><l>या</l><r>या<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
       <e>     <p><l>यी</l><r>यी<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+-->
 
+<!--
     <pardef n="__big_suff">
       <e>     <p><l>ो</l><r><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>     <p><l>ी</l><r><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
@@ -234,13 +239,15 @@
       <e>     <p><l>ी</l><r><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>     <p><l>े</l><r><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
+-->
 
     <!-- verbal stuff -->
     
-
+<!--
     <pardef n="__inf_endings">
       <e><p><l>ना</l><r><s n="inf"/></r></p></e>
     </pardef>
+-->
     
 
     <pardef n="ने__post">
@@ -1275,8 +1282,7 @@
       <e>       <p><l>हो</l><r>हो<s n="vbser"/><s n="pres"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>है</l><r>हो<s n="vbser"/><s n="pres"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e r="LR"> <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>हैं</l><r>हो<s n="vbser"/><s n="pres"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e r="LR">       <p><l>हुये</l><r>हो<s n="vbser"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
       <e>       <p><l>हुए</l><r>हो<s n="vbser"/><s n="imp"/><s n="p2"/><s n="frm"/><s n="pl"/></r></p></e>
@@ -1893,7 +1899,6 @@
 	<e lm="अलावा"><i>अलावा</i><par n="ने__post"/></e>
 	<e lm="बतौर"><i>बतौर</i><par n="ने__post"/></e>
     <e lm="का"><i></i><par n="__gen_endings"/></e>
-	<e lm="के"><i></i><par n="__gen_endings"/></e>
     <e lm="ने" ><i>ने</i><par n="ने__post"/></e>
     <e lm="को"><i>को</i><par n="ने__post"/></e>
     <e lm="में" ><i>में</i><par n="ने__post"/></e>
