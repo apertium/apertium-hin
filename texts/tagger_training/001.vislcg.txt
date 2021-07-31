@@ -26,7 +26,7 @@
 "<National>"
 	"National" barb
 "<Park>"
-	"*Park"	   barb
+	"Park"	   barb
 "<;>"
 	";" sent
 "<उच्चा>"
@@ -53,12 +53,13 @@
 "<)>"
 	")" rpar
 "<अमेरिकी>"
-	"अमेरिकी" n m sg nom
-	"अमेरिकी" n m sg obl
-	"अमेरिकी" n m pl nom
+	"अमेरिकी" adj m sg nom
+;	"अमेरिकी" n m sg nom
+;	"अमेरिकी" n m sg obl
+;	"अमेरिकी" n m pl nom
 "<राष्ट्रीय>"
 	"राष्ट्रीय" adj m sg nom SELECT:180 SELECT:206 SELECT:206
-	"राष्ट्रीय" adj m pl nom SELECT:180 SELECT:206 SELECT:206
+;	"राष्ट्रीय" adj m pl nom SELECT:180 SELECT:206 SELECT:206
 ;	"राष्ट्रीय" adj m sg obl SELECT:180 SELECT:206 SELECT:206
 ;	"राष्ट्रीय" adj m pl obl SELECT:180 SELECT:206
 ;	"राष्ट्रीय" adj f sg nom SELECT:180
@@ -66,18 +67,18 @@
 ;	"राष्ट्रीय" adj f pl nom SELECT:180
 ;	"राष्ट्रीय" adj f pl obl SELECT:180
 "<उद्यान>"
-	"उद्यान" n m sg nom
+;	"उद्यान" n m sg nom
 	"उद्यान" n m pl nom
 ;	"उद्यान" n m sg obl REMOVE:212
 "<है>"
-	"हो" vbser pres m pl nom
-	"हो" vbser pres p2 mf sg
+;	"हो" vbser pres m pl nom
+;	"हो" vbser pres p2 mf sg
 	"हो" vbser pres p3 mf sg
 "<,>"
 	"," cm
 "<जो>"
 	"जो" prn rel sg nom
-	"जो" prn rel pl nom
+;	"जो" prn rel pl nom
 ;	"जो" det ind sp REMOVE:75
 "<कि>"
 	"कि" cnjsub
@@ -86,36 +87,36 @@
 "<->"
 	"-" guio
 "<संयुक्त>"
-	"संयुक्त" adj m sg nom SELECT:180 SELECT:206
+;	"संयुक्त" adj m sg nom SELECT:180 SELECT:206
 	"संयुक्त" adj m sg obl SELECT:180 SELECT:206
-	"संयुक्त" adj m pl nom SELECT:180 SELECT:206
+;	"संयुक्त" adj m pl nom SELECT:180 SELECT:206
 ;	"संयुक्त" adj m pl obl SELECT:180 SELECT:206
 ;	"संयुक्त" adj f sg nom SELECT:180
 ;	"संयुक्त" adj f sg obl SELECT:180
 ;	"संयुक्त" adj f pl nom SELECT:180
 ;	"संयुक्त" adj f pl obl SELECT:180
 "<राज्य>"
-	"राज्य" n m sg nom
+;	"राज्य" n m sg nom
 	"राज्य" n m sg obl
-	"राज्य" n m pl nom
+;	"राज्य" n m pl nom
 "<अमेरिका>"
 	"अमेरिका" np top sg
 "<की>"
 	"का" post gen f sg
-	"का" post gen f pl
-	"कर" vblex tv perf f sg
-	"कर" vblex tv perf f pl
+;	"का" post gen f pl
+;	"कर" vblex tv perf f sg
+;	"कर" vblex tv perf f pl
 "<सीमा>"
 	"सीमा" n f sg obl SELECT:162
 ;	"सीमा" n f sg nom SELECT:162
 "<पर>"
-	"पर" n m sg nom SELECT:187
-	"पर" n m pl nom SELECT:187
+;	"पर" n m sg nom SELECT:187
+;	"पर" n m pl nom SELECT:187
 ;	"पर" post SELECT:187
 ;	"पर" cnjcoo REMOVE:78
-;	"पर" n m sg obl SELECT:187
+	"पर" n m sg obl SELECT:187
 "<स्थित>"
-	"स्थित" adj m sg nom SELECT:201
+;	"स्थित" adj m sg nom SELECT:201
 	"स्थित" adj m pl nom SELECT:201
 ;	"स्थित" adj m sg obl SELECT:201 REMOVE:212
 ;	"स्थित" adj m pl obl SELECT:201 REMOVE:212
@@ -124,8 +125,8 @@
 ;	"स्थित" adj f pl nom SELECT:201
 ;	"स्थित" adj f pl obl SELECT:201
 "<है>"
-	"हो" vbser pres m pl nom
-	"हो" vbser pres p2 mf sg
+;	"हो" vbser pres m pl nom
+;	"हो" vbser pres p2 mf sg
 	"हो" vbser pres p3 mf sg
 "<।>"
 	"।" sent
