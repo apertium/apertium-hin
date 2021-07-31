@@ -198,6 +198,7 @@
     </pardef>
 
     <!-- basic postpositions -->
+<!--
     <pardef n="case">
       <e><p><l>को</l><r>को<s n="dat"/></r></p></e>
       <e><p><l>ने</l><r>ने<s n="erg"/></r></p></e>
@@ -208,9 +209,11 @@
       <e><p><l>तक</l><r>तक<s n="post"/></r></p></e>
       <e><p><l></l><r></r></p><par n="__gen_endings"/></e>
     </pardef>    
+-->
 
-    <pardef n="__prn_gen">
       <!-- genitives (CHECK) -->
+<!--
+    <pardef n="__prn_gen">
       <e>     <p><l>ा</l><r>ा<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
       <e>     <p><l>ी</l><r>ी<s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
       <e>     <p><l>े</l><r>े<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
@@ -219,7 +222,9 @@
       <e>     <p><l>या</l><r>या<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
       <e>     <p><l>यी</l><r>यी<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+-->
 
+<!--
     <pardef n="__big_suff">
       <e>     <p><l>ो</l><r><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>     <p><l>ी</l><r><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
@@ -234,13 +239,15 @@
       <e>     <p><l>ी</l><r><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e>     <p><l>े</l><r><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
+-->
 
     <!-- verbal stuff -->
     
-
+<!--
     <pardef n="__inf_endings">
       <e><p><l>ना</l><r><s n="inf"/></r></p></e>
     </pardef>
+-->
     
 
     <pardef n="ने__post">
