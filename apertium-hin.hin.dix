@@ -1485,13 +1485,13 @@
        <e><p><l>ुझमें</l><r>ैं<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="loc"/></r></p></e>
      </pardef>
  
-     <pardef n="ह/म__prn">  
+     <pardef n="ह/म__prn">
        <e><p><l>म</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
 	   <e r="LR"><p><l>म<b/>लोगो</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
 	   <e r="LR"><p><l>मलोगो</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
 	   <e r="LR"><p><l>म<b/>लोग</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
 	   <e r="LR"><p><l>मलोग</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
-       <e><p><l>म</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>में</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
 	   <e r="LR"><p><l>म<b/>लोगो को</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
 	   <e r="LR"><p><l>म<b/>लोग<b/>को</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="obl"/></r></p></e>
        <e><p><l>मसे</l><r>म<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="ins"/></r></p></e>	
