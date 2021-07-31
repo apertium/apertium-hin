@@ -30,7 +30,7 @@
 "<;>"
 	";" sent
 "<उच्चा>"
-	"*उच्चा"
+	"उच्चा" adj m sg nom
 "<.>"
 	"." sent
 
@@ -67,8 +67,8 @@
 ;	"राष्ट्रीय" adj f pl nom SELECT:180
 ;	"राष्ट्रीय" adj f pl obl SELECT:180
 "<उद्यान>"
-;	"उद्यान" n m sg nom
-	"उद्यान" n m pl nom
+	"उद्यान" n m sg nom
+;	"उद्यान" n m pl nom
 ;	"उद्यान" n m sg obl REMOVE:212
 "<है>"
 ;	"हो" vbser pres m pl nom
@@ -116,8 +116,8 @@
 ;	"पर" cnjcoo REMOVE:78
 	"पर" n m sg obl SELECT:187
 "<स्थित>"
-;	"स्थित" adj m sg nom SELECT:201
-	"स्थित" adj m pl nom SELECT:201
+	"स्थित" adj m sg nom SELECT:201
+;	"स्थित" adj m pl nom SELECT:201
 ;	"स्थित" adj m sg obl SELECT:201 REMOVE:212
 ;	"स्थित" adj m pl obl SELECT:201 REMOVE:212
 ;	"स्थित" adj f sg nom SELECT:201
