@@ -1582,12 +1582,13 @@
       <e><p><l>ने</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="pol"/><s n="erg"/></r></p></e>
       <e><p><l>में</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="pol"/><s n="loc"/></r></p></e>
     </pardef>
- 
-     <pardef n="अ/प__prn">  
+
+	<!-- subcategory tag at the end of the tags -->
+     <!-- <pardef n="अ/प__prn">  
        <e><p><l>पनी</l><r>प<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pos"/><s n="sg"/></r></p></e>
        <e><p><l>पना</l><r>प<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pos"/><s n="sg"/></r></p></e>
        <e><p><l>पने</l><r>प<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pos"/><s n="sg"/></r></p></e>
-     </pardef>
+     </pardef> -->
  
     <pardef n="/यह__prn">      <!--Prox-->
  	 <e><p><l>यह</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -2461,7 +2462,7 @@
      <e lm="हम"><i>ह</i><par n="ह/म__prn"/></e>
      <e lm="तुम"><i>त</i><par n="त/ुम__prn"/></e>
      <e lm="तू"><i>त</i><par n="त/ू__prn"/></e>
-     <e lm="अप"><i>अ</i><par n="अ/प__prn"/></e>	
+     <!-- <e lm="अप"><i>अ</i><par n="अ/प__prn"/></e>	 -->
      <e lm="यह"><i></i><par n="/यह__prn"/></e>
 	 <e lm="वह"><i></i><par n="/वह__prn"/></e>
      <e lm="जो"><i></i><par n="/जो__prn"/></e>
