@@ -1589,6 +1589,70 @@
        <e><p><l>पना</l><r>प<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pos"/><s n="sg"/></r></p></e>
        <e><p><l>पने</l><r>प<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pos"/><s n="sg"/></r></p></e>
      </pardef> -->
+
+	<pardef n="अपन/ा__prn">
+	  <e><p><l>ा</l><r>ा<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+	  <e><p><l>ी</l><r>ा<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	  <e><p><l>े</l><r>ा<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+	  <e><p><l>ी</l><r>ा<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+	  <e><p><l>े</l><r>ा<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+
+	<pardef n="हमार/ा__prn">
+	  <e><p><l>ा</l><r>ा<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+	  <e><p><l>ी</l><r>ा<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	  <e><p><l>े</l><r>ा<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+	  <e><p><l>ी</l><r>ा<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+	  <e><p><l>े</l><r>ा<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+ 
+	<pardef n="बहुत/_सारा__prn">
+          <e><p><l><b/>सारा</l><r><b/>सारा<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+          <e><p><l><b/>सारा</l><r><b/>सारा<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	  	  <e><p><l>े<b/>सारे</l><r><b/>सारा<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+          <e><p><l>े<b/>सारे</l><r><b/>सारा<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+          <e><p><l><b/>सारा</l><r><b/>सारा<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef> 
+ 
+	<pardef n="तुम_लोग/_का__prn">
+          <e><p><l><b/>का</l><r><b/>का<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+          <e><p><l><b/>का</l><r><b/>का<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	      <e><p><l>ो<b/>का</l><r><b/>का<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+          <e><p><l>ो<b/>का</l><r><b/>का<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+          <e><p><l><b/>का</l><r><b/>का<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+	
+	<pardef n="थोड़/_सा__prn">
+          <e><p><l>ा<b/>सा</l><r><b/>सा<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+          <e><p><l>ा<b/>सा</l><r><b/>सा<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	      <e><p><l>े<b/>से</l><r><b/>सा<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+          <e><p><l>े<b/>से</l><r><b/>सा<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+          <e><p><l>ा<b/>सा</l><r><b/>सा<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>	  
+ 
+	<pardef n="य/_है__prn">
+        <e><p><l>ह<b/>है</l><r><b/>है<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>ह<b/>है</l><r><b/>है<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	  	<e><p><l>े<b/>है</l><r><b/>है<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>े<b/>है</l><r><b/>है<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>ह<b/>है</l><r><b/>है<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+ 
+	<pardef n="पिछल/_वाला__prn">
+        <e><p><l>ा<b/>वाला</l><r><b/>वाला<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>ा<b/>वाला</l><r><b/>वाला<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	    <e><p><l>े<b/>वाले</l><r><b/>वाला<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>े<b/>वाले</l><r><b/>वाला<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>ा<b/>वाला</l><r><b/>वाला<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
+ 
+	<pardef n="उ/_सब__prn">
+        <e><p><l>स<b/>सब</l><r><b/>सब<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+        <e><p><l>स<b/>सब</l><r><b/>सब<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+	    <e><p><l>न<b/>सब</l><r><b/>सब<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+        <e><p><l>न<b/>सब</l><r><b/>सब<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+        <e><p><l>स<b/>सब</l><r><b/>सब<s n="prn"/><s n="pos"/><s n="pol"/><s n="m"/><s n="sg"/></r></p></e>
+	</pardef>
  
     <pardef n="/यह__prn">      <!--Prox-->
  	 <e><p><l>यह</l><r>यह<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -2476,6 +2540,20 @@
 	 <e lm="कहा पे"><i>कहा<b/>पे</i><par n="किस_को__prn"/></e>
 	 <e lm="किस को"><i>किस<b/>को</i><par n="किस_को__prn"/></e>
 
+	<e lm="अपना"><i>अपन</i><par n="अपन/ा__prn"/></e>
+	<e lm="मेरा"><i>मेर</i><par n="अपन/ा__prn"/></e>
+	<e lm="हमारा"><i>हमार</i><par n="अपन/ा__prn"/></e>
+	<e lm="इसका"><i>इसक</i><par n="अपन/ा__prn"/></e>
+	<e lm="उनका"><i>उनक</i><par n="अपन/ा__prn"/></e> 
+	<e lm="उसका"><i>उसक</i><par n="अपन/ा__prn"/></e>
+	<e lm="आपका"><i>आपक</i><par n="अपन/ा__prn"/></e>
+	
+	<e lm="बहुत सारा"><i>बहुत</i><par n="बहुत/_सारा__prn"/></e> 
+	<e lm="तुम लोग का"><i>तुम<b/>लोग</i><par n="तुम_लोग/_का__prn"/></e>
+	<e lm="थोड़ सा"><i>थोड़</i><par n="थोड़/_सा__prn"/></e> 
+	<e lm="य है"><i>य</i><par n="य/_है__prn"/></e>  
+	<e lm="उ सब"><i>उ</i><par n="उ/_सब__prn"/></e>
+	<e lm="पिछल वाला"><i>पिछल</i><par n="पिछल/_वाला__prn"/></e>
 
    <!-- Verbs -->
 	<e lm="ख़त्म हो"><i>ख़त्म<b/></i><par n="/होना__vblex_iv"/></e>
