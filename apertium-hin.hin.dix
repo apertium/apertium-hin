@@ -1659,29 +1659,29 @@
      </pardef>
  
      <pardef n="/जो__prn">       
-     <e><p><l>जो</l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="nom"/></r></p></e>
-     <e><p><l>जो</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="nom"/></r></p></e>
- 	 <e><p><l>जिस</l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="obl"/></r></p></e>
- 	 <e><p><l>जिन</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="obl"/></r></p></e>
- 	 <e><p><l>जिससे</l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="ins"/></r></p></e>
- 	 <e><p><l>जिनसे</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="ins"/></r></p></e>
- 	 <e><p><l>जिसे</l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>जिसको</l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>जिने</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
- 	 <e><p><l>जिन्हें</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
- 	 <e r="LR"><p><l>जिनको</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="dat"/></r></p></e>
+     <e><p><l>जो</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+     <e><p><l>जो</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+ 	 <e><p><l>जिस</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+ 	 <e><p><l>जिन</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
+ 	 <e><p><l>जिससे</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="ins"/></r></p></e>
+ 	 <e><p><l>जिनसे</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="ins"/></r></p></e>
+ 	 <e><p><l>जिसे</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>जिसको</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>जिने</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+ 	 <e><p><l>जिन्हें</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+ 	 <e r="LR"><p><l>जिनको</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
  	 <e><p><l>जिसकी</l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
  	 <e><p><l>जिसके</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
  	 <e><p><l>जिसका</l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
  	 <e><p><l>जिनकी</l><r>जो<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
  	 <e><p><l>जिनके</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="gen"/></r></p></e>
  	 <e><p><l>जिनका</l><r>जो<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
- 	 <e><p><l>जिसने</l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="erg"/></r></p></e>
- 	 <e><p><l>जिन्होंने</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="erg"/></r></p></e>
- 	 <e><p><l>जिसमें</l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="loc"/></r></p></e>
-	 <e><p><l>जिसमे</l><r>जो<s n="prn"/><s n="rel"/><s n="sg"/><s n="loc"/></r></p></e>
- 	 <e><p><l>जिनमें</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>	
-	<e><p><l>जिनमे</l><r>जो<s n="prn"/><s n="rel"/><s n="pl"/><s n="loc"/></r></p></e>	
+ 	 <e><p><l>जिसने</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="erg"/></r></p></e>
+ 	 <e><p><l>जिन्होंने</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="erg"/></r></p></e>
+ 	 <e><p><l>जिसमें</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+	 <e><p><l>जिसमे</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="sg"/><s n="loc"/></r></p></e>
+ 	 <e><p><l>जिनमें</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>	
+	<e><p><l>जिनमे</l><r>जो<s n="prn"/><s n="rel"/><s n="mf"/><s n="pl"/><s n="loc"/></r></p></e>	
      </pardef>
 
 	<pardef n="/कौन__prn">       
