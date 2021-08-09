@@ -26,8 +26,6 @@
 	<sdef n="pol"	  c="polite"/> 
 	<sdef n="ref"     c="Reflexive pronoun"/> 
 
-    <sdef n="indef"   c="Indefinite" />
-
     <sdef n="acc"      c="accusative"/>
     <sdef n="ins"      c="instrumental"/>
     <sdef n="loc"      c="Locative"/> 
@@ -1386,7 +1384,7 @@
     </pardef>
 
     <pardef n="एक__det">
-		<e r="RL"><p><l></l><r><s n="det"/><s n="indef"/><s n="obl"/><s n="mfn"/><s n="sg"/></r></p></e>
+		<e r="RL"><p><l></l><r><s n="det"/><s n="ind"/><s n="obl"/><s n="mfn"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- deprecated, since a case tag shoud not be used as a subcategory, word is analysed as prn/ adj -->
@@ -2074,6 +2072,7 @@
 
 <!--Dem-->  
 	<e lm="यह है"><i>यह है</i><par n="यह__det"/></e>
+	<e lm="यह"><i>यह</i><par n="यह__det"/></e>
 	<e lm="यह सब"><i>यह सब</i><par n="यह__det"/></e>  
 	<e lm="उन सब"><i>उन सब</i><par n="यह__det"/></e>  
 	<e lm="अगला"><i>अगला</i><par n="यह__det"/></e>  
@@ -8906,6 +8905,7 @@
 	<!-- Proper Nouns -->
     
     <e lm="अभय"><i>अभय</i><par n="जेम्स__np"/></e>
+	<e lm="सुभाष"><i>सुभाष</i><par n="जेम्स__np"/></e>
 	<e lm="आदित्य"><i>आदित्य</i><par n="जेम्स__np"/></e>
 	<e lm="अजित"><i>अजित</i><par n="जेम्स__np"/></e>
 	<e lm="आकाङ्क्षा"><i>आकाङ्क्षा</i><par n="जेम्स__np"/></e>
@@ -33119,6 +33119,7 @@
     <e lm="अलग - अलग"><i>अलग<b/>-<b/>अलग</i><par n="गलत__adj"/></e>
        <!-- Adverbs -->  
 
+	<e lm="सबसे"><i>सबसे</i><par n="गलत__adv"/></e>
 	<e lm="समुद्र तक"><i>समुद्र<b/>तक</i><par n="गलत__adv"/></e>
 	<e lm="मृत्यु तक"><i>मृत्यु<b/>तक</i><par n="गलत__adv"/></e>
 	<e lm="फिर"><i>फिर</i><par n="गलत__adv"/></e>
