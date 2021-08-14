@@ -10,6 +10,7 @@ SET BOS = >>> OR (sent) ;
 SET EOS = <<< OR (sent) ;
 
 LIST N = n ; 
+LIST Nom = nom ; 
 LIST Obl = obl ; 
 LIST Post = post ; 
 LIST Adj = adj;
@@ -26,10 +27,10 @@ LIST Masc = m mf ;
 LIST Fem = f mf ; 
 LIST Sg = sg sp ; 
 LIST Pl = pl sp ; 
-LIST MaleAdjective = (adj m);
-LIST FemaleAdjective = (adj f);
-LIST MaleNoun = (n m);
-LIST FemaleNoun = (n f);
+LIST MascAdjective = (adj m);
+LIST FemAdjective = (adj f);
+LIST MascNoun = (n m);
+LIST FemNoun = (n f);
 LIST NominativeNoun = (n nom);
 LIST ObliqueNoun = (n obl);
 LIST Impf = impf ; 
@@ -170,15 +171,15 @@ select ObliqueNoun if
 	(3 Post);
 
 
-#Select female adjective if followed by female noun
+#Select fem adjective if followed by fem noun
 
-select FemaleAdjective	 if
-	(1 FemaleNoun);
+select FemAdjective	 if
+	(1C FemNoun);
 
-#Select male adjective if followed by male noun
+#Select masc adjective if followed by masc noun
 
-select MaleAdjective  if
-	(1 MaleNoun);
+select MascAdjective  if
+	(1C MascNoun);
 
 
 #Select nominative case for a noun if followed by an adjective and a “to be” verb
@@ -189,17 +190,17 @@ select NominativeNoun if
 	(2 Vbser);
 
 
-#Select female adjective if the noun preceding it is female
+#Select fem adjective if the noun preceding it is fem
 
 
-select FemaleAdjective if
-	(-1 FemaleNoun);
+select FemAdjective if
+	(-1C FemNoun);
 
 
-#Select male adjective if the noun preceding it is male
+#Select masc adjective if the noun preceding it is masc
 
-select MaleAdjective if 
-	(-1 MaleNoun);
+select MascAdjective if 
+	(-1C MascNoun);
 
 
 # gender, number and case agreement between nouns and adjectives
@@ -249,6 +250,33 @@ select Adj + &&NumAgree if
 
 remove Vblex + Pers if (0 Perf + &&GenNumAgree) (1 Vbser + &&GenNumAgree) ;	# अनीता और रवि कल आए थे
 
+select Nom if (-1 BOS) (0C N OR Adj) ;
+
+select P3 if (-1 NominativeNoun + &&GenNumAgree) (0 Vbser + &&GenNumAgree) ;
+select P3 if (-1 NominativeNoun + MascSg) (0 Vbser + MascSg) ;
+select P3 if (-1 NominativeNoun + MascPl) (0 Vbser + MascPl) ;
+select P3 if (-1 NominativeNoun + FemSg) (0 Vbser + FemSg) ;
+select P3 if (-1 NominativeNoun + FemPl) (0 Vbser + FemPl) ;
+select P3 if (-1 NominativeNoun + &&GenNumAgree) (0 Vblex + &&GenNumAgree) ;	# हाथी खोजेंगे
+select P3 if (-1 NominativeNoun + MascSg) (0 Vblex + MascSg) ;
+select P3 if (-1 NominativeNoun + MascPl) (0 Vblex + MascPl) ;
+select P3 if (-1 NominativeNoun + FemSg) (0 Vblex + FemSg) ;
+select P3 if (-1 NominativeNoun + FemPl) (0 Vblex + FemPl) ;
+select P3 if (-2 NominativeNoun + &&GenNumAgree) (-1 Adv) (0 Vbser + &&GenNumAgree) ;
+select P3 if (-2 NominativeNoun + MascSg) (-1 Adv) (0 Vbser + MascSg) ;
+select P3 if (-2 NominativeNoun + MascPl) (-1 Adv) (0 Vbser + MascPl) ;
+select P3 if (-2 NominativeNoun + FemSg) (-1 Adv) (0 Vbser + FemSg) ;
+select P3 if (-2 NominativeNoun + FemPl) (-1 Adv) (0 Vbser + FemPl) ;
+select P3 if (-2 NominativeNoun + &&GenNumAgree) (-1 Adv) (0 Vblex + &&GenNumAgree) ;
+select P3 if (-2 NominativeNoun + MascSg) (-1 Adv) (0 Vblex + MascSg) ;
+select P3 if (-2 NominativeNoun + MascPl) (-1 Adv) (0 Vblex + MascPl) ;
+select P3 if (-2 NominativeNoun + FemSg) (-1 Adv) (0 Vblex + FemSg) ;
+select P3 if (-2 NominativeNoun + FemPl) (-1 Adv) (0 Vblex + FemPl) ;
+
+select &&GenNumAgree if (0 NominativeNoun + &&GenNumAgree) (1 Vbser + P3 + &&GenNumAgree) ;
+select &&GenNumAgree if (0 NominativeNoun + &&GenNumAgree) (1 Vblex + P3 + &&GenNumAgree) ;	# हाथी खोजेंगे
+select &&GenNumAgree if (0 NominativeNoun + &&GenNumAgree) (1 Adv) (2 Vbser + P3 + &&GenNumAgree) ;
+select &&GenNumAgree if (0 NominativeNoun + &&GenNumAgree) (1 Adv) (2 Vblex + P3 + &&GenNumAgree) ;
 
   ## 
 
