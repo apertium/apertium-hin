@@ -2027,11 +2027,9 @@
     <e lm="कैस"><i>कैस</i><par n="ऐस__det"/></e>
     <e lm="ऐसा"><i>ऐस</i><par n="ऐस__det"/></e>
     <e lm="वैस"><i>वैस</i><par n="ऐस__det"/></e>
-	<e lm="हमारा"><i>हमारा</i><par n="हमारा__det"/></e>  
 
-<!--Itg-->
+<!--Deprecated analyses: please do not use them. These definitions, as well as the paradigms, should be removed after the hin-urd has been corrected -->
 	<e lm="क्या"><i>क्या</i><par n="सब__det"/></e>
-
 	<e lm="कौन सा"><i>कौन सा</i><par n="सब__det"/></e>
 	<e lm="कब"><i>कब</i><par n="सब__det"/></e>
 	<e lm="कैसे"><i>कैसे</i><par n="सब__det"/></e>
@@ -2042,13 +2040,18 @@
 	<e lm="कब"><i>कब</i><par n="सब__det"/></e>
 	<e lm="कौन"><i>कौन</i><par n="सब__det"/></e>
 	<e lm="कितने"><i>कितने</i><par n="सब__det"/></e>
-
-<!--Gen--> 
+	<e lm="सब"><i>सब</i><par n="सब__det"/></e>
+	<e lm="उसका"><i>उसका</i><par n="सब__det"/></e>
+	<e lm="अधिक"><i>अधिक</i><par n="सब__det"/></e>
+	<e lm="यहीं"><i>यहीं</i><par n="सब__det"/></e>
+	<e lm="हूं"><i>हूं</i><par n="सब__det"/></e>
+	<e lm="हमारा"><i>हमारा</i><par n="हमारा__det"/></e>  
 	<e lm="मेरी"><i>मेरी</i><par n="हमारा__det"/></e>
 	<e lm="तुम लोगों का"><i>तुम लोगों का</i><par n="हमारा__det"/></e> 
 	<e lm="उसके"><i>उसके</i><par n="हमारा__det"/></e> 
 	<e lm="आईटी इस"><i>आईटी इस</i><par n="हमारा__det"/></e>
-    <e lm="उन लोगों का"><i>उन लोगों का</i><par n="हमारा__det"/></e> 
+        <e lm="उन लोगों का"><i>उन लोगों का</i><par n="हमारा__det"/></e> 
+
 <!--Qty--> 
 	<e lm="अनेक"><i>अनेक</i><par n="कई__det"/></e>
     <e lm="द"><i>द</i><par n="कई__det"/></e>
@@ -33628,10 +33631,6 @@
 	<e lm="की तरफ से"><i>की<b/>तरफ<b/>से</i><par n="गलत__adv"/></e>
 
 	<!--Updated Determiners-->
-	<e lm="सब"><i>सब</i><par n="सब__det"/></e>
-	<e lm="उसका"><i>उसका</i><par n="सब__det"/></e>
-	<e lm="अधिक"><i>अधिक</i><par n="सब__det"/></e>
-	<e lm="यहीं"><i>यहीं</i><par n="सब__det"/></e>
 	<e lm="इतना"><i>इतना</i><par n="कोई__det"/></e>
 	<e lm="कम"><i>कम</i><par n="कोई__det"/></e>
 	<e lm="जिसका"><i>जिसका</i><par n="कोई__det"/></e>
@@ -33690,7 +33689,6 @@
 	<e lm="भारतेन्दु"><i>भारतेन्दु</i><par n="मौलाना__n_m"/></e>
 	<e lm="ब्रितानियों"><i>ब्रितानियों</i><par n="मौलाना__n_m"/></e>
 	<e lm="ण"><i>ण</i><par n="गलत__adj"/></e>
-	<e lm="हूं"><i>हूं</i><par n="सब__det"/></e>
 	<e lm="माघ"><i>माघ</i><par n="मौलाना__n_m"/></e>
 	<e lm="तीनों"><i>तीनों</i><par n="गलत__adj"/></e>
 	<e lm="हीराबाई"><i>हीराबाई</i><par n="मौलाना__n_m"/></e>
