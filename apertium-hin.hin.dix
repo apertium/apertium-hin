@@ -1563,7 +1563,7 @@
        <e><p><l>में</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="frm"/><s n="loc"/></r></p></e>
      </pardef>
 
-	<pardef n="तुम__prn"> 
+	<pardef n="तुम__prn"> <!-- CORRECT: elsewhere the "pol" tag comes before the gender and number tags; besides, it is maybe redundant here and could be removed -->
       <e><p><l></l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/><s n="nom"/></r></p></e>
 	  <e><p><l>को</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/><s n="obj"/></r></p></e>
 	  <e><p><l>पे</l><r><s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="pol"/><s n="loc"/></r></p></e>
