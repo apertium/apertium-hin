@@ -246,10 +246,13 @@
       <e><p><l>ना</l><r><s n="inf"/></r></p></e>
     </pardef>
 -->
-    
 
     <pardef n="ने__post">
       <e><p><l></l><r><s n="post"/></r></p></e>
+    </pardef>
+
+	<pardef n="धोल__abl">
+      <e><p><l></l><r><s n="m"/><s n="sg"/><s n="abl"/></r></p></e>
     </pardef>
       
 
@@ -355,6 +358,18 @@
     </pardef>
      
     <pardef n="ऐ__n_m">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+	<pardef n="कासाळें__n_mf">
+      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+    </pardef>
+
+	<pardef n="ख्रिसमस__n_mf">
       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -575,6 +590,13 @@
        <e><p><l>इयाँ</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
        <e r="LR"><p><l>ई</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
        <e><p><l>इयों</l><r>ई<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+	
+	<pardef n="चौगुडो__n_num">
+      <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Paradigm Adjectives -->        
@@ -1910,6 +1932,28 @@
       <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
    </pardef> 
 
+   	<pardef n="सांज__n_f">
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+   </pardef> 
+
+   <pardef n="लुपाछिपी__n_f">
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+   </pardef> 
+
 </pardefs>
 
   <section id="main" type="standard">
@@ -2018,6 +2062,8 @@
 	<e lm="खिलाफ़"><i>खिलाफ़</i><par n="ने__post"/></e>
 	<e lm="नीचे"><i>नीचे</i><par n="ने__post"/></e>
 	<e lm="ऑफ"><i>ऑफ</i><par n="ने__post"/></e>
+
+	<e lm="धोल"><i>धोल</i><par n="धोल__abl"/></e>
 
     <!-- SECTION: Determiners -->
     <e lm="दोनों"><i>दोनों</i><par n="दोनों__det"/></e>
@@ -8905,6 +8951,19 @@
 
 	<!-- Proper Nouns -->
 
+	<e lm="नितीन"><i>नितीन</i><par n="जेम्स__np"/></e>
+	<e lm="रितान"><i>रितान</i><par n="जेम्स__np"/></e>
+	<e lm="सालूने"><i>सालूने</i><par n="जेम्स__np"/></e>
+	<e lm="जेजू"><i>जेजू</i><par n="जेम्स__np"/></e>
+	<e lm="सौरभ"><i>सौरभ</i><par n="जेम्स__np"/></e>
+	<e lm="सैरू"><i>सैरू</i><par n="जेम्स__np"/></e>
+
+	<e lm="गौरी"><i>गौरी</i><par n="मैरी__np"/></e>  
+	<e lm="कत्री"><i>कत्री</i><par n="मैरी__np"/></e>
+	<e lm="लिंदा"><i>लिंदा</i><par n="मैरी__np"/></e>
+	<e lm="गुड्डी"><i>गुड्डी</i><par n="मैरी__np"/></e>
+	<e lm="नझरीन"><i>नझरीन</i><par n="मैरी__np"/></e>
+
 	<e lm="बिसु"><i>बिसु</i><par n="जेम्स__np"/></e>
 	<e lm="फागुन"><i>फागुन</i><par n="जेम्स__np"/></e>
 	<e lm="सगुन"><i>सगुन</i><par n="जेम्स__np"/></e>
@@ -9498,6 +9557,10 @@
 	<e lm="तीतुस"><i>तीतुस</i><par n="जेम्स__np"/></e>
 	<e lm="उनेसिमुस"><i>उनेसिमुस</i><par n="जेम्स__np"/></e>
 	<e lm="यहोवा"><i>यहोवा</i><par n="जेम्स__np"/></e>
+
+
+	<e lm="चौगुडो"><i>चौगुडो</i><par n="चौगुडो__n_num"/></e>
+
 	
 	<!-- Companies-->
 	<e lm="फ़ेसबुक"><i>फ़ेसबुक</i><par n="टाटा__np"/></e>
@@ -10140,6 +10203,10 @@
     <e lm="अफगानिस्तान"><i>अफगानिस्तान</i><par n="भारत__np"/></e>
 
     <!-- Nouns --> 
+	<e lm="सांज"><i>सांज</i><par n="सांज__n_f"/></e> 
+	<e lm="लुपाछिपी"><i>लुपाछिपी</i><par n="लुपाछिपी__n_f"/></e>
+	<e lm="कासाळें"><i>कासाळें</i><par n="कासाळें__n_mf"/></e>
+	<e lm="ख्रिसमस"><i>ख्रिसमस</i><par n="ख्रिसमस__n_mf"/></e>
 	<e lm="गायें"><i>गायें</i><par n="ऐ__n_f"/></e>
 	<e lm="गायों"><i>गायों</i><par n="ऐ__n_f"/></e>
 	<e lm="बलुआ"><i>बलुआ</i><par n="ऐ__n_m"/></e>
