@@ -23,7 +23,7 @@
     <sdef n="vblex"   c="Verb"/>     
   	<sdef n="frm"	  c="formal"/>
   	<sdef n="fam"	  c="familiar"/>
-	<sdef n="pol"	  c="polite"/> 
+	<sdef n="pol"	  c="polite"/>
 	<sdef n="ref"     c="Reflexive pronoun"/> 
 
     <sdef n="acc"      c="accusative"/>
@@ -2107,6 +2107,9 @@
 	  <e><p><l>घो</l><r>घो<s n="adv"/><s n="sg"/><s n="m"/></r></p></e>
 	  <e><p><l>हूप</l><r>हूप<s n="adv"/><s n="sg"/><s n="nt"/></r></p></e>
 	  <e><p><l>मगे</l><r>ओह<s n="adv"/><s n="sg"/><s n="nt"/></r></p></e>
+    </pardef>
+	<pardef n="abl__adv">
+	  <e><p><l>िलिए</l><r><s n="adv"/><s n="sg"/><s n="nt"/><s n="abl"/></r></p></e>
     </pardef>
 
  
@@ -11288,7 +11291,8 @@
 	<e lm="ऑब्जेक्ट"><i>ऑब्जेक्ट</i><par n="थ__n_m"/></e>
 	<e lm="प्रत्याशा"><i>प्रत्याशा</i><par n="ऐ__n_f"/></e>
 	<e lm="पैसा"><i>पैस</i><par n="ध/ा__n_m"/></e>
-	<e lm="इमली"><i>इमली</i><par n="ऐ__n_m"/></e>
+	<e lm="इमली"><i>इमली</i><par n="ऐ__n_f"/></e>
+	<e lm="तालीसपत्री"><i>तालीसपत्री</i><par n="ऐ__n_m"/></e>
 	<e lm="नुक़सान"><i>नुक़सान</i><par n="थ__n_m"/></e>
 	<e lm="सैन्य-दल"><i>सैन्य-दल</i><par n="थ__n_m"/></e>
 	<e lm="बालकनी"><i>बालकन</i><par n="ध/ी__n_f"/></e>
@@ -23752,7 +23756,7 @@
 	<e lm="कि"><i></i><par n="की__n_nt"/></e>
 	<e lm="कोकम"><i></i><par n="mixed__n"/></e>
     <e lm="आनंदित"><i>आनंद</i><par n="आनंद__n"/></e>
-	<e lm="आनंदित"><i>नागलोक</i><par n="नाग__n"/></e>
+	<e lm="आनंदित"><i>नाग</i><par n="नाग__n"/></e>
 	<e lm="उद्योत"><i>उद्योत</i><par n="ऐ__n_m"/></e>
     <e lm="समर्थता"><i>समर्थता</i><par n="ऐ__n_f"/></e>
     <e lm="सुकून"><i>सुकून</i><par n="थ__n_m"/></e>
@@ -33652,6 +33656,7 @@
     <e lm="यों"><i>यों</i><par n="गलत__adv"/></e>
     <e lm="यूं"><i>यूं</i><par n="गलत__adv"/></e>
     <e lm="क्यों"><i>क्यों</i><par n="int__adv"/></e>
+	<e lm="इसिलिए"><i>इस</i><par n="abl__adv"/></e>
     <e lm="कब"><i>कब</i><par n="गलत__adv"/></e>
     <e lm="कभी"><i>कभी</i><par n="गलत__adv"/></e>
     <e lm="जब"><i>जब</i><par n="गलत__adv"/></e>
