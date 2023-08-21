@@ -61,7 +61,7 @@
     <sdef n="past"    c="Past tense"/>     
 	<sdef n="impf"    c=" Imperfective participle"/>
 	<sdef n="perf"     c="Perfective participle"/>     
-	<sdef n="tv"     c="transitive"/> 	
+	<sdef n="tv"     c="transitive"/>
 	<sdef n="iv"     c="intransitive"/> 	
     <sdef n="prs"    c="Subjunctive"/>     
     <sdef n="fut"    c="Future"/>
@@ -485,6 +485,10 @@
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l>ओं</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+	<pardef n="null__n_sg">
+      <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
 	<pardef n="गुरु__n_sg">
@@ -10532,6 +10536,7 @@
 	<e lm="कासाळें"><i>कासाळें</i><par n="कासाळें__n_mf"/></e>
 	<e lm="कैल"><i>कैल</i><par n="कासाळें__n_mf"/></e>
 	<e lm="ख्रिसमस"><i>ख्रिसमस</i><par n="ख्रिसमस__n_mf"/></e>
+	<e lm="आई"><i>आई</i><par n="ऐ__n_f"/></e>
 	<e lm="गायें"><i>गायें</i><par n="ऐ__n_f"/></e>
 	<e lm="गायों"><i>गायों</i><par n="ऐ__n_f"/></e>
 	<e lm="बलुआ"><i>बलुआ</i><par n="ऐ__n_m"/></e>
@@ -22824,7 +22829,7 @@
     <e lm="राज्यतंत्र"><i>राज्यतंत्र</i><par n="ऐ__n_m"/></e>
     <e lm="भई"><i>भ</i><par n="/ई__n_f"/></e>
     <e lm="चूल्हा"><i>चूल्ह</i><par n="ध/ा__n_m"/></e>
-    <e lm="घी"><i>घी</i><par n="ऐ__n_m"/></e>
+    <e lm="घी"><i>घी</i><par n="ऐ__n_f"/></e>
     <e lm="भग"><i>भग</i><par n="थ__n_m"/></e>
     <e lm="वाचन"><i>वाचन</i><par n="ऐ__n_m"/></e>
     <e lm="दशन"><i>दशन</i><par n="ऐ__n_m"/></e>
@@ -22849,7 +22854,7 @@
     <e lm="झोला"><i>झोल</i><par n="ध/ा__n_m"/></e>
     <e lm="भोजनकाल"><i>भोजनकाल</i><par n="ऐ__n_m"/></e>
     <e lm="महबूब"><i>महबूब</i><par n="थ__n_m"/></e>
-    <e lm="कुत्ता"><i>कुत्त</i><par n="ध/ा__n_m"/></e>
+    <e lm="बांगडा"><i>बांगडा</i><par n="ध/ा__n_m"/></e>
     <e lm="सुरंग"><i>सुरंग</i><par n="जड__n_f"/></e>
     <e lm="राडार"><i>राडार</i><par n="थ__n_m"/></e>
     <e lm="अस्तबल"><i>अस्तबल</i><par n="थ__n_m"/></e>
@@ -25279,6 +25284,7 @@
     <e lm="जुगाली"><i>जुगाली</i><par n="ऐ__n_f"/></e>
     <e lm="गुरु"><i>गुरु</i><par n="ऋ__n_m"/></e>
 	<e lm="गुरु"><i>गुरु</i><par n="गुरु__n_sg"/></e>
+	<e lm="फलोद्यान"><i>फलोद्यान</i><par n="null__n_sg"/></e>
     <e lm="निराला"><i>निराल</i><par n="ध/ा__n_m"/></e>
     <e lm="प्रवेशन"><i>प्रवेशन</i><par n="ऐ__n_m"/></e>
     <e lm="द्यूत"><i>द्यूत</i><par n="ऐ__n_m"/></e>
