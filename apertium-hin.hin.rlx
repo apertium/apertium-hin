@@ -36,6 +36,8 @@ LIST ObliqueNoun = (n obl);
 LIST Impf = impf ; 
 LIST Perf = perf ; 
 LIST Pres = pres ; 
+LIST VbserSg = (vbser sg);
+LIST VbserPl = (vbser pl);
 
 LIST P1 = p1 ;
 LIST P2 = p2 ;
@@ -153,6 +155,12 @@ SELECT Vbser IF
 	(-1 Vblex)
 	(0 Vblex OR Vbser);
 
+SELECT VbserSg IF
+	(-2 (post sg))
+
+SELECT VbserPl IF
+	(-2 (post pl))
+	
 SELECT Det IF
 	(0 Adv OR N OR Det)
 	(1 Post);
@@ -279,5 +287,3 @@ select &&GenNumAgree if (0 NominativeNoun + &&GenNumAgree) (1 Adv) (2 Vbser + P3
 select &&GenNumAgree if (0 NominativeNoun + &&GenNumAgree) (1 Adv) (2 Vblex + P3 + &&GenNumAgree) ;
 
   ## 
-
-
