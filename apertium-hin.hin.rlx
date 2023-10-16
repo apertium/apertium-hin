@@ -156,10 +156,10 @@ SELECT Vbser IF
 	(0 Vblex OR Vbser);
 
 SELECT VbserSg IF
-	(-2 (post sg))
+	(-2 (post sg) OR (n sg))
 
 SELECT VbserPl IF
-	(-2 (post pl))
+	(-2 (post pl) OR (n pl))
 	
 SELECT Det IF
 	(0 Adv OR N OR Det)
