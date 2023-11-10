@@ -38,6 +38,8 @@ LIST Perf = perf ;
 LIST Pres = pres ; 
 LIST VbserSg = (vbser sg);
 LIST VbserPl = (vbser pl);
+LIST MascVblex = (vblex m);
+LIST FemVblex = (vblex f);
 
 LIST P1 = p1 ;
 LIST P2 = p2 ;
@@ -156,10 +158,10 @@ SELECT Vbser IF
 	(0 Vblex OR Vbser);
 
 SELECT VbserSg IF
-	(-2 (post sg) OR (n sg))
+	(-2 (post sg) OR (n sg));
 
 SELECT VbserPl IF
-	(-2 (post pl) OR (n pl))
+	(-2 (post pl) OR (n pl));
 	
 SELECT Det IF
 	(0 Adv OR N OR Det)
@@ -184,11 +186,27 @@ select ObliqueNoun if
 select FemAdjective	 if
 	(1C FemNoun);
 
+select FemAdjective	 if
+	(1 FemNoun);
+
 #Select masc adjective if followed by masc noun
 
 select MascAdjective  if
 	(1C MascNoun);
 
+select MascAdjective  if
+	(1 MascNoun);
+
+#Select fem adjective if preceded by fem noun
+
+select FemAdjective	 if
+	(-1 FemNoun);
+
+#Select masc adjective if preceded by masc noun
+
+select MascAdjective  if
+	(-1 MascNoun);
+	
 
 #Select nominative case for a noun if followed by an adjective and a “to be” verb
 
@@ -245,6 +263,20 @@ select Vaux + &&NumAgree if
 select Vblex + &&NumAgree if
 	(1 Vbser + &&NumAgree);
 
+
+SELECT MascVblex IF
+	(-1 (n m));
+
+SELECT MascVblex IF
+	(-2 (n m))
+	(-1 (post) OR (adv));
+
+SELECT FemVblex IF
+	(-1 (n f));
+
+SELECT FemVblex IF
+	(-2 (n f))
+	(-1 (post) OR (adv));
 
 
 #The next rule decide plurality of adjectives by checking whether the "to be" form or है is plural or not
