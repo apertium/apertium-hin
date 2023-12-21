@@ -144,6 +144,22 @@ SELECT Stem IF
 	(1 Vaux)
 	(2 Vbser);
 
+
+SELECT MascVblex IF
+	(-1 (n m));
+
+SELECT MascVblex IF
+	(-2 (n m))
+	(-1 (post) OR (adv));
+
+SELECT FemVblex IF
+	(-1 (n f));
+
+SELECT FemVblex IF
+	(-2 (n f))
+	(-1 (post) OR (adv));
+
+
 SELECT Vaux IF
 	(-1 Stem)
 	(0 Vaux OR Vblex)
@@ -262,21 +278,6 @@ select Vaux + &&NumAgree if
 
 select Vblex + &&NumAgree if
 	(1 Vbser + &&NumAgree);
-
-
-SELECT MascVblex IF
-	(-1 (n m));
-
-SELECT MascVblex IF
-	(-2 (n m))
-	(-1 (post) OR (adv));
-
-SELECT FemVblex IF
-	(-1 (n f));
-
-SELECT FemVblex IF
-	(-2 (n f))
-	(-1 (post) OR (adv));
 
 
 #The next rule decide plurality of adjectives by checking whether the "to be" form or है is plural or not
