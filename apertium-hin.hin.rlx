@@ -36,10 +36,12 @@ LIST ObliqueNoun = (n obl);
 LIST Impf = impf ; 
 LIST Perf = perf ; 
 LIST Pres = pres ; 
-LIST VbserSg = (vbser sg);
-LIST VbserPl = (vbser pl);
-LIST MascVblex = (vblex m);
-LIST FemVblex = (vblex f);
+LIST Frm = frm ;
+LIST VbserSg = (vbser sg) ;
+LIST VbserPl = (vbser pl) ;
+LIST MascVblex = (vblex m) ;
+LIST FemVblex = (vblex f) ;
+LIST VblexFrm = (vblex frm) ;
 
 LIST P1 = p1 ;
 LIST P2 = p2 ;
@@ -183,6 +185,10 @@ SELECT Det IF
 	(0 Adv OR N OR Det)
 	(1 Post);
 
+SELECT VblexFrm IF
+	(0 Vblex OR VblexFrm)
+	(-1 N)
+	(-2 Prn);
 
 #Select oblique case if followed by a postposition
 
