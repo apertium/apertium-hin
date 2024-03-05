@@ -1312,6 +1312,10 @@
       <e>       <p><l>ी</l><r>े<s n="vblex"/><s n="tv"/><s n="perf"/><s n="f"/><s n="pl"/></r></p></e>
 	</pardef>
 
+	<pardef n="आ__vblex">
+		<e>       <p><l>यी</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="pres"/><s n="f"/><s n="sg"/></r></p></e>
+	</pardef>
+
 	<pardef n="आ__vblex_iv">
       <e>       <p><l>ऊँगा</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>येंगे</l><r><s n="vblex"/><s n="iv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
@@ -3280,6 +3284,7 @@
 	<e lm="लीजिए"><i></i><par n="ले__vbser"/></e>
 	<e lm="हो जा"><i>हो<b/></i><par n="जा__vblex_iv"/></e>
 	<e lm="हो जा"><i>हो</i><par n="जा__vblex_iv"/></e>
+	<e lm="आयी"><i>आ</i><par n="आ__vblex"/></e>
 	<e lm="आ"><i>आ</i><par n="आ__vblex_iv"/></e>
 	<e lm="अपना"><i>अपना</i><par n="बता__vblex_tv"/></e>
 	<e lm="अलाप"><i>अलाप</i><par n="बोल__vblex_tv"/></e>
